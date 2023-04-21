@@ -1,4 +1,4 @@
 baseURL = 'https://attadeurtia.github.io/blog/'
-languageCode = 'en-us'
+languageCode = 'fr-fr'
 title = 'Geoffrey'
 theme = 'ananke'
