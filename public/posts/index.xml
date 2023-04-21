@@ -15,7 +15,7 @@
       <guid>https://attadeurtia.github.io/blog/posts/docker/</guid>
       <description>Docker docker pull : Récupérer une image depuis un registre
 docker run :
- p 8080:8080 rm : Supprimer le conteneur à la fin de son exécution it : Interactif v $(pwd):/src d : Détaché e : Variables d’environnement  docker run -p 8080:8080 -rm -it -v $(pwd):/src -d -e NODE_ENV=production nom_de_l_image docker run =&amp;gt; docker create + docker start
+p 8080:8080 rm : Supprimer le conteneur à la fin de son exécution it : Interactif v $(pwd):/src d : Détaché e : Variables d’environnement docker run -p 8080:8080 -rm -it -v $(pwd):/src -d -e NODE_ENV=production nom_de_l_image docker run =&amp;gt; docker create + docker start
 docker create id_de_l_image
 docker start id_du_conteneur
 docker stop id_du_conteneur

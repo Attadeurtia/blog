@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://attadeurtia.github.io/blog/posts/docker/</loc>
-    <lastmod>2023-04-21T21:15:02+02:00</lastmod>
-  </url><url>
     <loc>https://attadeurtia.github.io/blog/</loc>
+    <lastmod>2023-04-22T00:46:55+02:00</lastmod>
+  </url><url>
+    <loc>https://attadeurtia.github.io/blog/post/</loc>
+    <lastmod>2023-04-22T00:46:55+02:00</lastmod>
+  </url><url>
+    <loc>https://attadeurtia.github.io/blog/post/workflow_macos/</loc>
+    <lastmod>2023-04-22T00:46:55+02:00</lastmod>
+  </url><url>
+    <loc>https://attadeurtia.github.io/blog/posts/docker/</loc>
     <lastmod>2023-04-21T21:15:02+02:00</lastmod>
   </url><url>
     <loc>https://attadeurtia.github.io/blog/posts/</loc>
