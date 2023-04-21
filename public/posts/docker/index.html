@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Docker | Geoffrey</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Docker docker pull : Récupérer une image depuis un registre
+docker run :
+ p 8080:8080 rm : Supprimer le conteneur à la fin de son exécution it : Interactif v $(pwd):/src d : Détaché e : Variables d’environnement  docker run -p 8080:8080 -rm -it -v $(pwd):/src -d -e NODE_ENV=production nom_de_l_image docker run =&gt; docker create &#43; docker start
+docker create id_de_l_image
+docker start id_du_conteneur
+docker stop id_du_conteneur
+docker restart id_du_conteneur">
+    <meta name="generator" content="Hugo 0.92.2" />
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/blog/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Docker" />
+<meta property="og:description" content="Docker docker pull : Récupérer une image depuis un registre
+docker run :
+ p 8080:8080 rm : Supprimer le conteneur à la fin de son exécution it : Interactif v $(pwd):/src d : Détaché e : Variables d’environnement  docker run -p 8080:8080 -rm -it -v $(pwd):/src -d -e NODE_ENV=production nom_de_l_image docker run =&gt; docker create &#43; docker start
+docker create id_de_l_image
+docker start id_du_conteneur
+docker stop id_du_conteneur
+docker restart id_du_conteneur" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://attadeurtia.github.io/blog/posts/docker/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-04-21T21:15:02+02:00" />
+<meta property="article:modified_time" content="2023-04-21T21:15:02+02:00" />
+
+<meta itemprop="name" content="Docker">
+<meta itemprop="description" content="Docker docker pull : Récupérer une image depuis un registre
+docker run :
+ p 8080:8080 rm : Supprimer le conteneur à la fin de son exécution it : Interactif v $(pwd):/src d : Détaché e : Variables d’environnement  docker run -p 8080:8080 -rm -it -v $(pwd):/src -d -e NODE_ENV=production nom_de_l_image docker run =&gt; docker create &#43; docker start
+docker create id_de_l_image
+docker start id_du_conteneur
+docker stop id_du_conteneur
+docker restart id_du_conteneur"><meta itemprop="datePublished" content="2023-04-21T21:15:02+02:00" />
+<meta itemprop="dateModified" content="2023-04-21T21:15:02+02:00" />
+<meta itemprop="wordCount" content="432">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Docker"/>
+<meta name="twitter:description" content="Docker docker pull : Récupérer une image depuis un registre
+docker run :
+ p 8080:8080 rm : Supprimer le conteneur à la fin de son exécution it : Interactif v $(pwd):/src d : Détaché e : Variables d’environnement  docker run -p 8080:8080 -rm -it -v $(pwd):/src -d -e NODE_ENV=production nom_de_l_image docker run =&gt; docker create &#43; docker start
+docker create id_de_l_image
+docker start id_du_conteneur
+docker stop id_du_conteneur
+docker restart id_du_conteneur"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/blog/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Geoffrey
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Docker</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2023-04-21T21:15:02+02:00">April 21, 2023</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="docker">Docker</h1>
+<p>docker pull : Récupérer une image depuis un registre</p>
+<p>docker run :</p>
+<ul>
+<li>p 8080:8080</li>
+<li>rm : Supprimer le conteneur à la fin de son exécution</li>
+<li>it : Interactif</li>
+<li>v $(pwd):/src</li>
+<li>d : Détaché</li>
+<li>e : Variables d’environnement</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker run -p 8080:8080 -rm -it -v <span style="color:#66d9ef">$(</span>pwd<span style="color:#66d9ef">)</span>:/src -d -e NODE_ENV<span style="color:#f92672">=</span>production nom_de_l_image
+</code></pre></div><p>docker run =&gt; docker create + docker start</p>
+<p>docker create id_de_l_image</p>
+<p>docker start id_du_conteneur</p>
+<p>docker stop id_du_conteneur</p>
+<p>docker restart id_du_conteneur</p>
+<p>docker rm id_du_conteneur</p>
+<p>docker rmi id_de_l_image</p>
+<p>docker exec -it id_du_conteneur bash</p>
+<p>docker logs id_du_conteneur</p>
+<p>docker system prune : Supprimer tous les conteneurs, images, volumes et réseaux non utilisés</p>
+<p>docker system prune -a : Supprimer tous les conteneurs, images, volumes et réseaux (même utilisés)</p>
+<p>docker system df : Afficher l’espace disque utilisé par les images et les conteneurs</p>
+<p>docker images : Afficher les images</p>
+<p>docker ps -a
+CONTAINER ID : Identifiant unique du conteneur
+IMAGE : Image utilisée pour créer le conteneur
+COMMAND : Commande exécutée au lancement du conteneur
+CREATED : Date de création du conteneur
+STATUS : Statut du conteneur
+PORTS : Ports exposés par le conteneur
+NAMES : Nom du conteneur</p>
+<h2 id="docker-compose">docker-compose</h2>
+<p>docker build : Construire une image à partir d’un Dockerfile</p>
+<p>docker build -t nom_de_l_image .</p>
+<p>docker-compose run &ndash;rm hugo &ndash;help</p>
+<p>Docker Compose : yaml
+Dockerfile :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">    FROM node:12-alpine
+    RUN apk add --no-cache python2 g++ make
+    WORKDIR /app
+    COPY . .
+    RUN yarn install --production
+    CMD <span style="color:#f92672">[</span><span style="color:#e6db74">&#34;node&#34;</span>, <span style="color:#e6db74">&#34;src/index.js&#34;</span><span style="color:#f92672">]</span>
+    EXPOSE <span style="color:#ae81ff">3000</span>
+</code></pre></div><p>Dockerfile :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">docker-compose.yml </span>:
+    <span style="color:#f92672">version</span>: <span style="color:#e6db74">&#39;3&#39;</span>
+    <span style="color:#f92672">services</span>:
+    <span style="color:#f92672">web</span>:
+        <span style="color:#f92672">build</span>: <span style="color:#ae81ff">.</span>
+        <span style="color:#f92672">ports</span>:
+        - <span style="color:#e6db74">&#34;3000:3000&#34;</span>
+        <span style="color:#f92672">volumes</span>:
+        - <span style="color:#ae81ff">.:/app</span>
+        - <span style="color:#ae81ff">/app/node_modules</span>
+    <span style="color:#f92672">db</span>:
+        <span style="color:#f92672">image</span>: <span style="color:#ae81ff">mongo</span>
+        <span style="color:#f92672">ports</span>:
+        - <span style="color:#e6db74">&#34;27017:27017&#34;</span>
+</code></pre></div><p>docker-compose up : Lancer les conteneurs</p>
+<p>docker-compose up -d</p>
+<p>docker-compose down : Arrêter les conteneurs</p>
+<h2 id="docker-maintenance">docker maintenance</h2>
+<p>docker system prune</p>
+<p>docker system prune -a</p>
+<p>docker system df</p>
+<p>docker volume prune</p>
+<p>docker volume ls</p>
+<p>docker volume rm id_du_volume</p>
+<p>docker volume rm $(docker volume ls -q)</p>
+<p>sudo systemctl status docker</p>
+<p>sudo systemctl start docker</p>
+<p>sudo systemctl stop docker</p>
+<p>sudo systemctl restart docker</p>
+<p>sudo systemctl enable docker</p>
+<p>sudo systemctl disable docker</p>
+<p>sudo systemctl status docker</p>
+<h2 id="docker-configuration">docker configuration</h2>
+<p><a href="https://www.docker.com/products/docker-desktop/">https://www.docker.com/products/docker-desktop/</a>
+<a href="https://docs.docker.com/engine/install/ubuntu/">https://docs.docker.com/engine/install/ubuntu/</a></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get remove docker docker-engine docker.io containerd runc
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get install <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    ca-certificates <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    curl <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    gnupg
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo install -m <span style="color:#ae81ff">0755</span> -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>  <span style="color:#e6db74">&#34;deb [arch=&#34;</span><span style="color:#66d9ef">$(</span>dpkg --print-architecture<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34; signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+</span><span style="color:#e6db74">  &#34;</span><span style="color:#66d9ef">$(</span>. /etc/os-release <span style="color:#f92672">&amp;&amp;</span> echo <span style="color:#e6db74">&#34;</span>$VERSION_CODENAME<span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34; stable&#34;</span> | <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>  sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get update
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
+
+
+---
+
+<span style="color:#e6db74">```</span>bash
+ls -l /var/run/docker.sock :  check the permissions
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo chmod <span style="color:#ae81ff">666</span> /var/run/docker.sock
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo chown root:docker /var/run/docker.sock
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo usermod -aG docker $USER : Add user to docker group
+</code></pre></div><ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://attadeurtia.github.io/blog/" >
+    &copy;  Geoffrey 2023 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
