@@ -8,6 +8,8 @@ theme = "cactus"
 
   showAllPostsOnHomePage = true
   postsOnHomePage = 5 # this option will be ignored
+  
+  tagsOverview = true
 
 [[params.social]]
   name = "github"
@@ -20,3 +22,4 @@ theme = "cactus"
 [[params.social]]
   name = "linkedin"
   link = "linkedin.com/in/geoffrey-pos%C3%A9-299709200/"
+

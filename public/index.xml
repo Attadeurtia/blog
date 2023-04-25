@@ -28,15 +28,6 @@ sudo apt update : Mettre à jour la liste des paquets disponibles sudo apt upgra
     </item>
     
     <item>
-      <title>Workflow macos</title>
-      <link>http://example.org/posts/workflow_macos/</link>
-      <pubDate>Sat, 22 Apr 2023 00:46:55 +0200</pubDate>
-      
-      <guid>http://example.org/posts/workflow_macos/</guid>
-      <description>Mon workflow : macOS Si vous êtes un utilisateur de Mac, vous savez probablement à quel point il est important d&amp;rsquo;avoir un workflow efficace pour maximiser votre productivité. Dans ce document, nous allons explorer les outils et les astuces que j&amp;rsquo;utilise dans mon workflow quotidien sur macOS. Que vous soyez un développeur, un designer ou un utilisateur général, j&amp;rsquo;espère que vous trouverez quelque chose d&amp;rsquo;utile pour améliorer votre propre flux de travail sur votre Mac.</description>
-    </item>
-    
-    <item>
       <title>Docker</title>
       <link>http://example.org/posts/docker/</link>
       <pubDate>Fri, 21 Apr 2023 21:15:02 +0200</pubDate>
