@@ -6,6 +6,7 @@ latitude: 48.89242300
 longitude: 2.21533100
 altitude: 0.0000
 completed?: no
+date: 2023-02-13 09:59:40Z
 ---
 
 diff -q

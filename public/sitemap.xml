@@ -2,31 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://attadeurtia.github.io/blog/posts/design_patterns/</loc>
+    <loc>http://example.org/tags/design-patterns/</loc>
     <lastmod>2023-04-24T17:49:47+02:00</lastmod>
   </url><url>
-    <loc>https://attadeurtia.github.io/blog/</loc>
+    <loc>http://example.org/posts/design_patterns/</loc>
     <lastmod>2023-04-24T17:49:47+02:00</lastmod>
   </url><url>
-    <loc>https://attadeurtia.github.io/blog/posts/</loc>
+    <loc>http://example.org/</loc>
     <lastmod>2023-04-24T17:49:47+02:00</lastmod>
   </url><url>
-    <loc>https://attadeurtia.github.io/blog/posts/apt/</loc>
+    <loc>http://example.org/posts/</loc>
+    <lastmod>2023-04-24T17:49:47+02:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2023-04-24T17:49:47+02:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/apt/</loc>
     <lastmod>2023-04-23T22:03:54+02:00</lastmod>
   </url><url>
-    <loc>https://attadeurtia.github.io/blog/posts/stackedit/</loc>
-    <lastmod>2023-04-22T00:54:45+02:00</lastmod>
-  </url><url>
-    <loc>https://attadeurtia.github.io/blog/posts/workflow_macos/</loc>
+    <loc>http://example.org/posts/workflow_macos/</loc>
     <lastmod>2023-04-22T00:46:55+02:00</lastmod>
   </url><url>
-    <loc>https://attadeurtia.github.io/blog/posts/docker/</loc>
+    <loc>http://example.org/posts/docker/</loc>
     <lastmod>2023-04-21T21:15:02+02:00</lastmod>
   </url><url>
-    <loc>https://attadeurtia.github.io/blog/categories/</loc>
+    <loc>http://example.org/posts/diff/</loc>
+    <lastmod>2023-02-13T09:59:40+00:00</lastmod>
   </url><url>
-    <loc>https://attadeurtia.github.io/blog/posts/diff/</loc>
-  </url><url>
-    <loc>https://attadeurtia.github.io/blog/tags/</loc>
+    <loc>http://example.org/categories/</loc>
   </url>
 </urlset>

@@ -2,56 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geoffrey</title>
-    <link>https://attadeurtia.github.io/blog/</link>
+    <link>http://example.org/</link>
     <description>Recent content on Geoffrey</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language>
-    <lastBuildDate>Mon, 24 Apr 2023 17:49:47 +0200</lastBuildDate><atom:link href="https://attadeurtia.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <language>FR-fr</language>
+    <lastBuildDate>Mon, 24 Apr 2023 17:49:47 +0200</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Design_Patterns</title>
-      <link>https://attadeurtia.github.io/blog/posts/design_patterns/</link>
+      <title>Design Patterns</title>
+      <link>http://example.org/posts/design_patterns/</link>
       <pubDate>Mon, 24 Apr 2023 17:49:47 +0200</pubDate>
       
-      <guid>https://attadeurtia.github.io/blog/posts/design_patterns/</guid>
+      <guid>http://example.org/posts/design_patterns/</guid>
       <description>Design Patterns Les inconvénients des patterns :
 Ils occasionnent plus de classes Ils peuvent être peu adaptés dans des environnements dit “limités” (comme Android) c’est à encapsuler ce qui varie. Ce principe nous enseigne à limiter chaque classe à une seule responsabilité. (Cohésion) Nous savons que nous devons éviter comme la peste de changer quelque chose à une classe(Couplage) Creational patterns Les patterns de création, relatifs à la création d’objet</description>
     </item>
     
     <item>
       <title>Apt</title>
-      <link>https://attadeurtia.github.io/blog/posts/apt/</link>
+      <link>http://example.org/posts/apt/</link>
       <pubDate>Sun, 23 Apr 2023 22:03:54 +0200</pubDate>
       
-      <guid>https://attadeurtia.github.io/blog/posts/apt/</guid>
+      <guid>http://example.org/posts/apt/</guid>
       <description>apt Voici les commandes les plus couramment utilisées avec apt :
 sudo apt update : Mettre à jour la liste des paquets disponibles sudo apt upgrade : Mettre à jour tous les paquets installés sudo apt upgrade -y sudo apt install &amp;lt;nom_du_paquet_1&amp;gt; &amp;lt;nom_du_paquet_2&amp;gt; : Installer un paquet sudo apt remove &amp;lt;nom_du_paquet&amp;gt; : Supprimer un paquet sudo apt search &amp;lt;terme_de_recherche&amp;gt; : Rechercher un paquet sudo apt autoremove : Supprimer les paquets qui ne sont plus nécessaires sudo apt clean : Supprimer les fichiers de cache téléchargés lors de l&amp;rsquo;installation de paquets apt clean efface tout du répertoire local des fichiers de paquets récupérés.</description>
     </item>
     
     <item>
-      <title>StackEdit</title>
-      <link>https://attadeurtia.github.io/blog/posts/stackedit/</link>
-      <pubDate>Sat, 22 Apr 2023 00:54:45 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/posts/stackedit/</guid>
-      <description>Welcome to StackEdit! Hi! I&amp;rsquo;m your first Markdown file in StackEdit. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the file explorer on the left corner of the navigation bar.
-Files StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible offline!</description>
-    </item>
-    
-    <item>
       <title>Workflow macos</title>
-      <link>https://attadeurtia.github.io/blog/posts/workflow_macos/</link>
+      <link>http://example.org/posts/workflow_macos/</link>
       <pubDate>Sat, 22 Apr 2023 00:46:55 +0200</pubDate>
       
-      <guid>https://attadeurtia.github.io/blog/posts/workflow_macos/</guid>
+      <guid>http://example.org/posts/workflow_macos/</guid>
       <description>Mon workflow : macOS Si vous êtes un utilisateur de Mac, vous savez probablement à quel point il est important d&amp;rsquo;avoir un workflow efficace pour maximiser votre productivité. Dans ce document, nous allons explorer les outils et les astuces que j&amp;rsquo;utilise dans mon workflow quotidien sur macOS. Que vous soyez un développeur, un designer ou un utilisateur général, j&amp;rsquo;espère que vous trouverez quelque chose d&amp;rsquo;utile pour améliorer votre propre flux de travail sur votre Mac.</description>
     </item>
     
     <item>
       <title>Docker</title>
-      <link>https://attadeurtia.github.io/blog/posts/docker/</link>
+      <link>http://example.org/posts/docker/</link>
       <pubDate>Fri, 21 Apr 2023 21:15:02 +0200</pubDate>
       
-      <guid>https://attadeurtia.github.io/blog/posts/docker/</guid>
+      <guid>http://example.org/posts/docker/</guid>
       <description>Docker docker pull : Récupérer une image depuis un registre
 docker run :
 p 8080:8080 rm : Supprimer le conteneur à la fin de son exécution it : Interactif v $(pwd):/src d : Détaché e : Variables d’environnement docker run -p 8080:8080 -rm -it -v $(pwd):/src -d -e NODE_ENV=production nom_de_l_image docker run =&amp;gt; docker create + docker start
@@ -63,10 +53,10 @@ docker restart id_du_conteneur</description>
     
     <item>
       <title>diff</title>
-      <link>https://attadeurtia.github.io/blog/posts/diff/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>http://example.org/posts/diff/</link>
+      <pubDate>Mon, 13 Feb 2023 09:59:40 +0000</pubDate>
       
-      <guid>https://attadeurtia.github.io/blog/posts/diff/</guid>
+      <guid>http://example.org/posts/diff/</guid>
       <description>diff -q
 -q Indiquer seulement si les fichiers différent, pas les différences elles-mêmes.
 -r Lorsque l&amp;rsquo;on compare des répertoires, comparer également tous les sous-répertoires récursivement.

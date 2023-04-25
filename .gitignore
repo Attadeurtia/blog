@@ -20,3 +20,13 @@ Thumbs.db
 venv
 node_modules
 .sass-cache
+
+
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
