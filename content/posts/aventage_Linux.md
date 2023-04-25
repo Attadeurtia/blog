@@ -6,23 +6,25 @@ draft: true
 
 # pourquoi passer à linux
 
-* open-source 
-	* données pas analysé
+* open-source
+  * données pas analysé
 * systeme de maj
 * personnalisation
 * rapidité
 
 * résolution de pb
-beaucoup des soucis de linux peuvent etre résolvable en ligne de commande, et pour rejoindre le point open-source, tout est accésible sur vorte ordinateur 
-* 
+beaucoup des soucis de linux peuvent etre résolvable en ligne de commande, et pour rejoindre le point open-source, tout est accésible sur vorte ordinateur
+*
 
-## moins 
+## moins
+
 * pas de jeux viédéo
 * déstabilisant au début
 * pas tout les logitiels
 * driver
 
 ## idem
+
 * stable
-de mon expérience Linux est aussi stable que Windows, j'ai vu des  windows cassé du jour 
-* 
+de mon expérience Linux est aussi stable que Windows, j'ai vu des  windows cassé du jour
+*

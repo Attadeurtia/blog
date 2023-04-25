@@ -9,11 +9,11 @@ completed?: no
 date: 2023-02-13 09:59:40Z
 ---
 
-diff -q
+`diff -q`
 
--q Indiquer seulement si les fichiers différent, pas les différences elles-mêmes.
+`-q` Indiquer seulement si les fichiers différent, pas les différences elles-mêmes.
 
--r Lorsque l'on compare des répertoires, comparer également tous les sous-répertoires récursivement.
+`-r` Lorsque l'on compare des répertoires, comparer également tous les sous-répertoires récursivement.
 
 `-q 'ou` –brief': Indique uniquement si les fichiers diffèrent, pas les détails des différences.
 

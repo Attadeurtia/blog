@@ -25,7 +25,7 @@ docker run => docker create + docker start
 
 docker create id_de_l_image
 
-docker start id_du_conteneur 
+docker start id_du_conteneur
 
 docker stop id_du_conteneur
 
