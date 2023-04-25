@@ -8,8 +8,16 @@ theme = "cactus"
 
   showAllPostsOnHomePage = true
   postsOnHomePage = 5 # this option will be ignored
-  
+
   tagsOverview = true
+
+# table des matières
+  tocInline = true
+
+  showProjectsList = true
+  projectsUrl = "https://github.com/Attadeurtia"
+
+  rss = true
 
 [[params.social]]
   name = "github"
