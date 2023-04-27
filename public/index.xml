@@ -14,7 +14,7 @@
       
       <guid>http://example.org/posts/design_patterns/</guid>
       <description>Design Patterns Les inconvénients des patterns :
-Ils occasionnent plus de classes Ils peuvent être peu adaptés dans des environnements dit “limités” (comme Android) c’est à encapsuler ce qui varie. Ce principe nous enseigne à limiter chaque classe à une seule responsabilité. (Cohésion) Nous savons que nous devons éviter comme la peste de changer quelque chose à une classe(Couplage) Creational patterns Les patterns de création, relatifs à la création d’objet</description>
+ Ils occasionnent plus de classes Ils peuvent être peu adaptés dans des environnements dit “limités” (comme Android) c’est à encapsuler ce qui varie. Ce principe nous enseigne à limiter chaque classe à une seule responsabilité. (Cohésion) Nous savons que nous devons éviter comme la peste de changer quelque chose à une classe(Couplage)  Creational patterns Les patterns de création, relatifs à la création d’objet</description>
     </item>
     
     <item>
@@ -24,7 +24,7 @@ Ils occasionnent plus de classes Ils peuvent être peu adaptés dans des environ
       
       <guid>http://example.org/posts/apt/</guid>
       <description>apt Voici les commandes les plus couramment utilisées avec apt :
-sudo apt update : Mettre à jour la liste des paquets disponibles sudo apt upgrade : Mettre à jour tous les paquets installés sudo apt upgrade -y sudo apt install &amp;lt;nom_du_paquet_1&amp;gt; &amp;lt;nom_du_paquet_2&amp;gt; : Installer un paquet sudo apt remove &amp;lt;nom_du_paquet&amp;gt; : Supprimer un paquet sudo apt search &amp;lt;terme_de_recherche&amp;gt; : Rechercher un paquet sudo apt autoremove : Supprimer les paquets qui ne sont plus nécessaires sudo apt clean : Supprimer les fichiers de cache téléchargés lors de l&amp;rsquo;installation de paquets apt clean efface tout du répertoire local des fichiers de paquets récupérés.</description>
+ sudo apt update : Mettre à jour la liste des paquets disponibles sudo apt upgrade : Mettre à jour tous les paquets installés  sudo apt upgrade -y   sudo apt install &amp;lt;nom_du_paquet_1&amp;gt; &amp;lt;nom_du_paquet_2&amp;gt; : Installer un paquet sudo apt remove &amp;lt;nom_du_paquet&amp;gt; : Supprimer un paquet sudo apt search &amp;lt;terme_de_recherche&amp;gt; : Rechercher un paquet sudo apt autoremove : Supprimer les paquets qui ne sont plus nécessaires sudo apt clean : Supprimer les fichiers de cache téléchargés lors de l&amp;rsquo;installation de paquets apt clean efface tout du répertoire local des fichiers de paquets récupérés.</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@ sudo apt update : Mettre à jour la liste des paquets disponibles sudo apt upgra
       <guid>http://example.org/posts/docker/</guid>
       <description>Docker docker pull : Récupérer une image depuis un registre
 docker run :
-p 8080:8080 rm : Supprimer le conteneur à la fin de son exécution it : Interactif v $(pwd):/src d : Détaché e : Variables d’environnement docker run -p 8080:8080 -rm -it -v $(pwd):/src -d -e NODE_ENV=production nom_de_l_image docker run =&amp;gt; docker create + docker start
+ p 8080:8080 rm : Supprimer le conteneur à la fin de son exécution it : Interactif v $(pwd):/src d : Détaché e : Variables d’environnement  docker run -p 8080:8080 -rm -it -v $(pwd):/src -d -e NODE_ENV=production nom_de_l_image docker run =&amp;gt; docker create + docker start
 docker create id_de_l_image
 docker start id_du_conteneur
 docker stop id_du_conteneur
@@ -51,10 +51,10 @@ docker restart id_du_conteneur</description>
       <description>diff -q
 -q Indiquer seulement si les fichiers différent, pas les différences elles-mêmes.
 -r Lorsque l&amp;rsquo;on compare des répertoires, comparer également tous les sous-répertoires récursivement.
--q &#39;ou –brief&amp;rsquo;: Indique uniquement si les fichiers diffèrent, pas les détails des différences.
--r &#39;ou –recursive&amp;rsquo;: lors de la comparaison de répertoires, comparez de manière récursive tous les sous-répertoires trouvés.
--s &#39;ou –report-identiques-files&amp;rsquo;: Indique que deux fichiers sont identiques.
--y &#39;ou –side-by-side&amp;rsquo;: Utilisez le format de sortie côte à côte.</description>
+-q &#39;ou –brief&#39;: Indique uniquement si les fichiers diffèrent, pas les détails des différences.
+-r &#39;ou –recursive&#39;: lors de la comparaison de répertoires, comparez de manière récursive tous les sous-répertoires trouvés.
+-s &#39;ou –report-identiques-files&#39;: Indique que deux fichiers sont identiques.
+-y &#39;ou –side-by-side&#39;: Utilisez le format de sortie côte à côte.</description>
     </item>
     
   </channel>

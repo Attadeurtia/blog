@@ -14,7 +14,7 @@
       
       <guid>http://example.org/posts/design_patterns/</guid>
       <description>Design Patterns Les inconvénients des patterns :
-Ils occasionnent plus de classes Ils peuvent être peu adaptés dans des environnements dit “limités” (comme Android) c’est à encapsuler ce qui varie. Ce principe nous enseigne à limiter chaque classe à une seule responsabilité. (Cohésion) Nous savons que nous devons éviter comme la peste de changer quelque chose à une classe(Couplage) Creational patterns Les patterns de création, relatifs à la création d’objet</description>
+ Ils occasionnent plus de classes Ils peuvent être peu adaptés dans des environnements dit “limités” (comme Android) c’est à encapsuler ce qui varie. Ce principe nous enseigne à limiter chaque classe à une seule responsabilité. (Cohésion) Nous savons que nous devons éviter comme la peste de changer quelque chose à une classe(Couplage)  Creational patterns Les patterns de création, relatifs à la création d’objet</description>
     </item>
     
   </channel>
