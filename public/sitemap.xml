@@ -20,6 +20,12 @@
     <loc>http://example.org/tags/</loc>
     <lastmod>2023-04-28T14:18:49+02:00</lastmod>
   </url><url>
+    <loc>http://example.org/posts/configuregit/</loc>
+    <lastmod>2023-04-27T17:49:47+02:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/git-cheat-sheet/</loc>
+    <lastmod>2023-04-27T17:49:47+02:00</lastmod>
+  </url><url>
     <loc>http://example.org/tags/design-patterns/</loc>
     <lastmod>2023-04-24T17:49:47+02:00</lastmod>
   </url><url>
