@@ -13,7 +13,7 @@
       <pubDate>Fri, 28 Apr 2023 14:18:49 +0200</pubDate>
       
       <guid>http://example.org/posts/complexite/</guid>
-      <description>Classes de complexité Déterministe non-Déterministe temps p,EXPTIME np, NEXPTIME espace LOGSPACE, PSPACE, EXPSPACE NLOGSPACE complexité logarithmique O(1) : constant O(n) : linéaire O(log n) : logarithmique O(n log n) : quasi-linéaire O(n²) : quadratique O(n³) : cubique O(n^k) : polynomial O(2ⁿ) : exponentielle O(n!) : factorielle algo constant O(1) set logarithmique O(log n) liste linéaire O(n) recherche dichotomique, dans un tableaux trié quasi-linéaire O(n log n) tri d&amp;rsquo;un tableaux (fusion) quadratique O(n²) tri d&amp;rsquo;un tableaux (insertion) cubique O(n³) multiplication de matrices polynomial O(n^k) exponentielle O(2ⁿ) problème du sac à dos factorielle O(n!</description>
+      <description>Classes de complexité     Déterministe non-Déterministe     temps p,EXPTIME np, NEXPTIME   espace LOGSPACE, PSPACE, EXPSPACE NLOGSPACE    complexité logarithmique  O(1) : constant O(n) : linéaire O(log n) : logarithmique O(n log n) : quasi-linéaire O(n²) : quadratique O(n³) : cubique O(n^k) : polynomial O(2ⁿ) : exponentielle O(n!) : factorielle       algo     constant O(1) set   logarithmique O(log n) liste   linéaire O(n) recherche dichotomique, dans un tableaux trié   quasi-linéaire O(n log n) tri d&amp;rsquo;un tableaux (fusion)   quadratique O(n²) tri d&amp;rsquo;un tableaux (insertion)   cubique O(n³) multiplication de matrices   polynomial O(n^k)    exponentielle O(2ⁿ) problème du sac à dos   factorielle O(n!</description>
     </item>
     
   </channel>

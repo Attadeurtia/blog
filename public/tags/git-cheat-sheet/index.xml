@@ -16,7 +16,7 @@
       <description>Pour utiliser github sur son ordinateur il faut installer git, ajouter une clée ssh dans son compte github et configurer git, puis télécharger le projet, ses étpapes sont indispensable sur chaque machine.
 Installer git Vérifier si git est déjà installé : git --version sinon télécharger git
 Configurer git en local C&amp;rsquo;est les informations qui seront affichées dans les commits, il faut les configurer une fois par machine.
-Configurer le nom d&amp;rsquo;utilisateur : git config --global user.</description>
+ Configurer le nom d&amp;rsquo;utilisateur : git config --global user.</description>
     </item>
     
   </channel>
