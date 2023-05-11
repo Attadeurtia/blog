@@ -4,8 +4,7 @@ title = 'Geoffrey'
 theme = "cactus"
 
 [params]
-  description = "Idée en vrac, des fois tech, des fois expérience, des fois explications, au dela de partager mes découvertes, ça me permet aussi de m'en souvenir."
-
+  description = "Idée en vrac, des fois tech, des fois expérience, des fois explications, au-delà de partager mes découvertes, ça me permet aussi de m’en souvenir."
   showAllPostsOnHomePage = true
   postsOnHomePage = 5 # this option will be ignored
 
