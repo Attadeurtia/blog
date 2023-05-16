@@ -2,6 +2,7 @@
 title: "Apt"
 date: 2023-04-23T22:03:54+02:00
 draft: false
+tags: ["linux", "cheat-sheet"]
 ---
 
 # apt

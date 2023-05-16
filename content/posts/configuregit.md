@@ -2,7 +2,7 @@
 title: "Comment configurer github"
 date: 2023-04-27T17:49:47+02:00
 draft: false
-tags: ["git", "cheat-sheet"] 
+tags: ["git", "cheat-sheet","linux"] 
 ---
 
 Pour utiliser github sur son ordinateur il faut installer git, ajouter une clé ssh dans son compte github et configurer git, puis télécharger le projet, ces étapes sont indispensables sur chaque machine.
