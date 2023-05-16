@@ -1,11 +1,11 @@
 ---
-title: "Comment configurer son git"
+title: "Comment configurer github"
 date: 2023-04-27T17:49:47+02:00
 draft: false
-tags: ["git, cheat-sheet"] 
+tags: ["git", "cheat-sheet"] 
 ---
 
-Pour utiliser github sur son ordinateur il faut installer git, ajouter une clée ssh dans son compte github et configurer git, puis télécharger le projet, ses étpapes sont indispensable sur chaque machine.
+Pour utiliser github sur son ordinateur il faut installer git, ajouter une clé ssh dans son compte github et configurer git, puis télécharger le projet, ces étapes sont indispensables sur chaque machine.
 
 ## Installer git
 
@@ -20,13 +20,13 @@ C'est les informations qui seront affichées dans les commits, il faut les confi
 
 Les informations sont stockées dans le fichier `~/.gitconf`, si vous voulez les modifier vous pouvez le faire directement dans le fichier.
 
-En soit, vous pouvez mettre ce que vous voulez, ce n'est pas lié à votre compte github, c'est juste pour que les commits soient plus clairs. Mais il est conseillé de mettre les mêmes informations que sur votre compte github.
+En soi, vous pouvez mettre ce que vous voulez, ce n'est pas lié à votre compte github, c'est juste pour que les commits soient plus clairs. Mais il est conseillé de mettre les mêmes informations que sur votre compte github.
 
 ## Générer une clé ssh
 
-Il n'y a besoin que d'une clé ssh par machine, si vous avez déjà une clé ssh, vous pouvez la réutiliser, pour afficher votre clée ssh public, vous pouvez utiliser la commande `cat ~/.ssh/id_rsa.pub`.
+Il n'y a besoin que d'une clé ssh par machine, si vous avez déjà une clé ssh, vous pouvez la réutiliser, pour afficher votre clé ssh publique, vous pouvez utiliser la commande `cat ~/.ssh/id_rsa.pub`.
 
-Si vous n'avez pas de clé ssh, vous pouvez en générer une [générer une clé ssh](https://www.linuxtricks.fr/wiki/wiki.php?id_contents=168) avec cette commande `ssh-keygen`, puis appuyer sur entrée pour valider tout les paramètres par défaut.
+Si vous n'avez pas de clé ssh, vous pouvez [générer une clé ssh](https://www.linuxtricks.fr/wiki/wiki.php?id_contents=168) avec cette commande `ssh-keygen`, puis appuyer sur entrée pour valider tous les paramètres par défaut.
 
 ```bash
 root@b99ab948939e:/# ssh-keygen 
@@ -54,20 +54,20 @@ The key's randomart image is:
 root@b99ab948939e:/#
 ```
 
-Si cela ne fonctionne pas, il est possible que vous n'ayez pas installé ssh, pour l'installer : `sudo apt install ssh`
+Si cela ne fonctionne pas, il est possible que vous n'ayez pas installé ssh, pour l'installer : `sudo apt install ssh`.
 
-Cela va créer deux fichiers dans le répertoire `~/.ssh` :`id_rsa` et`id_rsa.pub`. Le premier est la clé privée qui est à garder absolument secrete, le second est la clé publique, qui est à partager avec les différents services, ici github.
+Cela va créer deux fichiers dans le répertoire `~/.ssh` :`id_rsa` et`id_rsa.pub`. Le premier est la clé privée qui est à garder absolument secrète, le second est la clé publique, qui est à partager avec les différents services, ici github.
 
-Puis vous pouvez copiper coller votre clée ssh publique `cat ~/.ssh/id_rsa.pub`.
+Puis vous pouvez copier coller votre clé ssh publique `cat ~/.ssh/id_rsa.pub`.
 
-## Rajouter sa clée ssh à github
+## Rajouter sa clé ssh à github
 
-Maintenant, vous devez ajouter votre clée ssh publique à votre compte [github](https://docs.github.com/fr/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?tool=webui).
+Maintenant, vous devez ajouter votre clé ssh publique à votre compte [github](https://docs.github.com/fr/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?tool=webui).
 
 ## Télécharger le projet
 
-Ne reste plus qu'a télécharger votre projet, sur la page du projet, cliquer sur le bouton vert "code" et copier le lien ssh, (attention, il faut bien copier le lien ssh et pas le lien https).
+Ne reste plus qu'à télécharger votre projet, sur la page du projet, cliquer sur le bouton vert "code" et copier le lien ssh, (attention, il faut bien copier le lien ssh et pas le lien https).
 
 `git clone lien_ssh`
 
-Voilà, vous pouvez commencer à travailler sur le projet, et les push seront directement envoyé sur le projet github.
+Voilà, vous pouvez commencer à travailler sur le projet, et les push seront directement envoyés sur le projet github.
