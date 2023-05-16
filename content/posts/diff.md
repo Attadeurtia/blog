@@ -1,5 +1,5 @@
 ---
-title: diff
+title: Commande en vrac
 updated: 2023-02-13 09:59:40Z
 created: 2023-02-13 09:59:35Z
 latitude: 48.89242300
@@ -9,7 +9,11 @@ completed?: no
 date: 2023-02-13 09:59:40Z
 ---
 
-`diff -q`
+Quelques commandes en vrac bien utiles :
+
+## `diff`
+
+`diff -q` : Compare deux fichiers et indique s'ils sont différents.
 
 `-q` Indiquer seulement si les fichiers différent, pas les différences elles-mêmes.
 
