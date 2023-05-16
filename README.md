@@ -1,6 +1,6 @@
 # Mon blog perso
 
-* framework : [Hugo](https://gohugo.io/ "Hugo website")
-* theme : [Cactus](https://github.com/monkeyWzr/hugo-theme-cactus)
-* hébergement : Github Pages
-* nom de domaine : <https://attadeurtia.github.io/blog/>
+* Framework : [Hugo](https://gohugo.io/ "Hugo website")
+* Thème : [Cactus](https://github.com/monkeyWzr/hugo-theme-cactus)
+* Hébergement : Github Pages
+* Nom de domaine : <https://attadeurtia.github.io/blog/>
