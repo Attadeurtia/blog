@@ -1,5 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://attadeurtia.github.io/blog/'
 languageCode = 'FR-fr'
+DefaultContentLanguage = "fr"
 title = 'Geoffrey'
 theme = "cactus"
 
@@ -10,13 +11,26 @@ theme = "cactus"
 
   tagsOverview = true
 
+  colortheme = "white" # dark, light, white, or classic
+  css = ["css/custom.css"]
+
+  mathjax = true  # not required
+
+
+
+
 # table des matières
   tocInline = true
 
   showProjectsList = true
-  projectsUrl = "https://github.com/Attadeurtia"
+  projectsUrl = "https://attadeurtia.github.io/blog/"
 
   rss = true
+
+    mainSection = "poests"
+
+  mainSectionTitle = "Articles"
+
 
 [[params.social]]
   name = "github"
@@ -30,3 +44,33 @@ theme = "cactus"
   name = "linkedin"
   link = "https://www.linkedin.com/in/geoffrey-pos%C3%A9-299709200/"
 
+
+[menu]
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Tout les articles"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "À propos"
+url = "/about"
+weight = 4
+
+[about]
+  avatar = "img/avatar.jpg"
+  name = "Geoffrey Posé"
+  bio = "Développeur web, passionné par la programmation, l'expérience utilisateur et la sécurité informatique."
+  location = "France"
+  email = ""
