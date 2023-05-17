@@ -27,7 +27,7 @@ theme = "cactus"
 
   rss = true
 
-    mainSection = "poests"
+    mainSection = "posts"
 
   mainSectionTitle = "Articles"
 
