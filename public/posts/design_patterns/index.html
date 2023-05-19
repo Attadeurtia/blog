@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html lang="FR-fr">
 <head>
-  <link rel="preload" href="/lib/font-awesome/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="/lib/font-awesome/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="/lib/font-awesome/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-  <link rel="preload" href="/lib/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/blog/lib/font-awesome/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/blog/lib/font-awesome/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/blog/lib/font-awesome/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/blog/lib/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
   <link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title> Design Patterns | Geoffrey</title>
-  <link rel = 'canonical' href = 'http://example.org/posts/design_patterns/'>
-  <meta name="description" content="Idée en vrac, des fois tech, des fois expérience, des fois explications, au dela de partager mes découvertes, ça me permet aussi de m&#39;en souvenir.">
+  <link rel = 'canonical' href = 'https://attadeurtia.github.io/blog/posts/design_patterns/'>
+  <meta name="description" content="Idée en vrac, des fois tech, des fois expérience, des fois explication, au-delà de partager mes découvertes, ça me permet aussi de m’en souvenir.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="Design Patterns" />
-<meta property="og:description" content="Les inconvénients des patterns :
- Ils occasionnent plus de classes Ils peuvent être peu adaptés dans des environnements dit “limités” (comme Android) c’est à encapsuler ce qui varie. Ce principe nous enseigne à limiter chaque classe à une seule responsabilité. (Cohésion) Nous savons que nous devons éviter comme la peste de changer quelque chose à une classe(Couplage)  Creational patterns Les patterns de création, relatifs à la création d’objet" />
+<meta property="og:description" content="C’est quoi ? Les patterns offrent des solutions à des problèmes récurrents rencontrés par les développeurs, Ils permettent de :
+Limiter le couplage Faciliter la maintenance Être moins rigide face au changement Ils sont indispensables à connaître pour le développeur :
+Pour s’assurer d’une meilleure conception Pour dialoguer avec les développeurs (à travers le “langage pattern”) Pour comprendre les frameworks Un livre écrit par le GoF (Gang of Four : Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides) décrit 23 Design Patterns appliqués à la conception orientée objet, classés en trois catégories :" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/posts/design_patterns/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://attadeurtia.github.io/blog/posts/design_patterns/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-04-24T17:49:47+02:00" />
 <meta property="article:modified_time" content="2023-04-24T17:49:47+02:00" />
 
-
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Design Patterns"/>
-<meta name="twitter:description" content="Les inconvénients des patterns :
- Ils occasionnent plus de classes Ils peuvent être peu adaptés dans des environnements dit “limités” (comme Android) c’est à encapsuler ce qui varie. Ce principe nous enseigne à limiter chaque classe à une seule responsabilité. (Cohésion) Nous savons que nous devons éviter comme la peste de changer quelque chose à une classe(Couplage)  Creational patterns Les patterns de création, relatifs à la création d’objet"/>
+<meta name="twitter:description" content="C’est quoi ? Les patterns offrent des solutions à des problèmes récurrents rencontrés par les développeurs, Ils permettent de :
+Limiter le couplage Faciliter la maintenance Être moins rigide face au changement Ils sont indispensables à connaître pour le développeur :
+Pour s’assurer d’une meilleure conception Pour dialoguer avec les développeurs (à travers le “langage pattern”) Pour comprendre les frameworks Un livre écrit par le GoF (Gang of Four : Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides) décrit 23 Design Patterns appliqués à la conception orientée objet, classés en trois catégories :"/>
 
   
   
+    
   
-  <link rel="stylesheet" href="http://example.org/css/styles.94f653e9e151e28067a7c5dbbc4600cbd5a3c721e79faaf971e523c40f3b249b8e4f20bb57810dfffa8d559ca5c140fd56eb4cd9c0853113ad08e66afdb08bdd.css" integrity="sha512-lPZT6eFR4oBnp8XbvEYAy9WjxyHnn6r5ceUjxA87JJuOTyC7V4EN//qNVZylwUD9VutM2cCFMROtCOZq/bCL3Q=="> 
+  
+  <link rel="stylesheet" href="https://attadeurtia.github.io/blog/css/styles.94f653e9e151e28067a7c5dbbc4600cbd5a3c721e79faaf971e523c40f3b249b8e4f20bb57810dfffa8d559ca5c140fd56eb4cd9c0853113ad08e66afdb08bdd.css" integrity="sha512-lPZT6eFR4oBnp8XbvEYAy9WjxyHnn6r5ceUjxA87JJuOTyC7V4EN//qNVZylwUD9VutM2cCFMROtCOZq/bCL3Q=="> 
 
   
-  
+   <link rel="stylesheet" href="https://attadeurtia.github.io/blog/css/custom.css"> 
   
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -44,7 +47,7 @@
   
 
   
-<link rel="icon" type="image/png" href="http://example.org/images/favicon.ico" />
+<link rel="icon" type="image/png" href="https://attadeurtia.github.io/blog/images/favicon.ico" />
 
   
   
@@ -62,6 +65,14 @@
   <span id="menu">
     <span id="nav">
       <ul>
+         
+        <li><a href="/blog/">Home</a></li>
+         
+        <li><a href="/blog/posts">Tout les articles</a></li>
+         
+        <li><a href="/blog/tags">Tags</a></li>
+         
+        <li><a href="/blog/about">À propos</a></li>
         
       </ul>
     </span>
@@ -70,14 +81,14 @@
       <ul>
         
         <li>
-          <a class="icon" href=" http://example.org/posts/apt/" aria-label="Previous">
+          <a class="icon" href=" https://attadeurtia.github.io/blog/posts/apt/" aria-label="Previous">
             <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
           </a>
         </li>
         
         
         <li>
-          <a class="icon" href="http://example.org/posts/configuregit/" aria-label="Next">
+          <a class="icon" href="https://attadeurtia.github.io/blog/posts/configuregit/" aria-label="Next">
             <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
           </a>
         </li>
@@ -108,47 +119,47 @@
   
   
   <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fexample.org%2fposts%2fdesign_patterns%2f" aria-label="Facebook">
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fattadeurtia.github.io%2fblog%2fposts%2fdesign_patterns%2f" aria-label="Facebook">
       <i class="fab fa-facebook " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://twitter.com/share?url=http%3a%2f%2fexample.org%2fposts%2fdesign_patterns%2f&text=Design%20Patterns" aria-label="Twitter">
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fattadeurtia.github.io%2fblog%2fposts%2fdesign_patterns%2f&text=Design%20Patterns" aria-label="Twitter">
       <i class="fab fa-twitter " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=http%3a%2f%2fexample.org%2fposts%2fdesign_patterns%2f&title=Design%20Patterns" aria-label="Linkedin">
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fattadeurtia.github.io%2fblog%2fposts%2fdesign_patterns%2f&title=Design%20Patterns" aria-label="Linkedin">
       <i class="fab fa-linkedin " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http%3a%2f%2fexample.org%2fposts%2fdesign_patterns%2f&is_video=false&description=Design%20Patterns" aria-label="Pinterest">
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fattadeurtia.github.io%2fblog%2fposts%2fdesign_patterns%2f&is_video=false&description=Design%20Patterns" aria-label="Pinterest">
       <i class="fab fa-pinterest " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="mailto:?subject=Design%20Patterns&body=Check out this article: http%3a%2f%2fexample.org%2fposts%2fdesign_patterns%2f" aria-label="Email">
+    <a class="icon" href="mailto:?subject=Design%20Patterns&body=Check out this article: https%3a%2f%2fattadeurtia.github.io%2fblog%2fposts%2fdesign_patterns%2f" aria-label="Email">
       <i class="fas fa-envelope " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://getpocket.com/save?url=http%3a%2f%2fexample.org%2fposts%2fdesign_patterns%2f&title=Design%20Patterns" aria-label="Pocket">
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fattadeurtia.github.io%2fblog%2fposts%2fdesign_patterns%2f&title=Design%20Patterns" aria-label="Pocket">
       <i class="fab fa-get-pocket " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://reddit.com/submit?url=http%3a%2f%2fexample.org%2fposts%2fdesign_patterns%2f&title=Design%20Patterns" aria-label="reddit">
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fattadeurtia.github.io%2fblog%2fposts%2fdesign_patterns%2f&title=Design%20Patterns" aria-label="reddit">
       <i class="fab fa-reddit " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=http%3a%2f%2fexample.org%2fposts%2fdesign_patterns%2f&name=Design%20Patterns&description=Les%20inconv%c3%a9nients%20des%20patterns%20%3a%0a%20Ils%20occasionnent%20plus%20de%20classes%20Ils%20peuvent%20%c3%aatre%20peu%20adapt%c3%a9s%20dans%20des%20environnements%20dit%20%e2%80%9climit%c3%a9s%e2%80%9d%20%28comme%20Android%29%20c%e2%80%99est%20%c3%a0%20encapsuler%20ce%20qui%20varie.%20Ce%20principe%20nous%20enseigne%20%c3%a0%20limiter%20chaque%20classe%20%c3%a0%20une%20seule%20responsabilit%c3%a9.%20%28Coh%c3%a9sion%29%20Nous%20savons%20que%20nous%20devons%20%c3%a9viter%20comme%20la%20peste%20de%20changer%20quelque%20chose%20%c3%a0%20une%20classe%28Couplage%29%20%20Creational%20patterns%20Les%20patterns%20de%20cr%c3%a9ation%2c%20relatifs%20%c3%a0%20la%20cr%c3%a9ation%20d%e2%80%99objet" aria-label="Tumblr">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fattadeurtia.github.io%2fblog%2fposts%2fdesign_patterns%2f&name=Design%20Patterns&description=C%e2%80%99est%20quoi%20%3f%20Les%20patterns%20offrent%20des%20solutions%20%c3%a0%20des%20probl%c3%a8mes%20r%c3%a9currents%20rencontr%c3%a9s%20par%20les%20d%c3%a9veloppeurs%2c%20Ils%20permettent%20de%20%3a%0aLimiter%20le%20couplage%20Faciliter%20la%20maintenance%20%c3%8atre%20moins%20rigide%20face%20au%20changement%20Ils%20sont%20indispensables%20%c3%a0%20conna%c3%aetre%20pour%20le%20d%c3%a9veloppeur%20%3a%0aPour%20s%e2%80%99assurer%20d%e2%80%99une%20meilleure%20conception%20Pour%20dialoguer%20avec%20les%20d%c3%a9veloppeurs%20%28%c3%a0%20travers%20le%20%e2%80%9clangage%20pattern%e2%80%9d%29%20Pour%20comprendre%20les%20frameworks%20Un%20livre%20%c3%a9crit%20par%20le%20GoF%20%28Gang%20of%20Four%20%3a%20Erich%20Gamma%2c%20Richard%20Helm%2c%20Ralph%20Johnson%2c%20John%20Vlissides%29%20d%c3%a9crit%2023%20Design%20Patterns%20appliqu%c3%a9s%20%c3%a0%20la%20conception%20orient%c3%a9e%20objet%2c%20class%c3%a9s%20en%20trois%20cat%c3%a9gories%20%3a" aria-label="Tumblr">
       <i class="fab fa-tumblr " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=http%3a%2f%2fexample.org%2fposts%2fdesign_patterns%2f&t=Design%20Patterns" aria-label="Hacker News">
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fattadeurtia.github.io%2fblog%2fposts%2fdesign_patterns%2f&t=Design%20Patterns" aria-label="Hacker News">
       <i class="fab fa-hacker-news " aria-hidden="true"></i>
     </a>
   </li>
@@ -195,60 +206,100 @@
     <div id="toc">
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#creational-patterns">Creational patterns</a></li>
-    <li><a href="#structural-patterns">Structural patterns</a></li>
-    <li><a href="#behavioral-patterns">Behavioral patterns</a></li>
+    <li><a href="#cest-quoi-">C’est quoi ?</a></li>
+    <li><a href="#creational-patterns">Creational patterns</a>
+      <ul>
+        <li><a href="#singleton">Singleton</a></li>
+        <li><a href="#prototype">Prototype</a></li>
+        <li><a href="#builder">Builder</a></li>
+        <li><a href="#factory">Factory</a></li>
+        <li><a href="#abstract-factory">Abstract factory</a></li>
+      </ul>
+    </li>
+    <li><a href="#structural-patterns">Structural patterns</a>
+      <ul>
+        <li><a href="#adapter">Adapter</a></li>
+        <li><a href="#composite">Composite</a></li>
+        <li><a href="#decorator">Decorator</a></li>
+        <li><a href="#facade">Facade</a></li>
+      </ul>
+    </li>
+    <li><a href="#behavioral-patterns">Behavioral patterns</a>
+      <ul>
+        <li><a href="#strategy">Strategy</a></li>
+        <li><a href="#command">Command</a></li>
+        <li><a href="#iterator">Iterator</a></li>
+        <li><a href="#observer">Observer</a></li>
+        <li><a href="#mediator">Mediator</a></li>
+        <li><a href="#state">State</a></li>
+        <li><a href="#visitor">Visitor</a></li>
+      </ul>
+    </li>
+    <li><a href="#les-inconvénients-des-patterns">Les inconvénients des patterns</a></li>
+    <li><a href="#autres-patrons-de-conception">Autres patrons de conception</a>
+      <ul>
+        <li><a href="#object-pool">Object Pool</a></li>
+        <li><a href="#modèle-vue-contrôleur">Modèle-vue-contrôleur</a></li>
+        <li><a href="#inversion-de-contrôle">Inversion de contrôle</a></li>
+        <li><a href="#injection-de-dépendances">Injection de dépendances</a></li>
+      </ul>
+    </li>
+    <li><a href="#les-principes-de-conception-orientée-objet">Les principes de conception Orientée Objet</a>
+      <ul>
+        <li><a href="#principe-ouvert-fermé">Principe Ouvert-Fermé</a></li>
+        <li><a href="#principe-dinversion-des-dépendances">Principe d’inversion des dépendances</a></li>
+        <li><a href="#principe-dhollywood">Principe d’Hollywood</a></li>
+        <li><a href="#autres-principes-en-vrac">Autres principes en vrac</a></li>
+      </ul>
+    </li>
+    <li><a href="#source">source</a></li>
   </ul>
 </nav>
     </div>
     
     <div class="content" itemprop="articleBody">
-      <p>Les inconvénients des patterns :</p>
+      <h2 id="cest-quoi-">C’est quoi ?</h2>
+<p>Les patterns offrent des solutions à des problèmes récurrents rencontrés par les développeurs, Ils permettent de :</p>
 <ul>
-<li>Ils occasionnent plus de classes</li>
-<li>Ils peuvent être peu adaptés dans des environnements dit “limités”
-(comme Android)</li>
-<li>c’est à encapsuler ce qui varie.</li>
-<li>Ce principe nous enseigne à limiter chaque classe à une seule
-responsabilité. (Cohésion)</li>
-<li>Nous savons que nous devons éviter comme la peste de changer quelque
-chose à une classe(Couplage)</li>
+<li>Limiter le couplage</li>
+<li>Faciliter la maintenance</li>
+<li>Être moins rigide face au changement</li>
 </ul>
+<p>Ils sont indispensables à connaître pour le développeur :</p>
+<ul>
+<li>Pour s’assurer d’une meilleure conception</li>
+<li>Pour dialoguer avec les développeurs (à travers le “langage pattern”)</li>
+<li>Pour comprendre les frameworks</li>
+</ul>
+<p>Un livre écrit par le <a href="https://fr.wikipedia.org/wiki/Patron_de_conception">GoF (Gang of Four : Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides)</a> décrit 23 Design Patterns appliqués à la conception orientée objet, classés en trois catégories :</p>
 <h2 id="creational-patterns">Creational patterns</h2>
-<p>Les patterns de création, relatifs à la création d’objet</p>
+<p>Les patterns de <strong>création</strong>, relatifs à la création d’objet.</p>
+<h3 id="singleton">Singleton</h3>
+<p>Une seule instance d’une classe.</p>
+<h3 id="prototype">Prototype</h3>
 <ul>
-<li><strong>Singleton</strong> : une seule instance d’une classe</li>
-<li><strong>Prototype</strong> : clone, héritage de prototype</li>
-<li><strong>Builder</strong>: construire un objet avec plusieurs éléments choisi (
-recette de cuisine)
-permet de construire un objet complexe étape par étape.
-Le constructeur est appelé à chaque étape de la construction de l&rsquo;objet.
-Le client n&rsquo;a pas besoin de connaître les étapes de construction de
-l&rsquo;objet, il suffit de lui fournir un objet de construction. Le pattern
-Builder est utilisé pour construire des objets complexes étape par étape.
-Il permet de séparer la construction d&rsquo;un objet complexe de sa
-représentation finale, de sorte que le même processus de construction
-puisse créer différentes représentations.</li>
-<li><strong>Factory</strong> : fabrique des objets en fonction d’un paramètre</li>
-<li><strong>Abstract factory</strong> : fabrique des objets en fonction d’un paramètre,
-mais avec plusieurs usines</li>
+<li>Clone,</li>
+<li>Héritage de prototype</li>
 </ul>
+<h3 id="builder">Builder</h3>
+<ul>
+<li>Construire un objet avec plusieurs éléments choisi (recette de cuisine).</li>
+<li>Permet de construire un objet complexe étape par étape.</li>
+<li>Le constructeur est appelé à chaque étape de la construction de l&rsquo;objet.</li>
+<li>Le client n&rsquo;a pas besoin de connaître les étapes de construction de l&rsquo;objet, il suffit de lui fournir un objet de construction. Le pattern Builder est utilisé pour construire des objets complexes étape par étape. Il permet de séparer la construction d&rsquo;un objet complexe de sa représentation finale, de sorte que le même processus de construction puisse créer différentes représentations.</li>
+</ul>
+<h3 id="factory">Factory</h3>
+<p>Fabrique des objets en fonction d’un paramètre.</p>
+<h3 id="abstract-factory">Abstract factory</h3>
+<p>Fabrique des objets en fonction d’un paramètre, mais avec plusieurs usines, Par exemple pour implémenter une charte graphique : il existe une fabrique qui retourne des objets (boutons, menus) dans le style de Windows, une qui retourne des objets dans le style de Motif, et une dans le style de Macintosh. Une fabrique abstraite est obtenue en utilisant une fabrique simple.</p>
 <h2 id="structural-patterns">Structural patterns</h2>
-<p>Les patterns structuraux, qui structurent l’organisation des classes entre
-elles, comment elles sont liées</p>
+<p>Les patterns <strong>structuraux</strong>, qui structurent l’organisation des classes entre elles, comment elles sont liées.</p>
+<h3 id="adapter">Adapter</h3>
+<p>Adapte une interface à une autre:</p>
 <ul>
-<li><strong>Adapter</strong> : adapte une interface à une autre, On utilisera le pattern Adaptateur lorsque :
-<ul>
-<li>On veut utiliser une classe existante, mais dont l’interface ne coïncide pas avec celle
-escompté.</li>
-<li>On souhaite créer une classe réutilisable qui collabore avec des classes sans relations
-avec elle et encore inconnues, c’est-à-dire avec des classes qui n’auront pas
-nécessairement des interfaces compatibles.</li>
-<li>On a besoin d’utiliser plusieurs sous-classes existantes, mais l’adaptation de leur
-interface par dérivation de chacune d’entre elles est impraticable. Un adaptateur
-peut adapter l’interface de sa classe parente.</li>
-</ul>
-</li>
+<li>On veut utiliser une classe existante, mais dont l’interface ne coïncide pas avec celle escompté.</li>
+<li>On souhaite créer une classe réutilisable qui collabore avec des classes sans relations avec elle et encore inconnues, c’est-à-dire avec des classes qui n’auront pas nécessairement des interfaces compatibles.</li>
+<li>On a besoin d’utiliser plusieurs sous-classes existantes, mais l’adaptation de leur interface par dérivation de chacune d’entre elles est impraticable. Un adaptateur peut adapter l’interface de sa classe parente.</li>
 </ul>
 <pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
 
@@ -258,7 +309,7 @@ abstract Cible{
 
 Adaptateur : + requete()
 Adapté : + requeteSpécifique()
-note &quot;requeteSpécifique()&quot; as N1
+note &#34;requeteSpécifique()&#34; as N1
 
 
 Client -&gt; Cible
@@ -268,11 +319,12 @@ Adaptateur . N1
 
 
 @enduml
-</code></pre><ul>
-<li><strong>Composite</strong> : un objet contient d’autres objets
-Composite est un patron de conception structurelle qui permet d’agencer les
-objets dans des arborescences afin de pouvoir traiter de la même et unique
-façon les objets individuels et les combinaisons de ceux-ci.</li>
+</code></pre><h3 id="composite">Composite</h3>
+<p>Permet d’agencer les objets dans des arborescences afin de pouvoir traiter de la même et unique façon les objets individuels et les combinaisons de ceux-ci. <em>un objet contient d’autres objets</em> :</p>
+<ul>
+<li>Un système de fichier</li>
+<li>Des objets graphiques (conteneurs et éléments graphiques élémentaire)</li>
+<li>DOM</li>
 </ul>
 <pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
 skinparam groupInheritance 2
@@ -282,7 +334,7 @@ class Client {
 }
 
 abstract Composant {
-    + operation()
+    + opération()
     + ajouter(c: Composant)
     + supprimer(c: Composant)
     + getEnfant(i: int)
@@ -299,64 +351,55 @@ class Composite{
     + getEnfant(i; Int)
 }
 
-note &quot;pour tout g parmi enfant g.opération();&quot; as N
+note &#34;pour tout g parmi enfant g.opération();&#34; as N
 
 Client -&gt; Composant
 Composant &lt;|-- Feuille
 Composant &lt;|-- Composite
-Composant &quot;1..*&quot;&lt;-- Composite
-Composite . N
+Composant &#34;1..*&#34;&lt;-- Composite
+Composite .. N
 
 @enduml
-</code></pre><ul>
-<li><strong>Decorator</strong> : un objet contient un autre objet, et ajoute des
-fonctionnalités<br>
-<em>surchargeant les méthodes.</em>
-permet d&rsquo;ajouter des fonctionnalités à un objet de manière dynamique.</li>
-</ul>
+</code></pre><h3 id="decorator">Decorator</h3>
+<p>Un objet contient un autre objet, et ajoute des fonctionnalités <em>surchargeant les méthodes.</em>
+Permet d&rsquo;ajouter des fonctionnalités à un objet de manière dynamique.</p>
 <pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
 
 abstract Composant{
-	+ oprétion()
+ + opération()
 }
 
-ComposantConcret : + oprétion()
+ComposantConcret : + opération()
 
 abstract Décorateur{
-	+ oprétion()
+ + opération()
 }
 
 class DécorateurConcretA{
-	- étatAjouté : int
-	+ oprétion()
+ - étatAjouté : int
+ + oprétion()
 }
 
 class DécorateurConcretB{
-	+ oprétion()
-	+ comportementAjouté()
+ + opération()
+ + comportementAjouté()
 }
 
 note right of Décorateur : composant.opération()
 note right of DécorateurConcretB : Décoration.opération();\ncomportementAjouté();
 
-Composant &lt;|-- ComposantConcret
+Composant &lt;|- ComposantConcret
 Composant &lt;|-- Décorateur
 Composant &lt;-- Décorateur
 Décorateur &lt;|-- DécorateurConcretA
 Décorateur &lt;|-- DécorateurConcretB
-@end
-</code></pre><ul>
-<li><strong>Facade</strong> : permet de fournir une interface unifiée pour un ensemble
-d&rsquo;interfaces dans un sous-système.</li>
-</ul>
+@enduml
+</code></pre><h3 id="facade">Facade</h3>
+<p>Permet de fournir une interface unifiée pour un ensemble d&rsquo;interfaces dans un sous-système.</p>
 <h2 id="behavioral-patterns">Behavioral patterns</h2>
-<p>Les patterns comportementaux, qui définissent la communication entre
-objets</p>
-<ul>
-<li><strong>Strategy</strong> : Permet de définir une famille d&rsquo;algorithmes, encapsuler
-chacun d&rsquo;eux et les rendre interchangeables.
-En général, les clients créent un objet StrategieConcrete, et le passent au contexte, par la suite les clients interagissent exclusivement avec le contexte.</li>
-</ul>
+<p>Les patterns <strong>comportementaux</strong>, qui définissent la communication entre objets.</p>
+<h3 id="strategy">Strategy</h3>
+<p>Permet de définir une famille d&rsquo;algorithmes, encapsuler chacun d&rsquo;eux et les rendre interchangeables. En général, les clients créent un objet StrategieConcrete, et le passent au contexte, par la suite les clients interagissent exclusivement avec le contexte.</p>
 <pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
 
 class contexte{
@@ -379,11 +422,8 @@ contexte -&gt; Stratégie
  Stratégie &lt;|-- StratégieConcrèteC
 
 @enduml
-</code></pre><ul>
-<li><strong>Command</strong> : un objet encapsule une commande, et peut l’exécuter,
-encapsuler une demande sous la forme d&rsquo;un objet, ce qui permet de
-<strong>paramétrer les clients avec différentes demandes.</strong></li>
-</ul>
+</code></pre><h3 id="command">Command</h3>
+<p>Un objet encapsule une commande, et peut l’exécuter, encapsuler une demande sous la forme d&rsquo;un objet, ce qui permet de paramétrer les clients avec différentes demandes.</p>
 <pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
 
 
@@ -399,7 +439,7 @@ class Recepteur {
     + action()
 }
 
-note &quot;Recepteur.action()&quot; as N1
+note &#34;Recepteur.action()&#34; as N1
 
 Invocateur -&gt; Commande
 Commande &lt;|-- CommandeConcrete
@@ -413,13 +453,10 @@ CommandeConcrete .. N1
 
 
 @enduml
-</code></pre><ul>
-<li><strong>Iterator</strong> : Permets de parcourir les éléments d’une collection sans
-révéler sa représentation interne (liste, pile, arbre, etc.).
-Même appel pour n&rsquo;importe quel type de collection
-en java on utilise l&rsquo;interface Iterable et l&rsquo;interface Iterator
-<code>java.util.Iterator</code> et <code>java.lang.Iterable</code></li>
-</ul>
+</code></pre><h3 id="iterator">Iterator</h3>
+<p>Permets de parcourir les éléments d’une collection sans révéler sa représentation interne (liste, pile, arbre, etc.).
+Même appel pour n&rsquo;importe quel type de collection, en java on utilise l&rsquo;interface Iterable et l&rsquo;interface Iterator
+<code>java.util.Iterator</code> et <code>java.lang.Iterable</code></p>
 <pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
 
 
@@ -450,38 +487,28 @@ Agregat &lt;|-- AgregatContret
 Iterateur &lt;|-- ItérateurConcret
 AgregatContret -&gt; ItérateurConcret
 
-note &quot;return new ItérateurConcret(this)&quot; as N1
+note &#34;return new ItérateurConcret(this)&#34; as N1
 AgregatContret .. N1
 
 
 
 @enduml
-</code></pre><ul>
-<li><strong>Observer</strong> : permet à un objet de surveiller l&rsquo;état d&rsquo;un autre objet
-et d&rsquo;être informé lorsque cet état change.
-Le design pattern Observer est utilisé pour établir une relation de type
-&ldquo;un-à-plusieurs&rdquo; entre des objets, où un objet principal, appelé &ldquo;sujet&rdquo;
-(ou &ldquo;observable&rdquo;), informe plusieurs autres objets, appelés
-&ldquo;observateurs&rdquo;, lorsqu&rsquo;il subit un changement d&rsquo;état. L&rsquo;idée est de
-définir une relation de dépendance entre ces objets sans les coupler de
-manière rigide. Cela permet de mettre à jour automatiquement les
-observateurs lorsque le sujet change d&rsquo;état, sans avoir à les relier
-explicitement.</li>
-</ul>
+</code></pre><h3 id="observer">Observer</h3>
+<p>Permet à un objet de surveiller l&rsquo;état d&rsquo;un autre objet et d&rsquo;être informé lorsque cet état change, Le design pattern Observer est utilisé pour établir une relation de type &ldquo;un-à-plusieurs&rdquo; entre des objets, où un objet principal, appelé &ldquo;sujet&rdquo; (ou &ldquo;observable&rdquo;), informe plusieurs autres objets, appelés &ldquo;observateurs&rdquo;, lorsqu&rsquo;il subit un changement d&rsquo;état. L&rsquo;idée est de définir une relation de dépendance entre ces objets sans les coupler de manière rigide. Cela permet de mettre à jour automatiquement les observateurs lorsque le sujet change d&rsquo;état, sans avoir à les relier explicitement.</p>
 <pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
 
 abstract Sujet{
-	+ attache(o : Observateur)
-	+ détache(o : Observateur)
-	+ notifie()
+ + attache(o : Observateur)
+ + détache(o : Observateur)
+ + notifie()
 }
 
 abstract Observateur{
-	+ miseAJour()
+ + miseAJour()
 }
 
 ObservateurConcret : + miseAJour()
-note &quot;Pour tout o dans Observateurs\n	o.miseAJour()&quot; as N
+note &#34;Pour tout o dans Observateurs\n o.miseAJour()&#34; as N
 
 
 Sujet -&gt; Observateur
@@ -490,26 +517,17 @@ Observateur &lt;|-- ObservateurConcret
 Sujet .. N
 
 @enduml
-</code></pre><ul>
-<li><strong>Mediator</strong> : un objet centralise la communication entre plusieurs
-objets, associe un objet à un autre (centrale d&rsquo;avion)</li>
-<li><strong>State</strong> : un objet change de comportement en fonction de son état (ex:
-un bouton qui change de couleur en fonction de son état)
-Modélise des objets dont le comportement varie en fonction de leur état interne. L&rsquo;idée
-est de définir une classe abstraite représentant l&rsquo;état général d&rsquo;un
-objet, et des sous-classes concrètes représentant les différents états
-spécifiques. Chaque état peut définir ses propres comportements pour les
-différentes méthodes de l&rsquo;objet. L&rsquo;objet principal, appelé &ldquo;contexte&rdquo;,
-maintient une référence à un objet d&rsquo;état particulier, qui détermine le
-comportement actuel de l&rsquo;objet. En modifiant l&rsquo;état du contexte, on peut
-modifier le comportement de l&rsquo;objet.</li>
-</ul>
+</code></pre><h3 id="mediator">Mediator</h3>
+<p>Un objet centralise la communication entre plusieurs, objets, associe un objet à un autre (centrale d&rsquo;avion).</p>
+<h3 id="state">State</h3>
+<p>Un objet change de comportement en fonction de son état (ex: un bouton qui change de couleur en fonction de son état).
+Modélise des objets dont le comportement varie en fonction de leur état interne. L&rsquo;idée est de définir une classe abstraite représentant l&rsquo;état général d&rsquo;un objet, et des sous-classes concrètes représentant les différents états spécifiques. Chaque état peut définir ses propres comportements pour les différentes méthodes de l&rsquo;objet. L&rsquo;objet principal, appelé &ldquo;contexte&rdquo;, maintient une référence à un objet d&rsquo;état particulier, qui détermine le comportement actuel de l&rsquo;objet. En modifiant l&rsquo;état du contexte, on peut modifier le comportement de l&rsquo;objet.</p>
 <pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
 
 Contexte : + requette()
 
 abstract État{
-	+ gerer(): void
+ + gerer(): void
 }
 
 ÉtatAConcret : + gerer()
@@ -522,43 +540,48 @@ Contexte -&gt; État
 État &lt;|-- ÉtatBConcret
 
 @enduml
-</code></pre><ul>
-<li><strong>Visitor</strong> :</li>
+</code></pre><h3 id="visitor">Visitor</h3>
+<p>Utilisez le pattern Visiteur quand vous voulez ajouter des capacités à un ensemble composite d’objets et que l’encapsulation n’est pas importante.
+Le Visiteur doit parcourir chaque élément du Composite : cette fonctionnalité se trouve dans un objet Navigateur. Le Visiteur est guidé par le Navigateur et recueille l’état de tous les objets du Composite. Une fois l’état recueilli, le Client peut demander au Visiteur d’exécuter différentes opérations sur celui-ci. Quand une nouvelle fonctionnalité est requise, seul le Visiteur doit être modifié.</p>
+<ul>
+<li>Permet d’ajouter des opérations à la structure d’un Composite sans modifier la structure elle-même.</li>
+<li>L’encapsulation des classes du Composite est brisée.</li>
+<li>Comme une fonction de navigation est impliquée, les modifications de la structure du Composite sont plus difficiles.</li>
 </ul>
 <pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
 
 abstract Visiteur{
-	+ visiteurElementconcretA(elemConcretA)
-	+ visiteurElementconcretB(elemConcretB)
+ + visiteurElementconcretA(elemConcretA)
+ + visiteurElementconcretB(elemConcretB)
 }
 
 class VisiteurConcrèt1{
-	+ visiteurElementconcretA(elemConcretA)
-	+ visiteurElementconcretB(elemConcretB)
+ + visiteurElementconcretA(elemConcretA)
+ + visiteurElementconcretB(elemConcretB)
 }
 
 class VisiteurConcrèt2{
-	+ visiteurElementconcretA(elemConcretA)
-	+ visiteurElementconcretB(elemConcretB)
+ + visiteurElementconcretA(elemConcretA)
+ + visiteurElementconcretB(elemConcretB)
 }
 
 abstract Élement{
-	+ accept(v: Visiteur)
+ + accept(v: Visiteur)
 }
 
 class ÉlementConcrètA{
-	+ accept(v: Visiteur)
-	+ opérationA()
+ + accept(v: Visiteur)
+ + opérationA()
 }
 
 class ÉlementConcrètB{
-	+ accept(v: Visiteur)
-	+ opérationB()
+ + accept(v: Visiteur)
+ + opérationB()
 }
 
 
-note &quot;v.visiteElelementConcretA()&quot; as N
-note &quot;v.visiteElelementConcretB()&quot; as N2
+note &#34;v.visiteElelementConcretA()&#34; as N
+note &#34;v.visiteElelementConcretB()&#34; as N2
 
 Client -&gt; Visiteur
 Visiteur &lt;|-- VisiteurConcrèt1
@@ -572,7 +595,63 @@ StuctureDObjet -&gt; Élement
 ÉlementConcrètB . N2
 
 @enduml
-</code></pre>
+</code></pre><h2 id="les-inconvénients-des-patterns">Les inconvénients des patterns</h2>
+<ul>
+<li>Ils occasionnent plus de classes</li>
+<li>Ils peuvent être peu adaptés dans des environnements dit “limités” (comme Android)</li>
+<li>c’est à encapsuler ce qui varie.</li>
+<li>Ce principe nous enseigne à limiter chaque classe à une seule responsabilité. (Cohésion)</li>
+<li>Nous savons que nous devons éviter comme la peste de changer quelque chose à une classe (Couplage)</li>
+</ul>
+<h2 id="autres-patrons-de-conception">Autres patrons de conception</h2>
+<h3 id="object-pool">Object Pool</h3>
+<p>Ce patron permet d&rsquo;économiser les temps d&rsquo;instanciation et de suppression lorsque de nombreux objets ont une courte durée d&rsquo;utilisation. Il consiste à administrer une collection d&rsquo;objets qui peuvent être recyclés. Une méthode du Pool délivre un objet soit par une nouvelle instanciation, soit par recyclage d&rsquo;un objet périmé. Lorsque les objets arrivent à la fin de leur cycle de vie, ils sont remis à la disposition du Pool pour un futur recyclage. Dans la phase d&rsquo;instanciation, le Pool peut instancier plus d&rsquo;un objet à la fois si l&rsquo;algorithme d&rsquo;instanciation a une complexité meilleure que O(n). Le patron Object Pool est particulièrement utile lorsque le nombre total de cycles de vie est très grand devant le nombre d&rsquo;instances à un moment précis et que les opérations d&rsquo;instanciation et/ou suppression sont coûteuses en temps d&rsquo;exécution par rapport à leur recyclage.</p>
+<h3 id="modèle-vue-contrôleur">Modèle-vue-contrôleur</h3>
+<p>Combinaison des patrons observateur, stratégie et composite, ce qui forme ainsi un patron d&rsquo;architecture.</p>
+<h3 id="inversion-de-contrôle">Inversion de contrôle</h3>
+<h3 id="injection-de-dépendances">Injection de dépendances</h3>
+<h2 id="les-principes-de-conception-orientée-objet">Les principes de conception Orientée Objet</h2>
+<h3 id="principe-ouvert-fermé">Principe Ouvert-Fermé</h3>
+<blockquote>
+<p>Les classes doivent être ouvertes à l’extension mais fermées au changement.</p>
+</blockquote>
+<ul>
+<li>Ouvert à l’ajout de code</li>
+<li>Fermé aux modifications du code existant</li>
+<li>Ne pas modifier le code qui fonctionne, ce qui est stable doit rester stable.</li>
+</ul>
+<h3 id="principe-dinversion-des-dépendances">Principe d’inversion des dépendances</h3>
+<blockquote>
+<p>Dépendez des abstractions et non des classes concrètes.</p>
+</blockquote>
+<ul>
+<li>Les modules de haut niveau ne doivent pas dépendre des classes concrètes d’un module de bas niveau</li>
+<li>Les deux doivent dépendre d’abstraction</li>
+</ul>
+<h3 id="principe-dhollywood">Principe d’Hollywood</h3>
+<blockquote>
+<p>“Ne nous appelez pas, nous vous appelerons.”</p>
+</blockquote>
+<p>Les composants de bas niveau doivent s’adapter à un système, mais ce sont les composants de haut niveau qui déterminent quand appeler les composants de bas niveau.</p>
+<p>Hollywood correspond aux composants de haut niveau, les acteurs correspondent aux composants de bas niveau. C’est Hollywood qui appelle les acteurs.</p>
+<h3 id="autres-principes-en-vrac">Autres principes en vrac</h3>
+<ul>
+<li>Programmez des interfaces</li>
+<li>Encapsulez ce qui varie</li>
+<li>Couplez faiblement vos objets</li>
+<li>Préférez la composition à l’héritage (“à un” plutôt que “est un”)</li>
+<li>Une classe = Une responsabilité</li>
+<li>Qui est responsable de ?</li>
+</ul>
+<hr>
+<h2 id="source">source</h2>
+<ul>
+<li>wikipedia</li>
+<li>headfirst : design patterns</li>
+<li>mes cours</li>
+<li>Fiche de revision de Théo</li>
+</ul>
+
     </div>
   </article>
 
@@ -589,6 +668,14 @@ StuctureDObjet -&gt; Élement
 
     <div id="nav-footer" style="display: none">
       <ul>
+         
+          <li><a href="/blog/">Home</a></li>
+         
+          <li><a href="/blog/posts">Tout les articles</a></li>
+         
+          <li><a href="/blog/tags">Tags</a></li>
+         
+          <li><a href="/blog/about">À propos</a></li>
         
       </ul>
     </div>
@@ -604,47 +691,47 @@ StuctureDObjet -&gt; Élement
   
   
   <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fexample.org%2fposts%2fdesign_patterns%2f" aria-label="Facebook">
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fattadeurtia.github.io%2fblog%2fposts%2fdesign_patterns%2f" aria-label="Facebook">
       <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://twitter.com/share?url=http%3a%2f%2fexample.org%2fposts%2fdesign_patterns%2f&text=Design%20Patterns" aria-label="Twitter">
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fattadeurtia.github.io%2fblog%2fposts%2fdesign_patterns%2f&text=Design%20Patterns" aria-label="Twitter">
       <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=http%3a%2f%2fexample.org%2fposts%2fdesign_patterns%2f&title=Design%20Patterns" aria-label="Linkedin">
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fattadeurtia.github.io%2fblog%2fposts%2fdesign_patterns%2f&title=Design%20Patterns" aria-label="Linkedin">
       <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http%3a%2f%2fexample.org%2fposts%2fdesign_patterns%2f&is_video=false&description=Design%20Patterns" aria-label="Pinterest">
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fattadeurtia.github.io%2fblog%2fposts%2fdesign_patterns%2f&is_video=false&description=Design%20Patterns" aria-label="Pinterest">
       <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="mailto:?subject=Design%20Patterns&body=Check out this article: http%3a%2f%2fexample.org%2fposts%2fdesign_patterns%2f" aria-label="Email">
+    <a class="icon" href="mailto:?subject=Design%20Patterns&body=Check out this article: https%3a%2f%2fattadeurtia.github.io%2fblog%2fposts%2fdesign_patterns%2f" aria-label="Email">
       <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://getpocket.com/save?url=http%3a%2f%2fexample.org%2fposts%2fdesign_patterns%2f&title=Design%20Patterns" aria-label="Pocket">
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fattadeurtia.github.io%2fblog%2fposts%2fdesign_patterns%2f&title=Design%20Patterns" aria-label="Pocket">
       <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://reddit.com/submit?url=http%3a%2f%2fexample.org%2fposts%2fdesign_patterns%2f&title=Design%20Patterns" aria-label="reddit">
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fattadeurtia.github.io%2fblog%2fposts%2fdesign_patterns%2f&title=Design%20Patterns" aria-label="reddit">
       <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=http%3a%2f%2fexample.org%2fposts%2fdesign_patterns%2f&name=Design%20Patterns&description=Les%20inconv%c3%a9nients%20des%20patterns%20%3a%0a%20Ils%20occasionnent%20plus%20de%20classes%20Ils%20peuvent%20%c3%aatre%20peu%20adapt%c3%a9s%20dans%20des%20environnements%20dit%20%e2%80%9climit%c3%a9s%e2%80%9d%20%28comme%20Android%29%20c%e2%80%99est%20%c3%a0%20encapsuler%20ce%20qui%20varie.%20Ce%20principe%20nous%20enseigne%20%c3%a0%20limiter%20chaque%20classe%20%c3%a0%20une%20seule%20responsabilit%c3%a9.%20%28Coh%c3%a9sion%29%20Nous%20savons%20que%20nous%20devons%20%c3%a9viter%20comme%20la%20peste%20de%20changer%20quelque%20chose%20%c3%a0%20une%20classe%28Couplage%29%20%20Creational%20patterns%20Les%20patterns%20de%20cr%c3%a9ation%2c%20relatifs%20%c3%a0%20la%20cr%c3%a9ation%20d%e2%80%99objet" aria-label="Tumblr">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fattadeurtia.github.io%2fblog%2fposts%2fdesign_patterns%2f&name=Design%20Patterns&description=C%e2%80%99est%20quoi%20%3f%20Les%20patterns%20offrent%20des%20solutions%20%c3%a0%20des%20probl%c3%a8mes%20r%c3%a9currents%20rencontr%c3%a9s%20par%20les%20d%c3%a9veloppeurs%2c%20Ils%20permettent%20de%20%3a%0aLimiter%20le%20couplage%20Faciliter%20la%20maintenance%20%c3%8atre%20moins%20rigide%20face%20au%20changement%20Ils%20sont%20indispensables%20%c3%a0%20conna%c3%aetre%20pour%20le%20d%c3%a9veloppeur%20%3a%0aPour%20s%e2%80%99assurer%20d%e2%80%99une%20meilleure%20conception%20Pour%20dialoguer%20avec%20les%20d%c3%a9veloppeurs%20%28%c3%a0%20travers%20le%20%e2%80%9clangage%20pattern%e2%80%9d%29%20Pour%20comprendre%20les%20frameworks%20Un%20livre%20%c3%a9crit%20par%20le%20GoF%20%28Gang%20of%20Four%20%3a%20Erich%20Gamma%2c%20Richard%20Helm%2c%20Ralph%20Johnson%2c%20John%20Vlissides%29%20d%c3%a9crit%2023%20Design%20Patterns%20appliqu%c3%a9s%20%c3%a0%20la%20conception%20orient%c3%a9e%20objet%2c%20class%c3%a9s%20en%20trois%20cat%c3%a9gories%20%3a" aria-label="Tumblr">
       <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=http%3a%2f%2fexample.org%2fposts%2fdesign_patterns%2f&t=Design%20Patterns" aria-label="Hacker News">
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fattadeurtia.github.io%2fblog%2fposts%2fdesign_patterns%2f&t=Design%20Patterns" aria-label="Hacker News">
       <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
     </a>
   </li>
@@ -674,6 +761,14 @@ StuctureDObjet -&gt; Élement
   <div class="footer-right">
     <nav>
       <ul>
+         
+        <li><a href="/blog/">Home</a></li>
+         
+        <li><a href="/blog/posts">Tout les articles</a></li>
+         
+        <li><a href="/blog/tags">Tags</a></li>
+         
+        <li><a href="/blog/about">À propos</a></li>
         
       </ul>
     </nav>
@@ -688,9 +783,25 @@ StuctureDObjet -&gt; Élement
 <script src=/lib/jquery/jquery.min.js></script>
 <script src=/js/main.js></script>
 
-<script src=/js/code-copy.js></script>
+<script src=/blog/js/code-copy.js></script>
 
 
 
+  
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
 </html>

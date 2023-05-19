@@ -2,80 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Geoffrey</title>
-    <link>http://example.org/posts/</link>
+    <link>https://attadeurtia.github.io/blog/posts/</link>
     <description>Recent content in Posts on Geoffrey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>FR-fr</language>
-    <lastBuildDate>Fri, 28 Apr 2023 14:18:49 +0200</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 May 2023 00:16:19 +0200</lastBuildDate><atom:link href="https://attadeurtia.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Complexite</title>
-      <link>http://example.org/posts/complexite/</link>
-      <pubDate>Fri, 28 Apr 2023 14:18:49 +0200</pubDate>
+      <title>Radio</title>
+      <link>https://attadeurtia.github.io/blog/posts/radio/</link>
+      <pubDate>Wed, 17 May 2023 00:16:19 +0200</pubDate>
       
-      <guid>http://example.org/posts/complexite/</guid>
-      <description>Classes de complexité     Déterministe non-Déterministe     temps p,EXPTIME np, NEXPTIME   espace LOGSPACE, PSPACE, EXPSPACE NLOGSPACE    complexité logarithmique  O(1) : constant O(n) : linéaire O(log n) : logarithmique O(n log n) : quasi-linéaire O(n²) : quadratique O(n³) : cubique O(n^k) : polynomial O(2ⁿ) : exponentielle O(n!) : factorielle       algo     constant O(1) set   logarithmique O(log n) liste   linéaire O(n) recherche dichotomique, dans un tableaux trié   quasi-linéaire O(n log n) tri d&amp;rsquo;un tableaux (fusion)   quadratique O(n²) tri d&amp;rsquo;un tableaux (insertion)   cubique O(n³) multiplication de matrices   polynomial O(n^k)    exponentielle O(2ⁿ) problème du sac à dos   factorielle O(n!</description>
+      <guid>https://attadeurtia.github.io/blog/posts/radio/</guid>
+      <description>URL de quelques radios que j&amp;rsquo;écoute Radio Radioalpa: https://www.radioalpa.com:8001/live.mp3 La grande Évasion : http://radio.lagrandeevasion.fr/evasion.mp3 FIP : http://icecast.radiofrance.fr/fip-hifi.aac http://icecast.radiofrance.fr/fiprock-hifi.aac http://icecast.radiofrance.fr/fipgroove-hifi.aac http://icecast.radiofrance.fr/fippop-hifi.aac http://icecast.radiofrance.fr/fipelectro-hifi.aac http://icecast.radiofrance.fr/fipworld-hifi.aac http://icecast.radiofrance.fr/fipreggae-hifi.aac http://icecast.radiofrance.fr/fipnouveautes-hifi.aac http://icecast.radiofrance.fr/fipjazz-hifi.aac j-POP : https://listen.moe/stream k-POP : https://listen.moe/kpop/stream rock en flac : https://stream.radioparadise.com/rock-flac </description>
     </item>
     
     <item>
-      <title>Comment configurer son git</title>
-      <link>http://example.org/posts/configuregit/</link>
+      <title>Complexite</title>
+      <link>https://attadeurtia.github.io/blog/posts/complexite/</link>
+      <pubDate>Fri, 28 Apr 2023 14:18:49 +0200</pubDate>
+      
+      <guid>https://attadeurtia.github.io/blog/posts/complexite/</guid>
+      <description>Classes de complexité Déterministe non-Déterministe temps p,EXPTIME np, NEXPTIME espace LOGSPACE, PSPACE, EXPSPACE NLOGSPACE complexité logarithmique O(1) : constant O(n) : linéaire O(log n) : logarithmique O(n log n) : quasi-linéaire O(n²) : quadratique O(n³) : cubique O(n^k) : polynomial O(2ⁿ) : exponentielle O(n!) : factorielle algo constant O(1) set logarithmique O(log n) liste linéaire O(n) recherche dichotomique, dans un tableaux trié quasi-linéaire O(n log n) tri d&amp;rsquo;un tableaux (fusion) quadratique O(n²) tri d&amp;rsquo;un tableaux (insertion) cubique O(n³) multiplication de matrices polynomial O(n^k) exponentielle O(2ⁿ) problème du sac à dos factorielle O(n!</description>
+    </item>
+    
+    <item>
+      <title>Comment configurer github</title>
+      <link>https://attadeurtia.github.io/blog/posts/configuregit/</link>
       <pubDate>Thu, 27 Apr 2023 17:49:47 +0200</pubDate>
       
-      <guid>http://example.org/posts/configuregit/</guid>
-      <description>Pour utiliser github sur son ordinateur il faut installer git, ajouter une clée ssh dans son compte github et configurer git, puis télécharger le projet, ses étpapes sont indispensable sur chaque machine.
+      <guid>https://attadeurtia.github.io/blog/posts/configuregit/</guid>
+      <description>Pour utiliser github sur son ordinateur il faut installer git, ajouter une clé ssh dans son compte github et configurer git, puis télécharger le projet, ces étapes sont indispensables sur chaque machine.
 Installer git Vérifier si git est déjà installé : git --version sinon télécharger git
 Configurer git en local C&amp;rsquo;est les informations qui seront affichées dans les commits, il faut les configurer une fois par machine.
- Configurer le nom d&amp;rsquo;utilisateur : git config --global user.</description>
+Configurer le nom d&amp;rsquo;utilisateur : git config --global user.</description>
     </item>
     
     <item>
       <title>Design Patterns</title>
-      <link>http://example.org/posts/design_patterns/</link>
+      <link>https://attadeurtia.github.io/blog/posts/design_patterns/</link>
       <pubDate>Mon, 24 Apr 2023 17:49:47 +0200</pubDate>
       
-      <guid>http://example.org/posts/design_patterns/</guid>
-      <description>Les inconvénients des patterns :
- Ils occasionnent plus de classes Ils peuvent être peu adaptés dans des environnements dit “limités” (comme Android) c’est à encapsuler ce qui varie. Ce principe nous enseigne à limiter chaque classe à une seule responsabilité. (Cohésion) Nous savons que nous devons éviter comme la peste de changer quelque chose à une classe(Couplage)  Creational patterns Les patterns de création, relatifs à la création d’objet</description>
+      <guid>https://attadeurtia.github.io/blog/posts/design_patterns/</guid>
+      <description>C’est quoi ? Les patterns offrent des solutions à des problèmes récurrents rencontrés par les développeurs, Ils permettent de :
+Limiter le couplage Faciliter la maintenance Être moins rigide face au changement Ils sont indispensables à connaître pour le développeur :
+Pour s’assurer d’une meilleure conception Pour dialoguer avec les développeurs (à travers le “langage pattern”) Pour comprendre les frameworks Un livre écrit par le GoF (Gang of Four : Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides) décrit 23 Design Patterns appliqués à la conception orientée objet, classés en trois catégories :</description>
     </item>
     
     <item>
       <title>Apt</title>
-      <link>http://example.org/posts/apt/</link>
+      <link>https://attadeurtia.github.io/blog/posts/apt/</link>
       <pubDate>Sun, 23 Apr 2023 22:03:54 +0200</pubDate>
       
-      <guid>http://example.org/posts/apt/</guid>
+      <guid>https://attadeurtia.github.io/blog/posts/apt/</guid>
       <description>apt Voici les commandes les plus couramment utilisées avec apt :
- sudo apt update : Mettre à jour la liste des paquets disponibles sudo apt upgrade : Mettre à jour tous les paquets installés  sudo apt upgrade -y   sudo apt install &amp;lt;nom_du_paquet_1&amp;gt; &amp;lt;nom_du_paquet_2&amp;gt; : Installer un paquet sudo apt remove &amp;lt;nom_du_paquet&amp;gt; : Supprimer un paquet sudo apt search &amp;lt;terme_de_recherche&amp;gt; : Rechercher un paquet sudo apt autoremove : Supprimer les paquets qui ne sont plus nécessaires sudo apt clean : Supprimer les fichiers de cache téléchargés lors de l&amp;rsquo;installation de paquets apt clean efface tout du répertoire local des fichiers de paquets récupérés.</description>
+sudo apt update : Mettre à jour la liste des paquets disponibles sudo apt upgrade : Mettre à jour tous les paquets installés sudo apt upgrade -y sudo apt install &amp;lt;nom_du_paquet_1&amp;gt; &amp;lt;nom_du_paquet_2&amp;gt; : Installer un paquet sudo apt remove &amp;lt;nom_du_paquet&amp;gt; : Supprimer un paquet sudo apt search &amp;lt;terme_de_recherche&amp;gt; : Rechercher un paquet sudo apt autoremove : Supprimer les paquets qui ne sont plus nécessaires sudo apt clean : Supprimer les fichiers de cache téléchargés lors de l&amp;rsquo;installation de paquets apt clean efface tout du répertoire local des fichiers de paquets récupérés.</description>
     </item>
     
     <item>
-      <title>Docker</title>
-      <link>http://example.org/posts/docker/</link>
-      <pubDate>Fri, 21 Apr 2023 21:15:02 +0200</pubDate>
-      
-      <guid>http://example.org/posts/docker/</guid>
-      <description>Docker docker pull : Récupérer une image depuis un registre
-docker run :
- p 8080:8080 rm : Supprimer le conteneur à la fin de son exécution it : Interactif v $(pwd):/src d : Détaché e : Variables d’environnement  docker run -p 8080:8080 -rm -it -v $(pwd):/src -d -e NODE_ENV=production nom_de_l_image docker run =&amp;gt; docker create + docker start
-docker create id_de_l_image
-docker start id_du_conteneur
-docker stop id_du_conteneur
-docker restart id_du_conteneur</description>
-    </item>
-    
-    <item>
-      <title>diff</title>
-      <link>http://example.org/posts/diff/</link>
+      <title>Commande en vrac</title>
+      <link>https://attadeurtia.github.io/blog/posts/diff/</link>
       <pubDate>Mon, 13 Feb 2023 09:59:40 +0000</pubDate>
       
-      <guid>http://example.org/posts/diff/</guid>
-      <description>diff -q
+      <guid>https://attadeurtia.github.io/blog/posts/diff/</guid>
+      <description>Quelques commandes en vrac bien utiles :
+diff diff -q : Compare deux fichiers et indique s&amp;rsquo;ils sont différents.
 -q Indiquer seulement si les fichiers différent, pas les différences elles-mêmes.
 -r Lorsque l&amp;rsquo;on compare des répertoires, comparer également tous les sous-répertoires récursivement.
--q &#39;ou –brief&#39;: Indique uniquement si les fichiers diffèrent, pas les détails des différences.
--r &#39;ou –recursive&#39;: lors de la comparaison de répertoires, comparez de manière récursive tous les sous-répertoires trouvés.
--s &#39;ou –report-identiques-files&#39;: Indique que deux fichiers sont identiques.
--y &#39;ou –side-by-side&#39;: Utilisez le format de sortie côte à côte.</description>
+-q &#39;ou –brief&amp;rsquo;: Indique uniquement si les fichiers diffèrent, pas les détails des différences.
+-r &#39;ou –recursive&amp;rsquo;: lors de la comparaison de répertoires, comparez de manière récursive tous les sous-répertoires trouvés.</description>
+    </item>
+    
+    <item>
+      <title>Comment Devenir Invisible Sur Internet</title>
+      <link>https://attadeurtia.github.io/blog/posts/comment-devenir-invisible-sur-internet/</link>
+      <pubDate>Thu, 30 Jun 2022 20:54:24 +0200</pubDate>
+      
+      <guid>https://attadeurtia.github.io/blog/posts/comment-devenir-invisible-sur-internet/</guid>
+      <description>&lt;p&gt;Cet article va essayer de condenser tout ce qu’il faut savoir ou mettre en place pour améliorer sa vie privée sur internet, j’ai essayé de le faire tout public mais si vous avez une question ou une remarque n’hésitez pas à me contacter.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Retour_sur_mon_expérience_de_sommeil_polyphasique</title>
+      <link>https://attadeurtia.github.io/blog/posts/retour_sur_mon_exp%C3%A9rience_de_sommeil_polyphasique/</link>
+      <pubDate>Sun, 16 May 2021 20:22:55 +0200</pubDate>
+      
+      <guid>https://attadeurtia.github.io/blog/posts/retour_sur_mon_exp%C3%A9rience_de_sommeil_polyphasique/</guid>
+      <description>Il y a un mois se terminait mon année scolaire, j’ai donc pu faire une expérience qui me trottais en tête depuis un moment, est-ce que le sommeil polyphasique est efficace et est-il facilement applicable ? mais avant de répondre à ses questions, un petit point sur ce qu’est le sommeil polyphasique.
+Bon, comme vous vous en doutez au nom, le sommeil polyphasique consiste à dormir en plusieurs fois. La grande majorité des gens font une grande nuit unique de 7/8/9 heures dans leurs journées ou la rigueur une sieste au milieu pour se requinquer, et bien là le but est d’avoir un sommeil fractionné en plusieurs siestes durant la journée avec une principale (souvent plus longue) dans la nuit.</description>
+    </item>
+    
+    <item>
+      <title>Webradio</title>
+      <link>https://attadeurtia.github.io/blog/posts/webradio/</link>
+      <pubDate>Sun, 18 Apr 2021 13:19:05 +0200</pubDate>
+      
+      <guid>https://attadeurtia.github.io/blog/posts/webradio/</guid>
+      <description>Pourquoi écouter la radio ? Le terme radio ne fait pas rêver en 2021, de nos jours les platformes de streaming comme Deezer ou Spotify sont la norme pour écouter de la musique, pour les podcasts il existe des services comme podcast addict ou google podcast. Et devoir être limité par un flux constant dans lequel on ne peut pas choisir la musique, on ne peut pas mettre sur pause, et où l’on doit écouter à certaine heure pour écouter les émissions que l’on veut peut sembler absurde.</description>
     </item>
     
   </channel>

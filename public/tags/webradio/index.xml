@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>webradio on Geoffrey</title>
+    <link>https://attadeurtia.github.io/blog/tags/webradio/</link>
+    <description>Recent content in webradio on Geoffrey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>FR-fr</language>
+    <lastBuildDate>Wed, 17 May 2023 00:16:19 +0200</lastBuildDate><atom:link href="https://attadeurtia.github.io/blog/tags/webradio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Radio</title>
+      <link>https://attadeurtia.github.io/blog/posts/radio/</link>
+      <pubDate>Wed, 17 May 2023 00:16:19 +0200</pubDate>
+      
+      <guid>https://attadeurtia.github.io/blog/posts/radio/</guid>
+      <description>URL de quelques radios que j&amp;rsquo;écoute Radio Radioalpa: https://www.radioalpa.com:8001/live.mp3 La grande Évasion : http://radio.lagrandeevasion.fr/evasion.mp3 FIP : http://icecast.radiofrance.fr/fip-hifi.aac http://icecast.radiofrance.fr/fiprock-hifi.aac http://icecast.radiofrance.fr/fipgroove-hifi.aac http://icecast.radiofrance.fr/fippop-hifi.aac http://icecast.radiofrance.fr/fipelectro-hifi.aac http://icecast.radiofrance.fr/fipworld-hifi.aac http://icecast.radiofrance.fr/fipreggae-hifi.aac http://icecast.radiofrance.fr/fipnouveautes-hifi.aac http://icecast.radiofrance.fr/fipjazz-hifi.aac j-POP : https://listen.moe/stream k-POP : https://listen.moe/kpop/stream rock en flac : https://stream.radioparadise.com/rock-flac </description>
+    </item>
+    
+    <item>
+      <title>Webradio</title>
+      <link>https://attadeurtia.github.io/blog/posts/webradio/</link>
+      <pubDate>Sun, 18 Apr 2021 13:19:05 +0200</pubDate>
+      
+      <guid>https://attadeurtia.github.io/blog/posts/webradio/</guid>
+      <description>Pourquoi écouter la radio ? Le terme radio ne fait pas rêver en 2021, de nos jours les platformes de streaming comme Deezer ou Spotify sont la norme pour écouter de la musique, pour les podcasts il existe des services comme podcast addict ou google podcast. Et devoir être limité par un flux constant dans lequel on ne peut pas choisir la musique, on ne peut pas mettre sur pause, et où l’on doit écouter à certaine heure pour écouter les émissions que l’on veut peut sembler absurde.</description>
+    </item>
+    
+  </channel>
+</rss>

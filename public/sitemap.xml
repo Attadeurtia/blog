@@ -2,45 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/posts/complexite/</loc>
+    <loc>https://attadeurtia.github.io/blog/about/</loc>
+    <lastmod>2023-05-17T10:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://attadeurtia.github.io/blog/</loc>
+    <lastmod>2023-05-17T00:16:19+02:00</lastmod>
+  </url><url>
+    <loc>https://attadeurtia.github.io/blog/posts/</loc>
+    <lastmod>2023-05-17T00:16:19+02:00</lastmod>
+  </url><url>
+    <loc>https://attadeurtia.github.io/blog/posts/radio/</loc>
+    <lastmod>2023-05-17T00:16:19+02:00</lastmod>
+  </url><url>
+    <loc>https://attadeurtia.github.io/blog/tags/</loc>
+    <lastmod>2023-05-17T00:16:19+02:00</lastmod>
+  </url><url>
+    <loc>https://attadeurtia.github.io/blog/tags/webradio/</loc>
+    <lastmod>2023-05-17T00:16:19+02:00</lastmod>
+  </url><url>
+    <loc>https://attadeurtia.github.io/blog/tags/complexite/</loc>
     <lastmod>2023-04-28T14:18:49+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/complexite/</loc>
+    <loc>https://attadeurtia.github.io/blog/posts/complexite/</loc>
     <lastmod>2023-04-28T14:18:49+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/cours/</loc>
+    <loc>https://attadeurtia.github.io/blog/tags/cours/</loc>
     <lastmod>2023-04-28T14:18:49+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
-    <lastmod>2023-04-28T14:18:49+02:00</lastmod>
-  </url><url>
-    <loc>http://example.org/posts/</loc>
-    <lastmod>2023-04-28T14:18:49+02:00</lastmod>
-  </url><url>
-    <loc>http://example.org/tags/</loc>
-    <lastmod>2023-04-28T14:18:49+02:00</lastmod>
-  </url><url>
-    <loc>http://example.org/posts/configuregit/</loc>
+    <loc>https://attadeurtia.github.io/blog/tags/cheat-sheet/</loc>
     <lastmod>2023-04-27T17:49:47+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/git-cheat-sheet/</loc>
+    <loc>https://attadeurtia.github.io/blog/posts/configuregit/</loc>
     <lastmod>2023-04-27T17:49:47+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/design-patterns/</loc>
+    <loc>https://attadeurtia.github.io/blog/tags/git/</loc>
+    <lastmod>2023-04-27T17:49:47+02:00</lastmod>
+  </url><url>
+    <loc>https://attadeurtia.github.io/blog/tags/linux/</loc>
+    <lastmod>2023-04-27T17:49:47+02:00</lastmod>
+  </url><url>
+    <loc>https://attadeurtia.github.io/blog/tags/design-patterns/</loc>
     <lastmod>2023-04-24T17:49:47+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/design_patterns/</loc>
+    <loc>https://attadeurtia.github.io/blog/posts/design_patterns/</loc>
     <lastmod>2023-04-24T17:49:47+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/apt/</loc>
+    <loc>https://attadeurtia.github.io/blog/posts/apt/</loc>
     <lastmod>2023-04-23T22:03:54+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/docker/</loc>
-    <lastmod>2023-04-21T21:15:02+02:00</lastmod>
-  </url><url>
-    <loc>http://example.org/posts/diff/</loc>
+    <loc>https://attadeurtia.github.io/blog/posts/diff/</loc>
     <lastmod>2023-02-13T09:59:40+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://attadeurtia.github.io/blog/posts/comment-devenir-invisible-sur-internet/</loc>
+    <lastmod>2022-06-30T20:54:24+02:00</lastmod>
+  </url><url>
+    <loc>https://attadeurtia.github.io/blog/tags/open-source/</loc>
+    <lastmod>2022-06-30T20:54:24+02:00</lastmod>
+  </url><url>
+    <loc>https://attadeurtia.github.io/blog/tags/vrac/</loc>
+    <lastmod>2022-06-30T20:54:24+02:00</lastmod>
+  </url><url>
+    <loc>https://attadeurtia.github.io/blog/posts/retour_sur_mon_exp%C3%A9rience_de_sommeil_polyphasique/</loc>
+    <lastmod>2021-05-16T20:22:55+02:00</lastmod>
+  </url><url>
+    <loc>https://attadeurtia.github.io/blog/posts/webradio/</loc>
+    <lastmod>2021-04-18T13:19:05+02:00</lastmod>
+  </url><url>
+    <loc>https://attadeurtia.github.io/blog/categories/</loc>
   </url>
 </urlset>

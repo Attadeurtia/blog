@@ -2,28 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cours on Geoffrey</title>
-    <link>http://example.org/tags/cours/</link>
+    <link>https://attadeurtia.github.io/blog/tags/cours/</link>
     <description>Recent content in cours on Geoffrey</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>FR-fr</language>
-    <lastBuildDate>Fri, 28 Apr 2023 14:18:49 +0200</lastBuildDate><atom:link href="http://example.org/tags/cours/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Apr 2023 14:18:49 +0200</lastBuildDate><atom:link href="https://attadeurtia.github.io/blog/tags/cours/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Complexite</title>
-      <link>http://example.org/posts/complexite/</link>
+      <link>https://attadeurtia.github.io/blog/posts/complexite/</link>
       <pubDate>Fri, 28 Apr 2023 14:18:49 +0200</pubDate>
       
-      <guid>http://example.org/posts/complexite/</guid>
-      <description>Classes de complexité     Déterministe non-Déterministe     temps p,EXPTIME np, NEXPTIME   espace LOGSPACE, PSPACE, EXPSPACE NLOGSPACE    complexité logarithmique  O(1) : constant O(n) : linéaire O(log n) : logarithmique O(n log n) : quasi-linéaire O(n²) : quadratique O(n³) : cubique O(n^k) : polynomial O(2ⁿ) : exponentielle O(n!) : factorielle       algo     constant O(1) set   logarithmique O(log n) liste   linéaire O(n) recherche dichotomique, dans un tableaux trié   quasi-linéaire O(n log n) tri d&amp;rsquo;un tableaux (fusion)   quadratique O(n²) tri d&amp;rsquo;un tableaux (insertion)   cubique O(n³) multiplication de matrices   polynomial O(n^k)    exponentielle O(2ⁿ) problème du sac à dos   factorielle O(n!</description>
+      <guid>https://attadeurtia.github.io/blog/posts/complexite/</guid>
+      <description>Classes de complexité Déterministe non-Déterministe temps p,EXPTIME np, NEXPTIME espace LOGSPACE, PSPACE, EXPSPACE NLOGSPACE complexité logarithmique O(1) : constant O(n) : linéaire O(log n) : logarithmique O(n log n) : quasi-linéaire O(n²) : quadratique O(n³) : cubique O(n^k) : polynomial O(2ⁿ) : exponentielle O(n!) : factorielle algo constant O(1) set logarithmique O(log n) liste linéaire O(n) recherche dichotomique, dans un tableaux trié quasi-linéaire O(n log n) tri d&amp;rsquo;un tableaux (fusion) quadratique O(n²) tri d&amp;rsquo;un tableaux (insertion) cubique O(n³) multiplication de matrices polynomial O(n^k) exponentielle O(2ⁿ) problème du sac à dos factorielle O(n!</description>
     </item>
     
     <item>
       <title>Design Patterns</title>
-      <link>http://example.org/posts/design_patterns/</link>
+      <link>https://attadeurtia.github.io/blog/posts/design_patterns/</link>
       <pubDate>Mon, 24 Apr 2023 17:49:47 +0200</pubDate>
       
-      <guid>http://example.org/posts/design_patterns/</guid>
-      <description>Les inconvénients des patterns :
- Ils occasionnent plus de classes Ils peuvent être peu adaptés dans des environnements dit “limités” (comme Android) c’est à encapsuler ce qui varie. Ce principe nous enseigne à limiter chaque classe à une seule responsabilité. (Cohésion) Nous savons que nous devons éviter comme la peste de changer quelque chose à une classe(Couplage)  Creational patterns Les patterns de création, relatifs à la création d’objet</description>
+      <guid>https://attadeurtia.github.io/blog/posts/design_patterns/</guid>
+      <description>C’est quoi ? Les patterns offrent des solutions à des problèmes récurrents rencontrés par les développeurs, Ils permettent de :
+Limiter le couplage Faciliter la maintenance Être moins rigide face au changement Ils sont indispensables à connaître pour le développeur :
+Pour s’assurer d’une meilleure conception Pour dialoguer avec les développeurs (à travers le “langage pattern”) Pour comprendre les frameworks Un livre écrit par le GoF (Gang of Four : Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides) décrit 23 Design Patterns appliqués à la conception orientée objet, classés en trois catégories :</description>
     </item>
     
   </channel>

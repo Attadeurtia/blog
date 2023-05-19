@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>open-source on Geoffrey</title>
+    <link>https://attadeurtia.github.io/blog/tags/open-source/</link>
+    <description>Recent content in open-source on Geoffrey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>FR-fr</language>
+    <lastBuildDate>Thu, 30 Jun 2022 20:54:24 +0200</lastBuildDate><atom:link href="https://attadeurtia.github.io/blog/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comment Devenir Invisible Sur Internet</title>
+      <link>https://attadeurtia.github.io/blog/posts/comment-devenir-invisible-sur-internet/</link>
+      <pubDate>Thu, 30 Jun 2022 20:54:24 +0200</pubDate>
+      
+      <guid>https://attadeurtia.github.io/blog/posts/comment-devenir-invisible-sur-internet/</guid>
+      <description>&lt;p&gt;Cet article va essayer de condenser tout ce qu’il faut savoir ou mettre en place pour améliorer sa vie privée sur internet, j’ai essayé de le faire tout public mais si vous avez une question ou une remarque n’hésitez pas à me contacter.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on Geoffrey</title>
+    <link>https://attadeurtia.github.io/blog/tags/git/</link>
+    <description>Recent content in git on Geoffrey</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>FR-fr</language>
+    <lastBuildDate>Thu, 27 Apr 2023 17:49:47 +0200</lastBuildDate><atom:link href="https://attadeurtia.github.io/blog/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comment configurer github</title>
+      <link>https://attadeurtia.github.io/blog/posts/configuregit/</link>
+      <pubDate>Thu, 27 Apr 2023 17:49:47 +0200</pubDate>
+      
+      <guid>https://attadeurtia.github.io/blog/posts/configuregit/</guid>
+      <description>Pour utiliser github sur son ordinateur il faut installer git, ajouter une clé ssh dans son compte github et configurer git, puis télécharger le projet, ces étapes sont indispensables sur chaque machine.
+Installer git Vérifier si git est déjà installé : git --version sinon télécharger git
+Configurer git en local C&amp;rsquo;est les informations qui seront affichées dans les commits, il faut les configurer une fois par machine.
+Configurer le nom d&amp;rsquo;utilisateur : git config --global user.</description>
+    </item>
+    
+  </channel>
+</rss>
