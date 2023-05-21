@@ -34,4 +34,6 @@ Anouk, 18 ans, sortant du lycée et subissant déja les remarques déplacer des 
 
 j'en passe et des meilleurs, et parmis ce joyeux cortgège, Geoffrey, qui n'avait jamais fait de caisse, et qui au bout d'une demi formation de 1 min, c'est retrouver a devoir encaisser a la chaine et pendant des heures non-stop des clients affamé.
 
+cette injonction a toujours etre productif
+
 
