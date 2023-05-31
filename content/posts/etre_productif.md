@@ -9,3 +9,5 @@ les activité amènes les activité et la procrastitantion amène la procrastina
 il y a plein de chose gratuit a faire 
 
 les jeunes de nos jours peuvent faire plein de chose
+
+s'organiser est la clée 
