@@ -17,3 +17,5 @@ je suis quelqu'un d'actif dans ma vie, j'aime organiser des evenements, proposer
 régulièrement j'ai des gros bas des bloquage ou je suis obligé de rester des heures amorphe et ou tout me paret etre un sommet. j'ai mal au ventre, je procrastine sur insta, 
 
 rencontrer des gens amène a faire d'autre chose
+
+
