@@ -19,3 +19,6 @@ régulièrement j'ai des gros bas des bloquage ou je suis obligé de rester des 
 rencontrer des gens amène a faire d'autre chose
 
 avoir une montre
+
+
+mmhhh
