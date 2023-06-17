@@ -22,3 +22,8 @@ avoir une montre
 
 
 mmhhh
+
+comment se faire des amis
+
+- faire a manger
+- parler au gens 
