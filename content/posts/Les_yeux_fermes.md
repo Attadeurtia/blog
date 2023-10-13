@@ -1,6 +1,7 @@
 ---
 title: "Les yeux fermés..."
 draft: false
+date: 2023-10-12T19:19:13+02:00
 tags: ["culture", "danse", "et si on sortait"]
 ---
 
