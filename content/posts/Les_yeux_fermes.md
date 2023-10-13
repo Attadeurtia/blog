@@ -4,16 +4,18 @@ draft: false
 tags: ["culture", "danse", "et si on sortait"]
 ---
 
-le cinéma, la musique et même le théâtre sont des arts vivant les plus accesible dans notre société, moi meme j'en suis très familier étant cinéphile et muscicien, à contrario la danse est encore un art difficile à appréhender, avec des codes et des clés de lecture, des références  et une Histoire moins répendu, et que je ne connais pas.
+Le cinéma, la musique et même le théâtre sont les arts vivant les plus accessibles dans notre société, moi-même j'en suis très familier étant cinéphile et musicien, a contrario la danse et encore un art difficile à appréhender, avec des codes et des clés de lecture, des références  et une Histoire moins répandu, et que je ne connais pas.
 
-Alors quand le service cuture de ma fac offre l'occasion d'aller voir l'oeuvre d'une reference dans le domain de la danse contenporaine, malgré mon apréhension, je m'y suis inscit et dans le cadre de "et si on sortait" j'ai pu apprécier pour la première fois, le travail de MICKAËL LE MER, chorégraphe de renom qui pour deux séances remplit la salle des Quinconces.
+Alors quand le service culture de ma fac offre l'occasion d'aller voir l'oeuvre d'une référence dans le domaine de la danse contemporaine, malgré mon appréhension, je m'y suis inscrit, et dans le cadre de "et si on sortait", j'ai pu apprécier pour la première fois le travail de MICKAËL LE MER, chorégraphe de renom qui pour deux séances remplit la salle des quinconces.
 
-Pendant en 1h de spectacle, *les yeux fermés...* a réussi à me plonger dans son univers, celui de Pierre Soulage avec une fidèle retranscription de l'art visuel en art vivant du plus populaire des artistes monochrome contemporain.
+Pendant en 1h de spectacle, *les yeux fermés...* a réussi à me plonger dans son univers, celui de la danse inspiré des oeuvres de Pierre Soulage en proposant une fidèle retranscription de l'art visuel en art vivant du plus populaire des artistes monochrome contemporain.
 
-La chorégraphie est riche et extrêmement intelligente comportant nombreuse technique et partique corporel centrer autour d'une mise en lumière de partie du corps se dévoilant des extremité petit à petit. l'effet ressenti est celui hyptotique des cadéliédoscopes et les zones sombres qui élargissent les zones neutres de la scene permetent de dévoiler des mouvements de facon très précise et succintent. Les oeuvres de Souage demande instinctivement aux spectateur de se deplacer autour pour pour explorer la lumiere crée dans le noir, a l'inverse dans la danse ou le spectaeur est statique, c'est l'oeuvre, donc ici les danseur qui se mouveoient pour faire resortir tout les reflet intergissant dans l'ombre ou la lumière.
+La chorégraphie est riche et extrêmement intelligente comportant nombreuse technique et pratique corporelle centrer autour d'une mise en lumière de partie du corps se dévoilant des extrémités petit à petit. L'effet ressenti est celui hypnotique des kaléidoscopes. Les zones sombres élargissant les zones neutres de la scène permettant de dévoiler des mouvements de façon très précise et suintent des mains qui rappellent presque le théâtre de marionnettes.
 
-Mais elle est surtout sublimée par une scénographie intriguante, avec une réflexion sur l’éclairage radical, via entre autre, un jeu de grand panneau verticaux qui ont une triple fonction de miroir, lumière et décor.
+Les oeuvres de Souage demandent instinctivement aux spectateurs de se déplacer autour pour explorer la lumière créée dans le noir, a l'inverse dans la danse ou le spectateur est statique, c'est l'oeuvre, donc ici les danseurs qui se mouveoient pour faire ressortir tous les reflets interagissant dans l'ombre ou la lumière.
 
-Ces panneaux accompagne le ballet en faisant reference au grand noir de Soulage et en proposant un décort mouvant,accompagnat parfois les danseur comme si'il etaient eux même des perfomeurs.
+Mais elle est surtout sublimée par une scénographie intrigante, avec une réflexion sur l’éclairage radical, via entre autres, un jeu de grands panneaux verticaux qui ont une triple fonction de miroir, lumière et décor.
 
-À une époque où la technique est tellement évoluée qu'elle n'est plus centrale dans la contruction d'une oeuvre qui se porte bien souvent sur une question philisophie ou politique, retrouver la magie qu'une idée technique permetant de faire évuler la performance humaine rend l’expérience féerique et fait voyager dans une autre époque.
+Ces panneaux accompagnent le ballet en faisant référence aux *Sombre/clair* de Soulages et en proposant un décor mouvant, participe parfois à la chorégraphie des danseurs comme s'ils étaient eux-mêmes des performeurs.
+
+À une époque où la technique est tellement évoluée qu'elle n'est plus centrale dans la construction d'une oeuvre qui se porte bien souvent sur une question philosophie ou politique, retrouver la magie qu'une idée technique permettant de faire évoluer la performance humaine rend l’expérience féerique et fait voyager dans une autre époque.
