@@ -6,8 +6,11 @@ draft: true
 
 # Docker
 
+```bash
 docker pull : Récupérer une image depuis un registre
+```
 
+```bash
 docker run :
 
 - p 8080:8080
@@ -16,6 +19,7 @@ docker run :
 - v $(pwd):/src
 - d : Détaché
 - e : Variables d’environnement
+```
 
 ```bash
 docker run -p 8080:8080 -rm -it -v $(pwd):/src -d -e NODE_ENV=production nom_de_l_image
@@ -39,6 +43,8 @@ docker exec -it id_du_conteneur bash
 
 docker logs id_du_conteneur
 
+docker stats
+
 docker system prune : Supprimer tous les conteneurs, images, volumes et réseaux non utilisés
 
 docker system prune -a : Supprimer tous les conteneurs, images, volumes et réseaux (même utilisés)
@@ -47,6 +53,7 @@ docker system df : Afficher l’espace disque utilisé par les images et les con
 
 docker images : Afficher les images
 
+```
 docker ps -a
 CONTAINER ID : Identifiant unique du conteneur
 IMAGE : Image utilisée pour créer le conteneur
@@ -55,6 +62,7 @@ CREATED : Date de création du conteneur
 STATUS : Statut du conteneur
 PORTS : Ports exposés par le conteneur
 NAMES : Nom du conteneur
+```
 
 ## docker-compose
 
@@ -132,7 +140,7 @@ sudo systemctl disable docker
 
 sudo systemctl status docker
 
-## docker configuration 
+## docker configuration
 
 <https://www.docker.com/products/docker-desktop/>
 <https://docs.docker.com/engine/install/ubuntu/>
@@ -140,6 +148,7 @@ sudo systemctl status docker
 ```bash
 sudo apt-get remove docker docker-engine docker.io containerd runc
 ```
+
 ```bash
 sudo apt update
 ```
@@ -150,6 +159,7 @@ sudo apt-get install \
     curl \
     gnupg
 ```
+
 ```bash
 sudo install -m 0755 -d /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
@@ -166,15 +176,10 @@ echo \
 ```bash
 sudo apt-get update
 ```
+
 ```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
-
-```bash
-
-
-
----
 
 ```bash
 ls -l /var/run/docker.sock :  check the permissions
