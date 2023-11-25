@@ -1,10 +1,13 @@
 ---
 title: "Docker"
 date: 2023-04-21T21:15:02+02:00
-draft: true
+modified: 2023-11-25T09:19:00+02:00s
+draft: false
+tags: ["linux", "cheat-sheet"]
+
 ---
 
-# Docker
+## Docker
 
 ```bash
 docker pull : Récupérer une image depuis un registre
@@ -195,4 +198,22 @@ sudo chown root:docker /var/run/docker.sock
 
 ```bash
 sudo usermod -aG docker $USER : Add user to docker group
+```
+
+### ajouter les droits docker à l'utilisateur courant
+
+```bash
+sudo groupadd docker
+```
+
+```bash
+sudo usermod -aG docker $USER
+```
+
+```bash
+newgrp docker
+```
+
+```bash
+docker run hello-world
 ```
