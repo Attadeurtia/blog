@@ -2,7 +2,7 @@
 title: "Être non-marginal parmi les marginaux"
 date: 2023-12-29T14:18:33+01:00
 draft: false
-tags: ["philosophie", "société"]
+tags: ["philosophie", "reflexion divers"]
 ---
 
 # Être non-marginal parmi les marginaux
