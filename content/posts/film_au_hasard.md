@@ -1,9 +1,11 @@
 ---
-title: "I Hired a Contract Killer"
+title: "un film au hasard"
 date: 2024-01-09T23:33:45+01:00
 draft: false
 tags: ["film"]
 ---
+
+# I Hired a Contract Killer
 
 Aujourd'hui j'ai vu un film au hasard au cinéma... Normalement je devais voir "l'innocent" avec un ami mais il a oublié la séance (il se sent pas bien en ce moment) du coup je suis partie dans une salle au hasard.
 
