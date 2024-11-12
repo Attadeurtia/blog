@@ -97,7 +97,7 @@ La quête du divin est un thème central dans l'œuvre de Herzog, que l'on
 retrouve déjà dans des films comme \"Aguirre, la colère de Dieu\". Dans
 cette œuvre, Herzog s'empare du récit de Timothy pour en faire un
 véritable mythe. Ce film nous ramène à un mythe fondateur de l'humanité
-: le culte de l'ours débutant Paléolithique moyen. Bien que la véracité
+\: le culte de l'ours débutant Paléolithique moyen. Bien que la véracité
 de ce culte soit controversé, il occupe une place significative dans
 notre culture, notamment à travers l'image de l'ourse, souvent perçue
 comme un proche de l'homme, demeurant dans un état de nature.
