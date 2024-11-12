@@ -2,100 +2,130 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Geoffrey</title>
-    <link>https://attadeurtia.github.io/blog/tags/</link>
+    <link>http://localhost:1313/blog/tags/</link>
     <description>Recent content in Tags on Geoffrey</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>FR-fr</language>
-    <lastBuildDate>Sun, 04 Jun 2023 18:29:21 +0200</lastBuildDate><atom:link href="https://attadeurtia.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jan 2024 23:33:45 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>philosophie</title>
-      <link>https://attadeurtia.github.io/blog/tags/philosophie/</link>
-      <pubDate>Sun, 04 Jun 2023 18:29:21 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/tags/philosophie/</guid>
+      <title>Film</title>
+      <link>http://localhost:1313/blog/tags/film/</link>
+      <pubDate>Tue, 09 Jan 2024 23:33:45 +0100</pubDate>
+      <guid>http://localhost:1313/blog/tags/film/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>webradio</title>
-      <link>https://attadeurtia.github.io/blog/tags/webradio/</link>
+      <title>Philosophie</title>
+      <link>http://localhost:1313/blog/tags/philosophie/</link>
+      <pubDate>Fri, 29 Dec 2023 14:18:33 +0100</pubDate>
+      <guid>http://localhost:1313/blog/tags/philosophie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reflexion Divers</title>
+      <link>http://localhost:1313/blog/tags/reflexion-divers/</link>
+      <pubDate>Fri, 29 Dec 2023 14:18:33 +0100</pubDate>
+      <guid>http://localhost:1313/blog/tags/reflexion-divers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Culture</title>
+      <link>http://localhost:1313/blog/tags/culture/</link>
+      <pubDate>Thu, 12 Oct 2023 19:19:13 +0200</pubDate>
+      <guid>http://localhost:1313/blog/tags/culture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Danse</title>
+      <link>http://localhost:1313/blog/tags/danse/</link>
+      <pubDate>Thu, 12 Oct 2023 19:19:13 +0200</pubDate>
+      <guid>http://localhost:1313/blog/tags/danse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Et Si on Sortait</title>
+      <link>http://localhost:1313/blog/tags/et-si-on-sortait/</link>
+      <pubDate>Thu, 12 Oct 2023 19:19:13 +0200</pubDate>
+      <guid>http://localhost:1313/blog/tags/et-si-on-sortait/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Android</title>
+      <link>http://localhost:1313/blog/tags/android/</link>
+      <pubDate>Sun, 18 Jun 2023 19:19:13 +0200</pubDate>
+      <guid>http://localhost:1313/blog/tags/android/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open-Source</title>
+      <link>http://localhost:1313/blog/tags/open-source/</link>
+      <pubDate>Sun, 18 Jun 2023 19:19:13 +0200</pubDate>
+      <guid>http://localhost:1313/blog/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>http://localhost:1313/blog/tags/privacy/</link>
+      <pubDate>Sun, 18 Jun 2023 19:19:13 +0200</pubDate>
+      <guid>http://localhost:1313/blog/tags/privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webradio</title>
+      <link>http://localhost:1313/blog/tags/webradio/</link>
       <pubDate>Wed, 17 May 2023 00:16:19 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/tags/webradio/</guid>
+      <guid>http://localhost:1313/blog/tags/webradio/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>complexite</title>
-      <link>https://attadeurtia.github.io/blog/tags/complexite/</link>
+      <title>Complexite</title>
+      <link>http://localhost:1313/blog/tags/complexite/</link>
       <pubDate>Fri, 28 Apr 2023 14:18:49 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/tags/complexite/</guid>
+      <guid>http://localhost:1313/blog/tags/complexite/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cours</title>
-      <link>https://attadeurtia.github.io/blog/tags/cours/</link>
+      <title>Cours</title>
+      <link>http://localhost:1313/blog/tags/cours/</link>
       <pubDate>Fri, 28 Apr 2023 14:18:49 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/tags/cours/</guid>
+      <guid>http://localhost:1313/blog/tags/cours/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cheat-sheet</title>
-      <link>https://attadeurtia.github.io/blog/tags/cheat-sheet/</link>
+      <title>Cheat-Sheet</title>
+      <link>http://localhost:1313/blog/tags/cheat-sheet/</link>
       <pubDate>Thu, 27 Apr 2023 17:49:47 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/tags/cheat-sheet/</guid>
+      <guid>http://localhost:1313/blog/tags/cheat-sheet/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>git</title>
-      <link>https://attadeurtia.github.io/blog/tags/git/</link>
+      <title>Git</title>
+      <link>http://localhost:1313/blog/tags/git/</link>
       <pubDate>Thu, 27 Apr 2023 17:49:47 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/tags/git/</guid>
+      <guid>http://localhost:1313/blog/tags/git/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>linux</title>
-      <link>https://attadeurtia.github.io/blog/tags/linux/</link>
+      <title>Linux</title>
+      <link>http://localhost:1313/blog/tags/linux/</link>
       <pubDate>Thu, 27 Apr 2023 17:49:47 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/tags/linux/</guid>
+      <guid>http://localhost:1313/blog/tags/linux/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Design Patterns</title>
-      <link>https://attadeurtia.github.io/blog/tags/design-patterns/</link>
+      <link>http://localhost:1313/blog/tags/design-patterns/</link>
       <pubDate>Mon, 24 Apr 2023 17:49:47 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/tags/design-patterns/</guid>
+      <guid>http://localhost:1313/blog/tags/design-patterns/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>open-source</title>
-      <link>https://attadeurtia.github.io/blog/tags/open-source/</link>
+      <title>Vrac</title>
+      <link>http://localhost:1313/blog/tags/vrac/</link>
       <pubDate>Thu, 30 Jun 2022 20:54:24 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/tags/open-source/</guid>
+      <guid>http://localhost:1313/blog/tags/vrac/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>vrac</title>
-      <link>https://attadeurtia.github.io/blog/tags/vrac/</link>
-      <pubDate>Thu, 30 Jun 2022 20:54:24 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/tags/vrac/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

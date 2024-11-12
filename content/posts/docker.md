@@ -1,7 +1,6 @@
 ---
 title: "Docker"
 date: 2023-04-21T21:15:02+02:00
-modified: 2023-11-25T09:19:00+02:00s
 draft: false
 tags: ["linux", "cheat-sheet"]
 
