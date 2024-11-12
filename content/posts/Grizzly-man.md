@@ -3,7 +3,6 @@ title: "Grizzly Man"
 date: 2024-11-12T18:36:51+01:00
 draft: flase
 tags: ["cinéma", "documentaire", "nature", "Werner]
-
 ---
 
 # Werner Herzog, de la mythologie au documentaire
