@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Geoffrey</description>
     <generator>Hugo</generator>
     <language>FR-fr</language>
-    <lastBuildDate>Fri, 22 Mar 2024 14:52:41 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 12 Nov 2024 18:36:51 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grizzly Man</title>
+      <link>http://localhost:1313/blog/posts/grizzly-man/</link>
+      <pubDate>Tue, 12 Nov 2024 18:36:51 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/grizzly-man/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;logo_LMU.png&#34; alt=&#34;image&#34;&gt;{width=&amp;ldquo;30%&amp;rdquo;}&#xA;&lt;img src=&#34;le-mans-universite-footer.png&#34; alt=&#34;image&#34;&gt;{width=&amp;ldquo;30%&amp;rdquo;}&lt;/p&gt;&#xA;&lt;h1 id=&#34;werner-herzog-de-la-mythologie-au-documentaire&#34;&gt;Werner Herzog, de la mythologie au documentaire&lt;/h1&gt;&#xA;&lt;h2 id=&#34;nouveau-cinéma-allemand&#34;&gt;Nouveau cinéma allemand&lt;/h2&gt;&#xA;&lt;p&gt;Réalisateur pionnier du nouveau cinéma allemand, Werner Herzog a signé&#xA;des chefs-d&amp;rsquo;œuvre qui ont marqué le septième art. Passant de grands&#xA;films de mythologie durant sa période d&amp;rsquo;or, tels que &amp;quot;Aguirre, la&#xA;colère de Dieu&amp;quot;, &amp;quot;Fitzcarraldo&amp;quot; ou &amp;quot;Nosferatu&amp;quot;, Werner Herzog&#xA;entreprend un virage dans les années 2000 vers un cinéma moins grandiose&#xA;et plus naturaliste, comme en témoigne son œuvre &amp;quot;Mon grand ennemi&amp;quot; et&#xA;ses explorations des volcans.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Jellyfin</title>
       <link>http://localhost:1313/blog/posts/jellyfin/</link>
@@ -41,7 +48,7 @@
       <link>http://localhost:1313/blog/posts/les_yeux_fermes/</link>
       <pubDate>Thu, 12 Oct 2023 19:19:13 +0200</pubDate>
       <guid>http://localhost:1313/blog/posts/les_yeux_fermes/</guid>
-      <description>&lt;p&gt;Le cinéma, la musique et même le théâtre sont les arts vivant les plus accessibles dans notre société, moi-même j&amp;rsquo;en suis très familier étant cinéphile et musicien, a contrario la danse et encore un art difficile à appréhender, avec des codes et des clés de lecture, des références  et une Histoire moins répandu, et que je ne connais pas.&lt;/p&gt;&#xA;&lt;p&gt;Alors quand le service culture de ma fac offre l&amp;rsquo;occasion d&amp;rsquo;aller voir l&amp;rsquo;oeuvre d&amp;rsquo;une référence dans le domaine de la danse contemporaine, malgré mon appréhension, je m&amp;rsquo;y suis inscrit, et dans le cadre de &amp;ldquo;et si on sortait&amp;rdquo;, j&amp;rsquo;ai pu apprécier pour la première fois le travail de MICKAËL LE MER, chorégraphe de renom qui pour deux séances remplit la salle des quinconces.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Le cinéma, la musique et même le théâtre sont les arts vivant les plus accessibles dans notre société, moi-même j&amp;rsquo;en suis très familier étant cinéphile et musicien, a contrario la danse et encore un art difficile à appréhender, avec des codes et des clés de lecture, des références  et une Histoire moins répandu, et que je ne connais pas.&lt;/p&gt;&#xA;&lt;p&gt;Alors quand le service culture de ma fac offre l&amp;rsquo;occasion d&amp;rsquo;aller voir l&amp;rsquo;œuvre d&amp;rsquo;une référence dans le domaine de la danse contemporaine, malgré mon appréhension, je m&amp;rsquo;y suis inscrit, et dans le cadre de &amp;ldquo;et si on sortait&amp;rdquo;, j&amp;rsquo;ai pu apprécier pour la première fois le travail de MICKAËL LE MER, chorégraphe de renom qui pour deux séances remplit la salle des quinconces.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Applications</title>
