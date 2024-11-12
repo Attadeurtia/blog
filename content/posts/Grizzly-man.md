@@ -2,12 +2,9 @@
 title: "Grizzly Man"
 date: 2024-11-12T18:36:51+01:00
 draft: flase
-tags: ["git"]
+tags: ["cinéma", "documentaire", "nature", "Werner]
 
 ---
-
-![image](logo_LMU.png){width="30%"}
-![image](le-mans-universite-footer.png){width="30%"}
 
 # Werner Herzog, de la mythologie au documentaire
 
@@ -27,9 +24,10 @@ La constante dans l'œuvre de Herzog est la place prépondérante de la
 nature, qui apparaît presque comme un personnage à part entière : une
 force puissante, physique et amoral. Dans \"Aguirre, la colère de
 Dieu\", par exemple, Herzog se voit contraint d'adapter son script en
-fonction des crues du fleuve, illustrant ainsi l'imprévisibilité et la
+fonction des crues du fleuve, illustrant ainsi[l'imprévisibilité et la
 domination de la nature sur les ambitions
-humaines[@bitoun_aguirre_2010].
+humaines](https://www.dvdclassik.com/critique/aguirre-la-colere-de-dieu-herzog).
+
 
 Ce thème récurrent se retrouve tout au long de sa filmographie, avec
 \"Fitzcarraldo\" comme emblème de cette obsession. Ce film raconte
@@ -65,7 +63,7 @@ naissance à cinq films emblématiques : \"Aguirre, la colère de Dieu\"
 \"Fitzcarraldo\" (1982) et \"Cobra Verde\" (1987), ainsi qu'à un
 documentaire post-mortem, \"Ennemis intimes\" (1998). D'ont trois des
 films les plus populaires du réalisateur (selon
-*Letterboxd*)[@letterboxd_films_nodate].
+*[Letterboxd](https://letterboxd.com/director/werner-herzog/)*).
 
 # Grizzly man
 
@@ -81,8 +79,8 @@ L'analyse de ce film se distingue d'une approche classique, car il
 s'agit d'un objet documentaire constitué d'images d'archives. Herzog, en
 dehors des interviews post-mortem, n'a pas eu la possibilité de choisir
 la mise en scène. La symbolique qui émerge du film résulte donc du
-montage vidéo, qui doit jongler entre le désir de Timothy, un
-autodidacte passionné et la vision du réalisateur[@quicke__2022].
+montage vidéo, qui doit jongler entre le désir de Timothy, [un
+autodidacte passionné et la vision du réalisateur](https://www.rayonvertcinema.org/grizzly-man-werner-herzog/).
 
 Ce montage devient ainsi un aboutissement de la volonté de Herzog de
 créer un cinéma sans acteurs, où la force des images et des témoignages
@@ -105,8 +103,8 @@ notre culture, notamment à travers l'image de l'ourse, souvent perçue
 comme un proche de l'homme, demeurant dans un état de nature.
 L'anthropomorphisme joue ici un rôle clé, l'ourse se tenant debout, sa
 taille comparable à celle de l'humain et son agilité avec ses pattes,
-lui conférant une stature quasi royale parmi les animaux en
-Europe[@wikipedia_ours_2024].
+lui conférant [une stature quasi royale parmi les animaux en
+Europe](https://fr.wikipedia.org/w/index.php?title=Ours_dans_la_culture&oldid=218757116).
 
 À travers le regard de Timothy, le film explore ce culte, où il se
 positionne à la fois comme disciple et protecteur des ours. Son désir de
@@ -155,8 +153,8 @@ dimension de mise en scène. Malgré cela, le choix du monteur de
 conserver plusieurs prises permet de ressentir la sincérité et la
 profondeur de ses émotions, incarnant ainsi la vérité extatique chère à
 Herzog. Même dans cette répétition, Timothée demeure authentique, sa
-quête spirituelle résonnant comme une vision plutôt qu'une simple
-image[@duval_herzog_2008].
+quête spirituelle résonnant comme [une vision plutôt qu'une simple
+image](https://www.liberation.fr/cinema/2008/12/17/herzog-illuminer-la-verite_296851/).
 
 La scène suivante contraste fortement avec la précédente : toujours dans
 le même décor de la tente, nous retrouvons un Timothée rayonnant
@@ -187,7 +185,7 @@ des ours qu'il vénérait, souligne la fragilité de cette relation et
 l'existence comme une prison. Pour ouvrir notre réflexion sur la quête
 de l'existence et la relation complexe entre l'homme et les ourses, il
 est pertinent de se tourner vers le livre \"L'ours est un écrivain comme
-les autres\" de l'auteur William Kotzwinkle[@kotzwinkle_ours_2016].
+les autres\" de l'auteur William Kotzwinkle.
 Comme miroir du film, l'auteur explore la figure fictive d'un ours
 profitant de la société humaine. Tentant de s'y intégrer en opposition à
 sa nature sauvage.
