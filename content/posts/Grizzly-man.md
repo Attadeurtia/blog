@@ -23,10 +23,9 @@ La constante dans l'œuvre de Herzog est la place prépondérante de la
 nature, qui apparaît presque comme un personnage à part entière : une
 force puissante, physique et amoral. Dans \"Aguirre, la colère de
 Dieu\", par exemple, Herzog se voit contraint d'adapter son script en
-fonction des crues du fleuve, illustrant ainsi[l'imprévisibilité et la
+fonction des crues du fleuve, illustrant ainsi [l'imprévisibilité et la
 domination de la nature sur les ambitions
 humaines](https://www.dvdclassik.com/critique/aguirre-la-colere-de-dieu-herzog).
-
 
 Ce thème récurrent se retrouve tout au long de sa filmographie, avec
 \"Fitzcarraldo\" comme emblème de cette obsession. Ce film raconte
@@ -90,7 +89,7 @@ Herzog, qui préfère parler de \"vérité extatique\" plutôt que de
 documentaire, souligne que la puissance symbolique du film provient
 principalement de cette construction narrative.
 
-## Suivie d'un quête divine
+## Suivie d'une quête divine
 
 La quête du divin est un thème central dans l'œuvre de Herzog, que l'on
 retrouve déjà dans des films comme \"Aguirre, la colère de Dieu\". Dans
