@@ -43,8 +43,8 @@ Pour les applications de base sur tous les téléphones SMS/téléphone, agenda,
 
 Excepté FairEmail, aucun n'est open source.
 
-- **Instagrame** : je n'aime pas meta mais pour communiquer avec mes cercles de fréquentation en story c'est de loin le plus efficace.
-- **Signal** : messagerie qui me permet de communiquer avec mes proches comme watsap mais en plus beaux, plus efficaces, plus sécurisé, et plus privé.
+- **Instagram** : je n'aime pas meta mais pour communiquer avec mes cercles de fréquentation en story c'est de loin le plus efficace.
+- **Signal** : messagerie qui me permet de communiquer avec mes proches comme whatsapp mais en plus beaux, plus efficaces, plus sécurisé, et plus privé.
 - **Discord**
 - **FairEmail** : l’application de mail multicomptes qui protège votre vie privée. En plus d’être très véloce, elle est pleine de très bonnes idées (afficher un lien avant de l’ouvrir en mettant bien en valeur le domaine de l’URL, blocage efficace des trackers, anti-spam, etc.).
 - **Mastodon** : réseau social décentralisé à la place de Twitter
