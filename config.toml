@@ -19,10 +19,17 @@ theme = "cactus"
 
 
 
+
+
+
 # table des matières
   tocInline = true
 
   showProjectsList = true
+
+
+
+
   projectsUrl = "https://attadeurtia.github.io/blog/"
 
   rss = true
