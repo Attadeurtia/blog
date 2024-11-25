@@ -16,6 +16,7 @@ Pour les applications de base sur tous les téléphones SMS/téléphone, agenda,
 
 - Note -> [**Joplin**](https://joplinapp.org) : qui est une application de note complète en markdown qui remplace Keeps et OneNote.
 - Galerie -> [**Simple galerie Pro**](https://www.simplemobiletools.com) : car celle de base de eos est pas terrible, bonus on peut verrouiller l’application avec son empreinte digitale.
+- Google Photos -> [**Immich**](https://immich.app) : Application auto-hébergé de photo très semblable à Google photo, avec une super interface.
 - Photo -> [**Gcam**](https://www.celsoazevedo.com/files/android/google-camera/dev-bsg/) : pour mes photos l’application de base est vraiment nulle et moche, à la place j’utilise un fork de celle des pixels mais adaptée pour mon modèle de téléphone et le rendu est génial !
 - Navigateur -> **Vivaldi** : juste meilleur navigateur
 
@@ -23,7 +24,7 @@ Pour les applications de base sur tous les téléphones SMS/téléphone, agenda,
 
 - Lecteur audio -> **Pulse audio** : juste je préfère l'interface
 - **Transistor** : lecteur de radio en ligne
-- YouTube -> **NewPipe** et maintenant **Tubular**: YouTube avec une autre interface, et plein de fonctionnalité, sans pub, Background Player, Popup Player, avec en plus PeerTube, SoundCloud, Bandcamp et media.ccc.de
+- YouTube -> **NewPipe** et maintenant [**Tubular**](https://github.com/polymorphicshade/Tubular): YouTube avec une autre interface, et plein de fonctionnalité, sans pub, Background Player, Popup Player, avec en plus PeerTube, SoundCloud, Bandcamp et media.ccc.de
 - **Gelli** : interface android pour mon serveur perso de streaming de musique à la place de Spotify.
 - Twitch -> **Twire** : alternative open à Twitch.
 
@@ -41,7 +42,7 @@ Pour les applications de base sur tous les téléphones SMS/téléphone, agenda,
 
 ## Communication
 
-Excepté FairEmail, aucun n'est open source.
+FairEmail et Mastodon sont  open source, mais pas les autres.
 
 - **Instagram** : je n'aime pas meta mais pour communiquer avec mes cercles de fréquentation en story c'est de loin le plus efficace.
 - **Signal** : messagerie qui me permet de communiquer avec mes proches comme whatsapp mais en plus beaux, plus efficaces, plus sécurisé, et plus privé.
