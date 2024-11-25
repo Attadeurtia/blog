@@ -1,6 +1,6 @@
 ---
 title: "Les Deux Déesses"
-date: 2024-11-25T08:57:08+01:00
+date: 2024-11-06T19:00:00+01:00
 draft: false
 tags: ["Avis", "Théâtre"]
 
