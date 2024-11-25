@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Philosophie on Geoffrey</title>
-    <link>http://localhost:1313/blog/tags/philosophie/</link>
-    <description>Recent content in Philosophie on Geoffrey</description>
+    <title>Reflexion Divers on Geoffrey</title>
+    <link>http://localhost:1313/blog/tags/reflexion-divers/</link>
+    <description>Recent content in Reflexion Divers on Geoffrey</description>
     <generator>Hugo</generator>
     <language>FR-fr</language>
     <lastBuildDate>Fri, 29 Dec 2023 14:18:33 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/philosophie/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/reflexion-divers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Être non-marginal parmi les marginaux</title>
       <link>http://localhost:1313/blog/posts/marginaux/</link>
       <pubDate>Fri, 29 Dec 2023 14:18:33 +0100</pubDate>
       <guid>http://localhost:1313/blog/posts/marginaux/</guid>
       <description>&lt;h1 id=&#34;être-non-marginal-parmi-les-marginaux&#34;&gt;Être non-marginal parmi les marginaux&lt;/h1&gt;&#xA;&lt;p&gt;Si les gens me voient comme quelqu&amp;rsquo;un de sociable et de confiant, j&amp;rsquo;ai mis beaucoup de temps à trouver ma place, longtemps j’ai cru être unique, espérer aussi, faire partie de c&amp;rsquo;est rare personne hors des cases de façons sincères et radicales. Car mes parents m’ont toujours répété de ne pas me confondre dans la norme, j’ai été marginalisé toute mon enfance. Ce qui m&amp;rsquo;a amené à fréquenter de vrais originaux, et me laisser croire que j’en étais un. Or j’ai compris que ce n’est pas le cas.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Aller au bout des choses</title>
-      <link>http://localhost:1313/blog/posts/jusquaubout/</link>
-      <pubDate>Sun, 04 Jun 2023 18:29:21 +0200</pubDate>
-      <guid>http://localhost:1313/blog/posts/jusquaubout/</guid>
-      <description>&lt;p&gt;Comme tout le monde, j&amp;rsquo;ai peur du changement. Pourtant c&amp;rsquo;est une peur irrationnelle, tous les changements importants de ma vie ont été au pire bénins, au mieux positifs, pourtant voilà, je ne peux pas m&amp;rsquo;empêcher d&amp;rsquo;avoir peur.&lt;/p&gt;&#xA;&lt;p&gt;Dernièrement, c&amp;rsquo;est devoir changer d&amp;rsquo;habitat, changer à la fois de ville et d&amp;rsquo;appartement, qui m&amp;rsquo;effraie. Perdre les repères de la ville où j&amp;rsquo;ai toujours vécu et mon grand appartement où je suis libre de faire ce que je veux.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,7 +1,6 @@
 ---
 title: "Design Patterns"
 date: 2023-04-24T17:49:47+02:00
-modified: 2023-05-1T17:19:00+02:00
 draft: false
 tags: ["Design Patterns", "cours"]
 ---

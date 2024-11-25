@@ -2,124 +2,207 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geoffrey</title>
-    <link>https://attadeurtia.github.io/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content on Geoffrey</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>FR-fr</language>
-    <lastBuildDate>Sun, 04 Jun 2023 18:29:21 +0200</lastBuildDate><atom:link href="https://attadeurtia.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Nov 2024 18:36:51 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grizzly Man</title>
+      <link>http://localhost:1313/blog/posts/grizzly-man/</link>
+      <pubDate>Tue, 12 Nov 2024 18:36:51 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/grizzly-man/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;logo_LMU.png&#34; alt=&#34;image&#34;&gt;{width=&amp;ldquo;30%&amp;rdquo;}&#xA;&lt;img src=&#34;le-mans-universite-footer.png&#34; alt=&#34;image&#34;&gt;{width=&amp;ldquo;30%&amp;rdquo;}&lt;/p&gt;&#xA;&lt;h1 id=&#34;werner-herzog-de-la-mythologie-au-documentaire&#34;&gt;Werner Herzog, de la mythologie au documentaire&lt;/h1&gt;&#xA;&lt;h2 id=&#34;nouveau-cinéma-allemand&#34;&gt;Nouveau cinéma allemand&lt;/h2&gt;&#xA;&lt;p&gt;Réalisateur pionnier du nouveau cinéma allemand, Werner Herzog a signé&#xA;des chefs-d&amp;rsquo;œuvre qui ont marqué le septième art. Passant de grands&#xA;films de mythologie durant sa période d&amp;rsquo;or, tels que &amp;quot;Aguirre, la&#xA;colère de Dieu&amp;quot;, &amp;quot;Fitzcarraldo&amp;quot; ou &amp;quot;Nosferatu&amp;quot;, Werner Herzog&#xA;entreprend un virage dans les années 2000 vers un cinéma moins grandiose&#xA;et plus naturaliste, comme en témoigne son œuvre &amp;quot;Mon grand ennemi&amp;quot; et&#xA;ses explorations des volcans.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jellyfin</title>
+      <link>http://localhost:1313/blog/posts/jellyfin/</link>
+      <pubDate>Fri, 22 Mar 2024 14:52:41 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/jellyfin/</guid>
+      <description>&lt;h1 id=&#34;pourquoi-il-vaut-mieux-installer-lapplication-que-dutiliser-le-navigateur-&#34;&gt;Pourquoi il vaut mieux installer l&amp;rsquo;application que d&amp;rsquo;utiliser le navigateur ?&lt;/h1&gt;&#xA;&lt;p&gt;Pour utiliser Jellyfin, le mieux est d&amp;rsquo;utiliser l’application officiel que le navigateur car les films sont codés soit en H.264(AVC) soit en H.265(HEVC), hors les &lt;a href=&#34;https://jellyfin.org/docs/general/clients/codec-support/&#34;&gt;navigateurs&lt;/a&gt; ne prennent en charge que le H.264, du coup le serveur doit convertir un format à l’autre (transcoder) mais cela lui prend trop de ressource (&amp;gt;90%).&lt;/p&gt;&#xA;&lt;p&gt;La moitié des films de la bibliothèque étant en H.265 &lt;a href=&#34;https://www.tomshardware.com/reference/h264-h265-hevc-codec-definition&#34;&gt;car c’est mieux&lt;/a&gt;, c&amp;rsquo;est un format plus moderne, plus léger, plus beau, la solution est d’installer l&amp;rsquo;application officielle car celle-ci gère nativement les deux codecs, et donc ne sature pas inutilement le serveur et le film reste fluide.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exercice_ecriture</title>
+      <link>http://localhost:1313/blog/posts/exercice_ecriture/</link>
+      <pubDate>Fri, 19 Jan 2024 10:31:58 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/exercice_ecriture/</guid>
+      <description>&lt;p&gt;Il avait un métier étonnant, il était mannequin de pieds. Cela lui correspondait bien car ce n&amp;rsquo;était pas avec ses yeux globuleux qu&amp;rsquo;il aurait pu tirer quelque chose de sa tête. D&amp;rsquo;ailleurs, personne n&amp;rsquo;aurait pu croire à ce qu&amp;rsquo;un type aussi austère aurait pu être doté d’aussi beaux pieds. Il ne les exhibait rarement en public, pourtant beaucoup de gens les avait déjà vu. Pour pas que vous tombiez sur une publicité pour des médicaments ou des savates, vous pouviez être sure que c&amp;rsquo;était les siens. Évidemment, ils n’étaient pas nombreux dans la discipline. Lui-même n&amp;rsquo;avait aucun collègue, partageant la même partie du corps. Il faut dire que ses pieds ronds et ses ongles longs et brillants faisaient miroiter un idéal difficile à atteindre. Pour autant, ce n&amp;rsquo;était pas que génétique. Cela demandait une routine minutieuse. Tout le temps dédié à ses membres inférieurs ne lui permettait pas de s&amp;rsquo;occuper de son torse qui restait indéfiniment poilu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>un film au hasard</title>
+      <link>http://localhost:1313/blog/posts/film_au_hasard/</link>
+      <pubDate>Tue, 09 Jan 2024 23:33:45 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/film_au_hasard/</guid>
+      <description>&lt;h1 id=&#34;i-hired-a-contract-killer&#34;&gt;I Hired a Contract Killer&lt;/h1&gt;&#xA;&lt;p&gt;Aujourd&amp;rsquo;hui j&amp;rsquo;ai vu un film au hasard au cinéma&amp;hellip; Normalement je devais voir &amp;ldquo;l&amp;rsquo;innocent&amp;rdquo; avec un ami mais il a oublié la séance (il se sent pas bien en ce moment) du coup je suis partie dans une salle au hasard.&lt;/p&gt;&#xA;&lt;p&gt;C&amp;rsquo;était un film assez atypique, une rétrospective un cinéaste inconnu, ça parlait d&amp;rsquo;un homme voulant mettre fin à ses jours mais n&amp;rsquo;y arrivant pas commanda à un tueur à gages de le faire, entre-temps il rencontra une raison de ne plus du tout mourir mais trop tard le contrat était engagé.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Être non-marginal parmi les marginaux</title>
+      <link>http://localhost:1313/blog/posts/marginaux/</link>
+      <pubDate>Fri, 29 Dec 2023 14:18:33 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/marginaux/</guid>
+      <description>&lt;h1 id=&#34;être-non-marginal-parmi-les-marginaux&#34;&gt;Être non-marginal parmi les marginaux&lt;/h1&gt;&#xA;&lt;p&gt;Si les gens me voient comme quelqu&amp;rsquo;un de sociable et de confiant, j&amp;rsquo;ai mis beaucoup de temps à trouver ma place, longtemps j’ai cru être unique, espérer aussi, faire partie de c&amp;rsquo;est rare personne hors des cases de façons sincères et radicales. Car mes parents m’ont toujours répété de ne pas me confondre dans la norme, j’ai été marginalisé toute mon enfance. Ce qui m&amp;rsquo;a amené à fréquenter de vrais originaux, et me laisser croire que j’en étais un. Or j’ai compris que ce n’est pas le cas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Les yeux fermés...</title>
+      <link>http://localhost:1313/blog/posts/les_yeux_fermes/</link>
+      <pubDate>Thu, 12 Oct 2023 19:19:13 +0200</pubDate>
+      <guid>http://localhost:1313/blog/posts/les_yeux_fermes/</guid>
+      <description>&lt;p&gt;Le cinéma, la musique et même le théâtre sont les arts vivant les plus accessibles dans notre société, moi-même j&amp;rsquo;en suis très familier étant cinéphile et musicien, a contrario la danse et encore un art difficile à appréhender, avec des codes et des clés de lecture, des références  et une Histoire moins répandu, et que je ne connais pas.&lt;/p&gt;&#xA;&lt;p&gt;Alors quand le service culture de ma fac offre l&amp;rsquo;occasion d&amp;rsquo;aller voir l&amp;rsquo;œuvre d&amp;rsquo;une référence dans le domaine de la danse contemporaine, malgré mon appréhension, je m&amp;rsquo;y suis inscrit, et dans le cadre de &amp;ldquo;et si on sortait&amp;rdquo;, j&amp;rsquo;ai pu apprécier pour la première fois le travail de MICKAËL LE MER, chorégraphe de renom qui pour deux séances remplit la salle des quinconces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Applications</title>
+      <link>http://localhost:1313/blog/posts/applications/</link>
+      <pubDate>Sun, 18 Jun 2023 19:19:13 +0200</pubDate>
+      <guid>http://localhost:1313/blog/posts/applications/</guid>
+      <description>&lt;p&gt;Étant donnée que j&amp;rsquo;utilise un OS open source, je préfère aussi utiliser des applications open source soucieuses de ma vie privée, même si ce n&amp;rsquo;est pas du tout indispensable. D&amp;rsquo;ailleurs toutes ces applications fonctionnent aussi sur android normal donc vous pouvez les utiliser.&lt;/p&gt;&#xA;&lt;h1 id=&#34;application&#34;&gt;Application&lt;/h1&gt;&#xA;&lt;h2 id=&#34;basique&#34;&gt;Basique&lt;/h2&gt;&#xA;&lt;p&gt;Pour les applications de base sur tous les téléphones SMS/téléphone, agenda, calculatrice, contact, magnétophone, j&amp;rsquo;utilise les applications par défaut qui sont très bien.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Note -&amp;gt; &lt;a href=&#34;https://joplinapp.org&#34;&gt;&lt;strong&gt;Joplin&lt;/strong&gt;&lt;/a&gt; : qui est une application de note complète en markdown qui remplace Keeps et OneNote.&lt;/li&gt;&#xA;&lt;li&gt;Galerie -&amp;gt; &lt;a href=&#34;https://www.simplemobiletools.com&#34;&gt;&lt;strong&gt;Simple galerie Pro&lt;/strong&gt;&lt;/a&gt; : car celle de base de eos est pas terrible, bonus on peux verrouiller l’application avec son empreinte digital.&lt;/li&gt;&#xA;&lt;li&gt;Photo -&amp;gt; &lt;a href=&#34;https://www.celsoazevedo.com/files/android/google-camera/dev-bsg/&#34;&gt;&lt;strong&gt;Gcam&lt;/strong&gt;&lt;/a&gt; : pour mes photos l’application de base est vraiment nulle et moche, à la place j’utilise un fork de celle des pixels mais adaptée pour mon modèle de téléphone et le rendu est génial !&lt;/li&gt;&#xA;&lt;li&gt;Navigateur -&amp;gt; &lt;strong&gt;Vivaldi&lt;/strong&gt; : juste meilleur navigateur&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;média&#34;&gt;Média&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lecteur audio -&amp;gt; &lt;strong&gt;Pulse audio&lt;/strong&gt; : juste je préfère l&amp;rsquo;interface&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Transistor&lt;/strong&gt; : lecteur de radio en ligne&lt;/li&gt;&#xA;&lt;li&gt;YouTube -&amp;gt; &lt;strong&gt;NewPipe&lt;/strong&gt; : YouTube avec une autre interface, et plein de fonctionnalité, sans pub, Background Player, Popup Player, avec en plus PeerTube, SoundCloud, Bandcamp et media.ccc.de&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Gelli&lt;/strong&gt; : interface android pour mon serveur perso de streaming de musique à la place de Spotify.&lt;/li&gt;&#xA;&lt;li&gt;Twitch -&amp;gt; &lt;strong&gt;Twire&lt;/strong&gt; : alternative open à Twitch.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;transport&#34;&gt;Transport&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Google Maps -&amp;gt; &lt;a href=&#34;https://www.magicearth.com/&#34;&gt;&lt;strong&gt;Magic Earth&lt;/strong&gt;&lt;/a&gt; (applicaiton par defaut)&lt;/li&gt;&#xA;&lt;li&gt;transport en commun -&amp;gt; &lt;strong&gt;Transport&lt;/strong&gt;&#xA;simple et efficace, permet d&amp;rsquo;avoir tous les transports en commun possible de toutes les villes, de planifier des trajets et même de les partager.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;news&#34;&gt;News&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;FreshRSS&lt;/strong&gt; : pour tout mes abonnements RSS, c&amp;rsquo;est syntonisé sur un serveur, ce qui permet d&amp;rsquo;avoir accès aux même abonnement de n&amp;rsquo;importe quel appareils&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cafeyn&lt;/strong&gt;  : application non open source de journaux en ligne, c&amp;rsquo;est souvent intégré aux offres internet en France.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;communication&#34;&gt;Communication&lt;/h2&gt;&#xA;&lt;p&gt;Excepté FairEmail, aucun n&amp;rsquo;est open source.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Desespoir</title>
+      <link>http://localhost:1313/blog/posts/desespoir/</link>
+      <pubDate>Wed, 14 Jun 2023 23:51:07 +0200</pubDate>
+      <guid>http://localhost:1313/blog/posts/desespoir/</guid>
+      <description>&lt;h1 id=&#34;lénergie-du-déséspoire&#34;&gt;l&amp;rsquo;énergie du déséspoire&lt;/h1&gt;&#xA;&lt;p&gt;À la base je voulais faire un guide pour apprendre à être sociable, mais je me suis aperçu que les pistes étaient maigre et que beaucoup de choses se jouaient sur le feeling, un sentiment difficile à coucher sur papier.&lt;/p&gt;&#xA;&lt;p&gt;et puis je me suis rappelé comment je suis passé de ce pauvre adolescent mal dans sa peau incabale de donner la réplique et croire que des gens l&amp;rsquo;apprécient, à l&amp;rsquo;aura d&amp;rsquo;intrépide hypersocial que je suis maintenant, juste à l&amp;rsquo;écrire ça me fait rire car ça me fait penser aux formations de développement personnel qui pullule sur les réseaux.&#xA;la Vérité est moins épique et est plus proche de celle d&amp;rsquo;un adolescent mal dans sa peau mais plein de vie et de désir, biberonné aux casseurs flowter et autres musique prônant le &amp;ldquo;je préfère avoir des remord que des regrès&amp;rdquo;,cela tellement ma matrixé et tellement fait réfléchir que pendant des années je me suis mis en tete de tout essayer, de dire oui à tout, de voir, lire, et aller a tout ce qui se présente à moi. Bon dans les faits, peu de choses se présentait à moi from scratch, du coup j&amp;rsquo;ai commencé à chercher, me résigner, écumer les organisations et possibilité.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jaipeur</title>
+      <link>http://localhost:1313/blog/posts/jaipeur/</link>
+      <pubDate>Mon, 05 Jun 2023 21:40:22 +0200</pubDate>
+      <guid>http://localhost:1313/blog/posts/jaipeur/</guid>
+      <description>&lt;p&gt;j&amp;rsquo;ai peur&lt;/p&gt;&#xA;&lt;p&gt;j&amp;rsquo;ai peure du temps qui passe et se ces conséquences,&lt;/p&gt;&#xA;&lt;p&gt;j&amp;rsquo;ai peur de perdre mon temps et mes amis&lt;/p&gt;&#xA;&lt;p&gt;j&amp;rsquo;ai peur de rater ma vie et de regretter&lt;/p&gt;&#xA;&lt;p&gt;j&amp;rsquo;ai peur de décevoir mes proches et les gens qui comptes pour moi&lt;/p&gt;&#xA;&lt;p&gt;j&amp;rsquo;ai peur de ne jamais trouver quelqu&amp;rsquo;un avec qui je me sentirai bien&lt;/p&gt;&#xA;&lt;p&gt;j&amp;rsquo;ai peur de changer et de perdre ce que j&amp;rsquo;ai aquis&lt;/p&gt;&#xA;&lt;p&gt;j&amp;rsquo;ai peur de me rendre compte que j&amp;rsquo;ai tout faux depuis le début&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Aller au bout des choses</title>
-      <link>https://attadeurtia.github.io/blog/posts/jusquaubout/</link>
+      <link>http://localhost:1313/blog/posts/jusquaubout/</link>
       <pubDate>Sun, 04 Jun 2023 18:29:21 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/posts/jusquaubout/</guid>
-      <description>Comme tout le monde, j&amp;rsquo;ai peur du changement. Pourtant c&amp;rsquo;est une peur irrationnelle, tous les changements importants de ma vie ont été au pire bénin, au mieux positif, pourtant voilà, je ne peux pas m&amp;rsquo;empêcher d&amp;rsquo;avoir peur.
-Dernièrement c&amp;rsquo;est de devoir changer d&amp;rsquo;habitat, changer à la fois de ville et d&amp;rsquo;appartement, qui m&amp;rsquo;effraie. Perdre les repères de la ville ou j&amp;rsquo;ai toujours vécu et mon grand appartement ou je suis libre de faire ce que je veux m&amp;rsquo;offre énormément d&amp;rsquo;opportunité.</description>
+      <guid>http://localhost:1313/blog/posts/jusquaubout/</guid>
+      <description>&lt;p&gt;Comme tout le monde, j&amp;rsquo;ai peur du changement. Pourtant c&amp;rsquo;est une peur irrationnelle, tous les changements importants de ma vie ont été au pire bénins, au mieux positifs, pourtant voilà, je ne peux pas m&amp;rsquo;empêcher d&amp;rsquo;avoir peur.&lt;/p&gt;&#xA;&lt;p&gt;Dernièrement, c&amp;rsquo;est devoir changer d&amp;rsquo;habitat, changer à la fois de ville et d&amp;rsquo;appartement, qui m&amp;rsquo;effraie. Perdre les repères de la ville où j&amp;rsquo;ai toujours vécu et mon grand appartement où je suis libre de faire ce que je veux.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Mon_voyage_en_velo</title>
+      <link>http://localhost:1313/blog/posts/mon_voyage_en_velo/</link>
+      <pubDate>Thu, 01 Jun 2023 01:05:09 +0200</pubDate>
+      <guid>http://localhost:1313/blog/posts/mon_voyage_en_velo/</guid>
+      <description>&lt;p&gt;Cela fait un moment que l&amp;rsquo;idée de turlupine, je veux traverser la france en vélo.&#xA;Ou tout du moins, faire une grande distance en vélo.&lt;/p&gt;&#xA;&lt;p&gt;je pense que c&amp;rsquo;est à la fois pour me prouver quelque chose, pour sortir de l&amp;rsquo;état végétatif dans lequelle j&amp;rsquo;était jusque la et aussi pour visiter notre beau pays, sans compter que j&amp;rsquo;adore faire du vélo et que j&amp;rsquo;en partique tout les jours depuis maintenant peut-erte 6 ans avec autant de plaisir. Même si ma pratique se résume pour l&amp;rsquo;insant principalement à mes trajets quotidien.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Etre_productif</title>
+      <link>http://localhost:1313/blog/posts/etre_productif/</link>
+      <pubDate>Fri, 26 May 2023 23:36:53 +0200</pubDate>
+      <guid>http://localhost:1313/blog/posts/etre_productif/</guid>
+      <description>&lt;p&gt;les activité amènes les activité et la procrastitantion amène la procrastination&lt;/p&gt;&#xA;&lt;p&gt;il y a plein de chose gratuit a faire&lt;/p&gt;&#xA;&lt;p&gt;les jeunes de nos jours peuvent faire plein de chose&lt;/p&gt;&#xA;&lt;p&gt;s&amp;rsquo;organiser est la clée&lt;/p&gt;&#xA;&lt;p&gt;je suis quelqu&amp;rsquo;un d&amp;rsquo;actif dans ma vie, j&amp;rsquo;aime organiser des evenements, proposer des activites&lt;/p&gt;&#xA;&lt;p&gt;régulièrement j&amp;rsquo;ai des gros bas des bloquage ou je suis obligé de rester des heures amorphe et ou tout me paret etre un sommet. j&amp;rsquo;ai mal au ventre, je procrastine sur insta,&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Analyse_madgod</title>
+      <link>http://localhost:1313/blog/posts/analyse_madgod/</link>
+      <pubDate>Wed, 24 May 2023 17:57:41 +0200</pubDate>
+      <guid>http://localhost:1313/blog/posts/analyse_madgod/</guid>
+      <description>&lt;h1 id=&#34;analyse-mad-god&#34;&gt;analyse mad god&lt;/h1&gt;&#xA;&lt;h2 id=&#34;intro&#34;&gt;intro&lt;/h2&gt;&#xA;&lt;p&gt;mad god est un un peu auto produit film de tippet, tournée sur 10 ans par l&amp;rsquo;ancien décoriste de starwars&lt;/p&gt;&#xA;&lt;p&gt;c&amp;rsquo;est un vfai coup de coeurs visuelle, j&amp;rsquo;aime cette amambience organique&lt;/p&gt;&#xA;&lt;p&gt;mais au dela de tout ca c&amp;rsquo;est a mes yeux une critique du capitalisme&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Moto_gp</title>
+      <link>http://localhost:1313/blog/posts/moto_gp/</link>
+      <pubDate>Sat, 20 May 2023 17:41:13 +0200</pubDate>
+      <guid>http://localhost:1313/blog/posts/moto_gp/</guid>
+      <description>&lt;h1 id=&#34;jai-bossé-pour-le-1000-moto-gp&#34;&gt;j&amp;rsquo;ai bossé pour le 1000 moto GP&lt;/h1&gt;&#xA;&lt;p&gt;pour me faire un peu d&amp;rsquo;argent pour les vacances, j&amp;rsquo;ai travailler 3 jours sur le circuit des 24h pour une entreprise de restauration, ne sachant pas trop a quoi m&amp;rsquo;attendre,&lt;/p&gt;&#xA;&lt;p&gt;j&amp;rsquo;ai plutot l&amp;rsquo;habitude de fréquenter des gens du meme millieu social que moi, qui font des études sup, surtout a mon age, et ça m&amp;rsquo;a permis de fréquenter d&amp;rsquo;autre tranche de la population. d&amp;rsquo;ailleurs un des points fort du weekend, c&amp;rsquo;était mes collègues, tous très sympa, efficace, ce fut un réél plaisir de travailler avec eux ! avec l&amp;rsquo;ambience amical,&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Boudisme</title>
+      <link>http://localhost:1313/blog/posts/boudisme/</link>
+      <pubDate>Thu, 18 May 2023 00:56:07 +0200</pubDate>
+      <guid>http://localhost:1313/blog/posts/boudisme/</guid>
+      <description></description>
+    </item>
     <item>
       <title>À propos</title>
-      <link>https://attadeurtia.github.io/blog/about/</link>
+      <link>http://localhost:1313/blog/about/</link>
       <pubDate>Wed, 17 May 2023 10:00:00 +0100</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/about/</guid>
-      <description>Bienvenue sur mon blog ! Étudiant touche à tout, ce site est un lieu libre de partage d&amp;rsquo;experiences, de tuto et de découvertes sur tout et rien.
-N&amp;rsquo;hésitez pas à me contacter si vous avez des questions ou des suggestions.
-Geoffrey</description>
+      <guid>http://localhost:1313/blog/about/</guid>
+      <description>&lt;p&gt;Bienvenue sur mon blog ! Étudiant touche à tout, ce site est un lieu libre de partage d&amp;rsquo;experiences, de tuto et de découvertes sur tout et rien.&lt;/p&gt;&#xA;&lt;p&gt;N&amp;rsquo;hésitez pas à me contacter si vous avez des questions ou des suggestions.&lt;/p&gt;&#xA;&lt;p&gt;Geoffrey&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Radio</title>
-      <link>https://attadeurtia.github.io/blog/posts/radio/</link>
+      <link>http://localhost:1313/blog/posts/radio/</link>
       <pubDate>Wed, 17 May 2023 00:16:19 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/posts/radio/</guid>
-      <description>URL de quelques radios que j&amp;rsquo;écoute
-Radio Radioalpa: https://www.radioalpa.com:8001/live.mp3 La grande Évasion : http://radio.lagrandeevasion.fr/evasion.mp3 FIP : http://icecast.radiofrance.fr/fip-hifi.aac http://icecast.radiofrance.fr/fiprock-hifi.aac http://icecast.radiofrance.fr/fipgroove-hifi.aac http://icecast.radiofrance.fr/fippop-hifi.aac http://icecast.radiofrance.fr/fipelectro-hifi.aac http://icecast.radiofrance.fr/fipworld-hifi.aac http://icecast.radiofrance.fr/fipreggae-hifi.aac http://icecast.radiofrance.fr/fipnouveautes-hifi.aac http://icecast.radiofrance.fr/fipjazz-hifi.aac j-POP : https://listen.moe/stream k-POP : https://listen.moe/kpop/stream rock en flac : https://stream.radioparadise.com/rock-flac </description>
+      <guid>http://localhost:1313/blog/posts/radio/</guid>
+      <description>&lt;p&gt;URL de quelques radios que j&amp;rsquo;écoute&lt;/p&gt;&#xA;&lt;h1 id=&#34;radio&#34;&gt;Radio&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Radioalpa&lt;/strong&gt;: &lt;a href=&#34;https://www.radioalpa.com:8001/live.mp3&#34;&gt;https://www.radioalpa.com:8001/live.mp3&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;La grande Évasion&lt;/strong&gt; : &lt;a href=&#34;http://radio.lagrandeevasion.fr/evasion.mp3&#34;&gt;http://radio.lagrandeevasion.fr/evasion.mp3&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;FIP&lt;/strong&gt; : &lt;a href=&#34;http://icecast.radiofrance.fr/fip-hifi.aac&#34;&gt;http://icecast.radiofrance.fr/fip-hifi.aac&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://icecast.radiofrance.fr/fiprock-hifi.aac&#34;&gt;http://icecast.radiofrance.fr/fiprock-hifi.aac&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://icecast.radiofrance.fr/fipgroove-hifi.aac&#34;&gt;http://icecast.radiofrance.fr/fipgroove-hifi.aac&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://icecast.radiofrance.fr/fippop-hifi.aac&#34;&gt;http://icecast.radiofrance.fr/fippop-hifi.aac&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://icecast.radiofrance.fr/fipelectro-hifi.aac&#34;&gt;http://icecast.radiofrance.fr/fipelectro-hifi.aac&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://icecast.radiofrance.fr/fipworld-hifi.aac&#34;&gt;http://icecast.radiofrance.fr/fipworld-hifi.aac&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://icecast.radiofrance.fr/fipreggae-hifi.aac&#34;&gt;http://icecast.radiofrance.fr/fipreggae-hifi.aac&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://icecast.radiofrance.fr/fipnouveautes-hifi.aac&#34;&gt;http://icecast.radiofrance.fr/fipnouveautes-hifi.aac&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://icecast.radiofrance.fr/fipjazz-hifi.aac&#34;&gt;http://icecast.radiofrance.fr/fipjazz-hifi.aac&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;j-POP&lt;/strong&gt; : &lt;a href=&#34;https://listen.moe/stream&#34;&gt;https://listen.moe/stream&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;k-POP&lt;/strong&gt; : &lt;a href=&#34;https://listen.moe/kpop/stream&#34;&gt;https://listen.moe/kpop/stream&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;rock en flac&lt;/strong&gt; : &lt;a href=&#34;https://stream.radioparadise.com/rock-flac&#34;&gt;https://stream.radioparadise.com/rock-flac&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Complexite</title>
-      <link>https://attadeurtia.github.io/blog/posts/complexite/</link>
+      <link>http://localhost:1313/blog/posts/complexite/</link>
       <pubDate>Fri, 28 Apr 2023 14:18:49 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/posts/complexite/</guid>
-      <description>Classes de complexité Déterministe non-Déterministe temps p,EXPTIME np, NEXPTIME espace LOGSPACE, PSPACE, EXPSPACE NLOGSPACE complexité logarithmique O(1) : constant O(n) : linéaire O(log n) : logarithmique O(n log n) : quasi-linéaire O(n²) : quadratique O(n³) : cubique O(n^k) : polynomial O(2ⁿ) : exponentielle O(n!) : factorielle algo constant O(1) set logarithmique O(log n) liste linéaire O(n) recherche dichotomique, dans un tableaux trié quasi-linéaire O(n log n) tri d&amp;rsquo;un tableaux (fusion) quadratique O(n²) tri d&amp;rsquo;un tableaux (insertion) cubique O(n³) multiplication de matrices polynomial O(n^k) exponentielle O(2ⁿ) problème du sac à dos factorielle O(n!</description>
+      <guid>http://localhost:1313/blog/posts/complexite/</guid>
+      <description>&lt;h2 id=&#34;classes-de-complexité&#34;&gt;Classes de complexité&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;Déterministe&lt;/th&gt;&#xA;          &lt;th&gt;non-Déterministe&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;temps&lt;/td&gt;&#xA;          &lt;td&gt;p,EXPTIME&lt;/td&gt;&#xA;          &lt;td&gt;np, NEXPTIME&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;espace&lt;/td&gt;&#xA;          &lt;td&gt;LOGSPACE, PSPACE, EXPSPACE&lt;/td&gt;&#xA;          &lt;td&gt;NLOGSPACE&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;complexité-logarithmique&#34;&gt;complexité logarithmique&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;O(1) : constant&lt;/li&gt;&#xA;&lt;li&gt;O(n) : linéaire&lt;/li&gt;&#xA;&lt;li&gt;O(log n) : logarithmique&lt;/li&gt;&#xA;&lt;li&gt;O(n log n) : quasi-linéaire&lt;/li&gt;&#xA;&lt;li&gt;O(n²) : quadratique&lt;/li&gt;&#xA;&lt;li&gt;O(n³) : cubique&lt;/li&gt;&#xA;&lt;li&gt;O(n^k) : polynomial&lt;/li&gt;&#xA;&lt;li&gt;O(2ⁿ) : exponentielle&lt;/li&gt;&#xA;&lt;li&gt;O(n!) : factorielle&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;&#34; alt=&#34;Capture d’écran du 2023-04-28 13-41-53.png&#34;&gt; &lt;img src=&#34;&#34; alt=&#34;Capture d’écran du 2023-04-02 18-18-41.png&#34;&gt;&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;algo&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;constant&lt;/td&gt;&#xA;          &lt;td&gt;O(1)&lt;/td&gt;&#xA;          &lt;td&gt;set&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;logarithmique&lt;/td&gt;&#xA;          &lt;td&gt;O(log n)&lt;/td&gt;&#xA;          &lt;td&gt;liste&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;linéaire&lt;/td&gt;&#xA;          &lt;td&gt;O(n)&lt;/td&gt;&#xA;          &lt;td&gt;recherche dichotomique, dans un tableaux trié&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;quasi-linéaire&lt;/td&gt;&#xA;          &lt;td&gt;O(n log n)&lt;/td&gt;&#xA;          &lt;td&gt;tri d&amp;rsquo;un tableaux (fusion)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;quadratique&lt;/td&gt;&#xA;          &lt;td&gt;O(n²)&lt;/td&gt;&#xA;          &lt;td&gt;tri d&amp;rsquo;un tableaux (insertion)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;cubique&lt;/td&gt;&#xA;          &lt;td&gt;O(n³)&lt;/td&gt;&#xA;          &lt;td&gt;multiplication de matrices&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;polynomial&lt;/td&gt;&#xA;          &lt;td&gt;O(n^k)&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;exponentielle&lt;/td&gt;&#xA;          &lt;td&gt;O(2ⁿ)&lt;/td&gt;&#xA;          &lt;td&gt;problème du sac à dos&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;factorielle&lt;/td&gt;&#xA;          &lt;td&gt;O(n!)&lt;/td&gt;&#xA;          &lt;td&gt;problème du voyageur de commerce&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;problème-complexe&#34;&gt;Problème complexe&lt;/h2&gt;&#xA;&lt;h3 id=&#34;problème-du-voyageur-de-commerce&#34;&gt;Problème du voyageur de commerce&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;problème NP-complet&lt;/li&gt;&#xA;&lt;li&gt;O(n!)&lt;/li&gt;&#xA;&lt;li&gt;10 villes : 3 628 800&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;problème-du-sac-à-dos&#34;&gt;Problème du sac à dos&lt;/h3&gt;&#xA;&lt;p&gt;knapack problem&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Comment configurer github</title>
-      <link>https://attadeurtia.github.io/blog/posts/configuregit/</link>
+      <link>http://localhost:1313/blog/posts/configuregit/</link>
       <pubDate>Thu, 27 Apr 2023 17:49:47 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/posts/configuregit/</guid>
-      <description>Pour utiliser github sur son ordinateur il faut installer git, ajouter une clé ssh dans son compte github et configurer git, puis télécharger le projet, ces étapes sont indispensables sur chaque machine.
-Installer git Vérifier si git est déjà installé : git --version sinon télécharger git
-Configurer git en local C&amp;rsquo;est les informations qui seront affichées dans les commits, il faut les configurer une fois par machine.
-Configurer le nom d&amp;rsquo;utilisateur : git config --global user.</description>
+      <guid>http://localhost:1313/blog/posts/configuregit/</guid>
+      <description>&lt;p&gt;Pour utiliser github sur son ordinateur il faut installer git, ajouter une clé ssh dans son compte github et configurer git, puis télécharger le projet, ces étapes sont indispensables sur chaque machine.&lt;/p&gt;&#xA;&lt;h2 id=&#34;installer-git&#34;&gt;Installer git&lt;/h2&gt;&#xA;&lt;p&gt;Vérifier si git est déjà installé : &lt;code&gt;git --version&lt;/code&gt; sinon &lt;a href=&#34;https://git-scm.com/downloads&#34;&gt;télécharger git&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;configurer-git-en-local&#34;&gt;Configurer git en local&lt;/h2&gt;&#xA;&lt;p&gt;C&amp;rsquo;est les informations qui seront affichées dans les commits, il faut les configurer une fois par machine.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Configurer le nom d&amp;rsquo;utilisateur : &lt;code&gt;git config --global user.name &amp;quot;John Doe&amp;quot;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Configurer l&amp;rsquo;adresse mail :&lt;code&gt;git config --global user.email&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Les informations sont stockées dans le fichier &lt;code&gt;~/.gitconf&lt;/code&gt;, si vous voulez les modifier vous pouvez le faire directement dans le fichier.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Design Patterns</title>
-      <link>https://attadeurtia.github.io/blog/posts/design_patterns/</link>
+      <link>http://localhost:1313/blog/posts/design_patterns/</link>
       <pubDate>Mon, 24 Apr 2023 17:49:47 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/posts/design_patterns/</guid>
-      <description>C’est quoi ? Les patterns offrent des solutions à des problèmes récurrents rencontrés par les développeurs, Ils permettent de :
-Limiter le couplage Faciliter la maintenance Être moins rigide face au changement Ils sont indispensables à connaître pour le développeur :
-Pour s’assurer d’une meilleure conception Pour dialoguer avec les développeurs (à travers le “langage pattern”) Pour comprendre les frameworks Un livre écrit par le GoF (Gang of Four : Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides) décrit 23 Design Patterns appliqués à la conception orientée objet, classés en trois catégories :</description>
+      <guid>http://localhost:1313/blog/posts/design_patterns/</guid>
+      <description>&lt;h2 id=&#34;cest-quoi-&#34;&gt;C’est quoi ?&lt;/h2&gt;&#xA;&lt;p&gt;Les patterns offrent des solutions à des problèmes récurrents rencontrés par les développeurs, Ils permettent de :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Limiter le couplage&lt;/li&gt;&#xA;&lt;li&gt;Faciliter la maintenance&lt;/li&gt;&#xA;&lt;li&gt;Être moins rigide face au changement&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ils sont indispensables à connaître pour le développeur :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Pour s’assurer d’une meilleure conception&lt;/li&gt;&#xA;&lt;li&gt;Pour dialoguer avec les développeurs (à travers le “langage pattern”)&lt;/li&gt;&#xA;&lt;li&gt;Pour comprendre les frameworks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Un livre écrit par le &lt;a href=&#34;https://fr.wikipedia.org/wiki/Patron_de_conception&#34;&gt;GoF (Gang of Four : Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides)&lt;/a&gt; décrit 23 Design Patterns appliqués à la conception orientée objet, classés en trois catégories :&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Apt</title>
-      <link>https://attadeurtia.github.io/blog/posts/apt/</link>
+      <link>http://localhost:1313/blog/posts/apt/</link>
       <pubDate>Sun, 23 Apr 2023 22:03:54 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/posts/apt/</guid>
-      <description>apt Voici les commandes les plus couramment utilisées avec apt :
-sudo apt update : Mettre à jour la liste des paquets disponibles sudo apt upgrade : Mettre à jour tous les paquets installés sudo apt upgrade -y sudo apt install &amp;lt;nom_du_paquet_1&amp;gt; &amp;lt;nom_du_paquet_2&amp;gt; : Installer un paquet sudo apt remove &amp;lt;nom_du_paquet&amp;gt; : Supprimer un paquet sudo apt search &amp;lt;terme_de_recherche&amp;gt; : Rechercher un paquet sudo apt autoremove : Supprimer les paquets qui ne sont plus nécessaires sudo apt clean : Supprimer les fichiers de cache téléchargés lors de l&amp;rsquo;installation de paquets apt clean efface tout du répertoire local des fichiers de paquets récupérés.</description>
+      <guid>http://localhost:1313/blog/posts/apt/</guid>
+      <description>&lt;h1 id=&#34;apt&#34;&gt;apt&lt;/h1&gt;&#xA;&lt;p&gt;Voici les commandes les plus couramment utilisées avec &lt;code&gt;apt&lt;/code&gt; :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;sudo apt update&lt;/code&gt; : Mettre à jour la liste des paquets disponibles&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sudo apt upgrade&lt;/code&gt; : Mettre à jour tous les paquets installés&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;sudo apt upgrade -y&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sudo apt install &amp;lt;nom_du_paquet_1&amp;gt; &amp;lt;nom_du_paquet_2&amp;gt;&lt;/code&gt;  : Installer un paquet&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sudo apt remove &amp;lt;nom_du_paquet&amp;gt;&lt;/code&gt; : Supprimer un paquet&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sudo apt search &amp;lt;terme_de_recherche&amp;gt;&lt;/code&gt; : Rechercher un paquet&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sudo apt autoremove&lt;/code&gt; : Supprimer les paquets qui ne sont plus nécessaires&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;sudo apt clean&lt;/code&gt; : Supprimer les fichiers de cache téléchargés lors de l&amp;rsquo;installation de paquets&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;apt clean&lt;/code&gt; efface tout du répertoire local des fichiers de paquets récupérés. Il supprime tout sauf le fichier de verrouillage de &lt;code&gt;/var/cache/apt/archives/&lt;/code&gt; et &lt;code&gt;/var/cache/apt/archives/partial/&lt;/code&gt;¹.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;apt autoclean&lt;/code&gt;, comme &lt;code&gt;clean&lt;/code&gt;, efface le répertoire local des fichiers de paquets récupérés. La différence est qu&amp;rsquo;il ne supprime que les fichiers de paquets qui ne peuvent plus être téléchargés et qui sont en grande partie inutiles. Cela permet de maintenir un cache sur une longue période sans qu&amp;rsquo;il ne devienne incontrôlable¹.&lt;/li&gt;&#xA;&lt;li&gt;Il n&amp;rsquo;y a pas d&amp;rsquo;option &lt;code&gt;clear&lt;/code&gt; pour la commande &lt;code&gt;apt&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;(1) apt - What is difference between the options &amp;ldquo;autoclean&amp;rdquo;, &amp;ldquo;autoremove &amp;hellip;. &lt;a href=&#34;https://askubuntu.com/questions/3167/what-is-difference-between-the-options-autoclean-autoremove-and-clean&#34;&gt;https://askubuntu.com/questions/3167/what-is-difference-between-the-options-autoclean-autoremove-and-clean&lt;/a&gt;.&#xA;(2) apt - clean, autoclean, and autoremove &amp;mdash; combining them is a good &amp;hellip;. &lt;a href=&#34;https://askubuntu.com/questions/984797/clean-autoclean-and-autoremove-combining-them-is-a-good-step&#34;&gt;https://askubuntu.com/questions/984797/clean-autoclean-and-autoremove-combining-them-is-a-good-step&lt;/a&gt;.&#xA;(3) Difference between apt clean &amp;amp; apt autoclean in Ubuntu. &lt;a href=&#34;https://techpiezo.com/linux/difference-between-apt-clean-apt-autoclean-in-ubuntu/&#34;&gt;https://techpiezo.com/linux/difference-between-apt-clean-apt-autoclean-in-ubuntu/&lt;/a&gt;.&#xA;(4) linux - What are the differences between apt clean/remove/purge etc &amp;hellip;. &lt;a href=&#34;https://stackoverflow.com/questions/68635646/what-are-the-differences-between-apt-clean-remove-purge-etc-commands&#34;&gt;https://stackoverflow.com/questions/68635646/what-are-the-differences-between-apt-clean-remove-purge-etc-commands&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>pourquoi passer à linux</title>
+      <link>http://localhost:1313/blog/posts/aventage_linux/</link>
+      <pubDate>Sat, 22 Apr 2023 00:55:02 +0200</pubDate>
+      <guid>http://localhost:1313/blog/posts/aventage_linux/</guid>
+      <description>&lt;h1 id=&#34;pourquoi-passer-à-linux&#34;&gt;pourquoi passer à linux&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;open-source&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;données pas analysé&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;systeme de maj&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;personnalisation&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;rapidité&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;résolution de pb&#xA;beaucoup des soucis de linux peuvent etre résolvable en ligne de commande, et pour rejoindre le point open-source, tout est accésible sur vorte ordinateur&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;moins&#34;&gt;moins&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;pas de jeux viédéo&lt;/li&gt;&#xA;&lt;li&gt;déstabilisant au début&lt;/li&gt;&#xA;&lt;li&gt;pas tout les logitiels&lt;/li&gt;&#xA;&lt;li&gt;driver&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;idem&#34;&gt;idem&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;stable&#xA;de mon expérience Linux est aussi stable que Windows, j&amp;rsquo;ai vu des  windows cassé du jour&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Workflow macos</title>
+      <link>http://localhost:1313/blog/posts/workflow_macos/</link>
+      <pubDate>Sat, 22 Apr 2023 00:46:55 +0200</pubDate>
+      <guid>http://localhost:1313/blog/posts/workflow_macos/</guid>
+      <description>&lt;h1 id=&#34;mon-workflow--macos&#34;&gt;Mon workflow : macOS&lt;/h1&gt;&#xA;&lt;p&gt;Si vous êtes un utilisateur de Mac, vous savez probablement à quel point il est important d&amp;rsquo;avoir un workflow efficace pour maximiser votre productivité. Dans ce document, nous allons explorer les outils et les astuces que j&amp;rsquo;utilise dans mon workflow quotidien sur macOS. Que vous soyez un développeur, un designer ou un utilisateur général, j&amp;rsquo;espère que vous trouverez quelque chose d&amp;rsquo;utile pour améliorer votre propre flux de travail sur votre Mac.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>http://localhost:1313/blog/posts/docker/</link>
+      <pubDate>Fri, 21 Apr 2023 21:15:02 +0200</pubDate>
+      <guid>http://localhost:1313/blog/posts/docker/</guid>
+      <description>&lt;h2 id=&#34;docker&#34;&gt;Docker&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker pull : Récupérer une image depuis un registre&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker run :&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- p 8080:8080&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- rm : Supprimer le conteneur à la fin de son exécution&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- it : Interactif&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- v &lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;pwd&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;:/src&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- d : Détaché&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- e : Variables d’environnement&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker run -p 8080:8080 -rm -it -v &lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;pwd&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;:/src -d -e NODE_ENV&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;production nom_de_l_image&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;docker run =&amp;gt; docker create + docker start&lt;/p&gt;&#xA;&lt;p&gt;docker create id_de_l_image&lt;/p&gt;&#xA;&lt;p&gt;docker start id_du_conteneur&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Commande en vrac</title>
-      <link>https://attadeurtia.github.io/blog/posts/diff/</link>
+      <link>http://localhost:1313/blog/posts/diff/</link>
       <pubDate>Mon, 13 Feb 2023 09:59:40 +0000</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/posts/diff/</guid>
-      <description>Quelques commandes en vrac bien utiles :
-diff diff -q : Compare deux fichiers et indique s&amp;rsquo;ils sont différents.
--q Indiquer seulement si les fichiers différent, pas les différences elles-mêmes.
--r Lorsque l&amp;rsquo;on compare des répertoires, comparer également tous les sous-répertoires récursivement.
--q &#39;ou –brief&amp;rsquo;: Indique uniquement si les fichiers diffèrent, pas les détails des différences.
--r &#39;ou –recursive&amp;rsquo;: lors de la comparaison de répertoires, comparez de manière récursive tous les sous-répertoires trouvés.</description>
+      <guid>http://localhost:1313/blog/posts/diff/</guid>
+      <description>&lt;p&gt;Quelques commandes en vrac bien utiles :&lt;/p&gt;&#xA;&lt;h2 id=&#34;diff&#34;&gt;&lt;code&gt;diff&lt;/code&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;diff -q&lt;/code&gt; : Compare deux fichiers et indique s&amp;rsquo;ils sont différents.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;-q&lt;/code&gt; Indiquer seulement si les fichiers différent, pas les différences elles-mêmes.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;-r&lt;/code&gt; Lorsque l&amp;rsquo;on compare des répertoires, comparer également tous les sous-répertoires récursivement.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;-q &#39;ou&lt;/code&gt; –brief&amp;rsquo;: Indique uniquement si les fichiers diffèrent, pas les détails des différences.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;-r &#39;ou&lt;/code&gt; –recursive&amp;rsquo;: lors de la comparaison de répertoires, comparez de manière récursive tous les sous-répertoires trouvés.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Comment Devenir Invisible Sur Internet</title>
-      <link>https://attadeurtia.github.io/blog/posts/comment-devenir-invisible-sur-internet/</link>
+      <link>http://localhost:1313/blog/posts/comment-devenir-invisible-sur-internet/</link>
       <pubDate>Thu, 30 Jun 2022 20:54:24 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/posts/comment-devenir-invisible-sur-internet/</guid>
+      <guid>http://localhost:1313/blog/posts/comment-devenir-invisible-sur-internet/</guid>
       <description>&lt;p&gt;Cet article va essayer de condenser tout ce qu’il faut savoir ou mettre en place pour améliorer sa vie privée sur internet, j’ai essayé de le faire tout public mais si vous avez une question ou une remarque n’hésitez pas à me contacter.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Retour sur mon expérience de sommeil polyphasique</title>
-      <link>https://attadeurtia.github.io/blog/posts/retour_sur_mon_exp%C3%A9rience_de_sommeil_polyphasique/</link>
+      <link>http://localhost:1313/blog/posts/retour_sur_mon_exp%C3%A9rience_de_sommeil_polyphasique/</link>
       <pubDate>Sun, 16 May 2021 20:22:55 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/posts/retour_sur_mon_exp%C3%A9rience_de_sommeil_polyphasique/</guid>
+      <guid>http://localhost:1313/blog/posts/retour_sur_mon_exp%C3%A9rience_de_sommeil_polyphasique/</guid>
       <description>&lt;p&gt;Il y a un mois se terminait mon année scolaire, j’ai donc pu faire une expérience qui me trottais en tête depuis un moment, est-ce que le sommeil polyphasique est efficace et est-il facilement applicable ? mais avant de répondre à ses questions, un petit point sur ce qu’est &lt;a href=&#34;https://fr.wikipedia.org/wiki/Sommeil_polyphasique&#34;&gt;le sommeil polyphasique&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Webradio</title>
-      <link>https://attadeurtia.github.io/blog/posts/webradio/</link>
+      <link>http://localhost:1313/blog/posts/webradio/</link>
       <pubDate>Sun, 18 Apr 2021 13:19:05 +0200</pubDate>
-      
-      <guid>https://attadeurtia.github.io/blog/posts/webradio/</guid>
-      <description>Pourquoi écouter la radio ? Le terme radio ne fait pas rêver en 2021, de nos jours les platformes de streaming comme Deezer ou Spotify sont la norme pour écouter de la musique, pour les podcasts il existe des services comme podcast addict ou google podcast. Et devoir être limité par un flux constant dans lequel on ne peut pas choisir la musique, on ne peut pas mettre sur pause, et où l’on doit écouter à certaine heure pour écouter les émissions que l’on veut peut sembler absurde.</description>
+      <guid>http://localhost:1313/blog/posts/webradio/</guid>
+      <description>&lt;h2 id=&#34;pourquoi-écouter-la-radio-&#34;&gt;Pourquoi écouter la radio ?&lt;/h2&gt;&#xA;&lt;p&gt;Le terme radio ne fait pas rêver en 2021, de nos jours les platformes de streaming comme Deezer ou Spotify sont la norme pour écouter de la musique, pour les podcasts il existe des services comme podcast addict ou google podcast. Et devoir être limité par un flux constant dans lequel on ne peut pas choisir la musique, on ne peut pas mettre sur pause, et où l’on doit écouter à certaine heure pour écouter les émissions que l’on veut peut sembler absurde.&#xA;pourtant la radio possède encore de vrai argument.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
