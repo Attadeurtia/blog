@@ -2,7 +2,7 @@
 title: "Les Deux Déesses"
 date: 2024-11-06T19:00:00+01:00
 draft: false
-tags: ["Avis", "Théâtre"]
+tags: ["avis", "Théâtre"]
 
 ---
 *Les Deux Déesses* est une pièce de théâtre mise en scène par Pauline Sales, une artiste associée au ministère de la Culture, connue notamment pour son livre *Les femmes de la maison*.
