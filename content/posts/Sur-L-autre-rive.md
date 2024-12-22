@@ -7,7 +7,7 @@ tags: ["Avis", "Théatre"]
 ---
 # Sur L'autre rive
 
-Sur l'autre rive est une pièce de **Cyril Teste**, on y suit en caméra embarquée une dizaine de mondains lors d'une soirée mondaine. Pour accentuer la sensation de profusion, ils invitent une 20ᵉ de figurant sur le plateau à déambuler après une journée de rodage, amenant de la foule et de la vie.
+Sur l'autre rive est une pièce de **Cyril Teste**, on y suit en caméra embarquée une dizaine de mondains lors d'une soirée mondaine. Pour accentuer la sensation de profusion, ils invitent une vingtaine de figurant sur le plateau à déambuler après une journée de rodage, amenant de la foule et de la vie.
 
 J'ai précisé caméra embarquée, car la technique à un rôle central dans la construction de la pièce. celle-ci commence avec une vidéo diffusée sur écran composé de quatre télévisions qui dévoilent la première scène du spectacle en hors carde. Ce procédé filmé par un comédien puis par le staff ensuite permet d'avoir une double vision de la scène, à la fois la vue classique au théâtre frontal, avec un aperçu large de toute la scène et une vue plus intimiste en gros plan dirigé comme au cinéma. Le tout transmis sur les écrans fronteau puis en projection sur le mur d'en haut durant toute la pièce.
 
