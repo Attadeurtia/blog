@@ -15,4 +15,4 @@ On peut souligner le premier souci, on passe son temps à passer de l'écran à 
 
 Bien que je trouve la double vision dirigée par la caméra et libre sur le plateau extrêmement intéressante pour comprendre les manœuvres de captation du spectateur à l'usage dans ces deux arts dramatiques que sont le théâtre et le cinéma. Tel que la perception de la profondeur de champs qui peut jouxter deux personnages sur l'écran quand ceux-ci sont espacés de plusieurs mètres.
 
-Pour moi, c'est un Marvel du théâtre, c'est magnifique, ça éblouie, en met plein les yeux, ça occupe bien, mais pour mieux cacher son vide et sa faiblesse évocatrice.
+Pour moi, c'est un Marvel du théâtre, c'est magnifique, ça éblouie, en met plein les yeux, ça occupe bien, mais pour mieux cacher  sa faiblesse évocatrice.
