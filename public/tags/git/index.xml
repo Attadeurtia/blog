@@ -6,15 +6,8 @@
     <description>Recent content in Git on Geoffrey</description>
     <generator>Hugo</generator>
     <language>FR-fr</language>
-    <lastBuildDate>Tue, 12 Nov 2024 18:36:51 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 27 Apr 2023 17:49:47 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/git/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Grizzly Man</title>
-      <link>http://localhost:1313/blog/posts/grizzly-man/</link>
-      <pubDate>Tue, 12 Nov 2024 18:36:51 +0100</pubDate>
-      <guid>http://localhost:1313/blog/posts/grizzly-man/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;logo_LMU.png&#34; alt=&#34;image&#34;&gt;{width=&amp;ldquo;30%&amp;rdquo;}&#xA;&lt;img src=&#34;le-mans-universite-footer.png&#34; alt=&#34;image&#34;&gt;{width=&amp;ldquo;30%&amp;rdquo;}&lt;/p&gt;&#xA;&lt;h1 id=&#34;werner-herzog-de-la-mythologie-au-documentaire&#34;&gt;Werner Herzog, de la mythologie au documentaire&lt;/h1&gt;&#xA;&lt;h2 id=&#34;nouveau-cinéma-allemand&#34;&gt;Nouveau cinéma allemand&lt;/h2&gt;&#xA;&lt;p&gt;Réalisateur pionnier du nouveau cinéma allemand, Werner Herzog a signé&#xA;des chefs-d&amp;rsquo;œuvre qui ont marqué le septième art. Passant de grands&#xA;films de mythologie durant sa période d&amp;rsquo;or, tels que &amp;quot;Aguirre, la&#xA;colère de Dieu&amp;quot;, &amp;quot;Fitzcarraldo&amp;quot; ou &amp;quot;Nosferatu&amp;quot;, Werner Herzog&#xA;entreprend un virage dans les années 2000 vers un cinéma moins grandiose&#xA;et plus naturaliste, comme en témoigne son œuvre &amp;quot;Mon grand ennemi&amp;quot; et&#xA;ses explorations des volcans.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Comment configurer github</title>
       <link>http://localhost:1313/blog/posts/configuregit/</link>

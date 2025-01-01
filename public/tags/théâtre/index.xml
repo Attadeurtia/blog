@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Théâtre on Geoffrey</title>
+    <link>http://localhost:1313/blog/tags/th%C3%A9%C3%A2tre/</link>
+    <description>Recent content in Théâtre on Geoffrey</description>
+    <generator>Hugo</generator>
+    <language>FR-fr</language>
+    <lastBuildDate>Wed, 06 Nov 2024 19:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tags/th%C3%A9%C3%A2tre/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les Deux Déesses</title>
+      <link>http://localhost:1313/blog/posts/avis_les_deux_d%C3%A9esses/</link>
+      <pubDate>Wed, 06 Nov 2024 19:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/avis_les_deux_d%C3%A9esses/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Les Deux Déesses&lt;/em&gt; est une pièce de théâtre mise en scène par Pauline Sales, une artiste associée au ministère de la Culture, connue notamment pour son livre &lt;em&gt;Les femmes de la maison&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Cette pièce propose une réécriture contemporaine du mythe de Déméter et Perséphone. La structure est linéaire, avec une scénographie assez simple mais efficace, composée de 6 ou 7 plans pour raconter l&amp;rsquo;histoire. Des musiciens sont positionnés à droite et à gauche de la scène, participant également au texte.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

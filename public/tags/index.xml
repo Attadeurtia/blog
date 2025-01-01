@@ -6,13 +6,55 @@
     <description>Recent content in Tags on Geoffrey</description>
     <generator>Hugo</generator>
     <language>FR-fr</language>
-    <lastBuildDate>Tue, 12 Nov 2024 18:36:51 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 22 Dec 2024 19:32:28 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Git</title>
-      <link>http://localhost:1313/blog/tags/git/</link>
+      <title>Avis</title>
+      <link>http://localhost:1313/blog/tags/avis/</link>
+      <pubDate>Sun, 22 Dec 2024 19:32:28 +0100</pubDate>
+      <guid>http://localhost:1313/blog/tags/avis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Théatre</title>
+      <link>http://localhost:1313/blog/tags/th%C3%A9atre/</link>
+      <pubDate>Sun, 22 Dec 2024 19:32:28 +0100</pubDate>
+      <guid>http://localhost:1313/blog/tags/th%C3%A9atre/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cinéma</title>
+      <link>http://localhost:1313/blog/tags/cin%C3%A9ma/</link>
       <pubDate>Tue, 12 Nov 2024 18:36:51 +0100</pubDate>
-      <guid>http://localhost:1313/blog/tags/git/</guid>
+      <guid>http://localhost:1313/blog/tags/cin%C3%A9ma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Documentaire</title>
+      <link>http://localhost:1313/blog/tags/documentaire/</link>
+      <pubDate>Tue, 12 Nov 2024 18:36:51 +0100</pubDate>
+      <guid>http://localhost:1313/blog/tags/documentaire/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nature</title>
+      <link>http://localhost:1313/blog/tags/nature/</link>
+      <pubDate>Tue, 12 Nov 2024 18:36:51 +0100</pubDate>
+      <guid>http://localhost:1313/blog/tags/nature/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Werner</title>
+      <link>http://localhost:1313/blog/tags/werner/</link>
+      <pubDate>Tue, 12 Nov 2024 18:36:51 +0100</pubDate>
+      <guid>http://localhost:1313/blog/tags/werner/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Théâtre</title>
+      <link>http://localhost:1313/blog/tags/th%C3%A9%C3%A2tre/</link>
+      <pubDate>Wed, 06 Nov 2024 19:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/tags/th%C3%A9%C3%A2tre/</guid>
       <description></description>
     </item>
     <item>
@@ -34,13 +76,6 @@
       <link>http://localhost:1313/blog/tags/reflexion-divers/</link>
       <pubDate>Fri, 29 Dec 2023 14:18:33 +0100</pubDate>
       <guid>http://localhost:1313/blog/tags/reflexion-divers/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Culture</title>
-      <link>http://localhost:1313/blog/tags/culture/</link>
-      <pubDate>Thu, 12 Oct 2023 19:19:13 +0200</pubDate>
-      <guid>http://localhost:1313/blog/tags/culture/</guid>
       <description></description>
     </item>
     <item>
@@ -104,6 +139,13 @@
       <link>http://localhost:1313/blog/tags/cheat-sheet/</link>
       <pubDate>Thu, 27 Apr 2023 17:49:47 +0200</pubDate>
       <guid>http://localhost:1313/blog/tags/cheat-sheet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>http://localhost:1313/blog/tags/git/</link>
+      <pubDate>Thu, 27 Apr 2023 17:49:47 +0200</pubDate>
+      <guid>http://localhost:1313/blog/tags/git/</guid>
       <description></description>
     </item>
     <item>
