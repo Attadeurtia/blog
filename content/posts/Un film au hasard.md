@@ -1,5 +1,5 @@
 ---
-title: "un film au hasard"
+title: "Un film au hasard"
 date: 2024-01-09T23:33:45+01:00
 draft: false
 tags: ["film"]
