@@ -1,6 +1,6 @@
 ---
 title: "Une vampire au soleil"
-date: 2024-12-10T12:33:55+01:00
+date: 2024-12-04T20:30:00+01:00
 draft: false
 tags: ["Avis", "Théâtre"]
 ---
