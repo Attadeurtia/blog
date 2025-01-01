@@ -1,11 +1,11 @@
 ---
-title: "Sur L'autre rive"
+title: "Sur l'autre rive"
 date: 2024-11-11T19:30:00+01:00
 draft: false
 tags: ["Avis", "Théâtre"]
 
 ---
-# Sur L'autre rive
+# Sur l'autre rive
 
 *Sur l'autre rive* est une pièce de **Cyril Teste.** On y suit en caméra embarquée une dizaine de mondains lors d'une soirée huppée. Pour accentuer la sensation de profusion, le metteur en scène invite une vingtaine de figurants sur le plateau à déambuler après une journée de rodage, amenant de la foule et de la vie.
 
