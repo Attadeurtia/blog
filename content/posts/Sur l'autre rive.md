@@ -1,6 +1,6 @@
 ---
 title: "Sur l'autre rive"
-date: 2024-11-11T19:30:00+01:00
+date: 2024-12-11T19:00:00+01:00
 draft: false
 tags: ["Avis", "Théâtre"]
 
