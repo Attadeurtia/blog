@@ -5,7 +5,7 @@ draft: false
 tags: ["Avis", "Théâtre"]
 
 ---
-# Sur l'autre rive
+# "Un théâtre spectaculaire : Sur l’autre rive, ou l’art du paraître"
 
 Avec *Sur l’autre rive*, Cyril Teste repousse les limites de la scène en mêlant théâtre et cinéma dans une performance où la technique est reine. Si cette prouesse technologique éblouit et capte l’attention, elle semble pourtant masquer un manque de profondeur narrative, donnant à voir une œuvre où la forme l’emporte sur le fond. Un théâtre spectaculaire, certes, mais peut-être trop brillant pour être sincère.
 
