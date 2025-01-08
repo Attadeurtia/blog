@@ -82,6 +82,7 @@ Les applications que je ne consulte jamais mais qui servent au bon fonctionnemen
 - **Home** : pour contrôler les objets connectés chez moi
 - **Bitwarden** : gestionnaire de mots de passe
 - **WireGuard** : VPN
+- **Catima** : gestionnaire de carte
 
 ## Autre
 
