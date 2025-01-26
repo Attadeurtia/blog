@@ -1,6 +1,6 @@
 ---
 title: "Avis -  Music-hall Colette"
-date: 2025-01-11T11:20:39+01:00
+date: 2025-01-09T19:00:00+01:00
 draft: false
 tags: ["avis", "Théâtre"]
 ---
