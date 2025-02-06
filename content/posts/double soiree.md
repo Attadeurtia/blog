@@ -9,13 +9,13 @@ Pour raconter une histoire, on peut utiliser deux procédés, l'invention ou la 
 
 ***
 
-"Suzy Storck", adaptée du texte de Magali Mougel, déjà rompu à l'exercice d'écriture de pièces de théâtre et recevant des commandes des quatre coins du monde, est une autrice associée au projet "Vive résonances". Sa pièce parle de la violence conjugale d'un couple prolétaire d'une petite ville. Elle est mise en scène par Simon Delétang. La pièce a été montée pendant le covid et rejouée pour la première fois depuis quatre ans au Quinconce.
+"*Suzy Storck*", adaptée du texte de Magali Mougel, déjà rompu à l'exercice d'écriture de pièces de théâtre et recevant des commandes des quatre coins du monde, est une autrice associée au projet "*Vive résonances*". Sa pièce parle de la violence conjugale d'un couple prolétaire d'une petite ville. Elle est mise en scène par Simon Delétang. La pièce a été montée pendant le covid et rejouée pour la première fois depuis quatre ans au Quinconce.
 
-"Désintégration" décrit la vie des familles arabes immigré via des minis sketch satiriques. Également tirée d'un texte préexistant, la pièce est mise en scène par Ahmed Djouder habitué à parler frontalement de politique. Le spectacle est divisé en deux, avec la première partie se déroulant d'une scène à l'autre.
+"*Désintégration*" décrit la vie des familles arabes immigré via des minis sketch satiriques. Également tirée d'un texte préexistant, la pièce est mise en scène par Ahmed Djouder habitué à parler frontalement de politique. Le spectacle est divisé en deux, avec la première partie se déroulant d'une scène à l'autre.
 
 Bien que très différentes, les deux pièces sont intrinsèquement connectées. Toutes deux tirées d'un texte, elles établissent un constat de l'état des lieux de deux situations sociales parallèles en parlant du quotidien. Dans la première pièce, l'approche est micro, se concentrant sur une famille type d'une petite ville française, tandis que dans la deuxième, l'approche est macro, traitant des familles d'immigrés arabes. Les deux parlent de marginalisation.
 
-## La mise en scène  : finalement les prisons les plus forts ne sont pas celle réelle, mais celle de l'esprit
+## La mise en scène  : les prisons les plus forts sont celle de l'esprit
 
 Les deux mises en scène sont construites autour d’un cadre dans un cadre. La scène comme une possibilité d'ouverture sur le monde cloisonne dans une carde restreint les comédiens, ce choix illustre comment on se retrouve à subir sa vie, définissant l'impossibilité de s'extraire de sa condition. Par l'utilisation d'un décor quotidien, avec une machine à laver et des piles de linge pour la première pièce. Un tapis, une poussette et une boîte de médicaments pour la seconde, les metteurs en scène nous plongent dans un quotidien morose, terre à terre, sans place pour la culture. La répétition est centrale. La répétition des actes, la répétition des scènes, la répétions des paroles, comme bloquées dans un schéma, une boucle temporelle. Les choses se passent, on les subit, on serre les dents, on espère que ça ira, mais ça ne va pas, rien de change, ça recommence. On a envie que tout explose, mais on serre les dents, jusqu'au jour où…
 
