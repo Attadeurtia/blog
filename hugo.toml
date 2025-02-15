@@ -1,5 +1,5 @@
-baseURL = "https://athul.github.io/archie/"
-languageCode = "en-us"
+baseURL = "https://attadeurtia.github.io/blog/"
+languageCode = "fr"
 title = "Geoffrey"
 theme="archie"
 copyright = "© Athul"
@@ -9,7 +9,7 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 
-paginate=3 # articles per page
+pagination.pagerSize=3 # articles per page
 
 [params]
 	mode="auto" # color-mode → light,dark,toggle or auto

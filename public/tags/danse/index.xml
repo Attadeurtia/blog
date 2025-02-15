@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Danse on Geoffrey</title>
-    <link>http://localhost:1313/archie/tags/danse/</link>
+    <link>http://localhost:1313/blog/tags/danse/</link>
     <description>Recent content in Danse on Geoffrey</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>fr</language>
     <copyright>© Athul</copyright>
     <lastBuildDate>Thu, 12 Oct 2023 19:19:13 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/archie/tags/danse/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/danse/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Les yeux fermés...</title>
-      <link>http://localhost:1313/archie/posts/les_yeux_fermes/</link>
+      <link>http://localhost:1313/blog/posts/les_yeux_fermes/</link>
       <pubDate>Thu, 12 Oct 2023 19:19:13 +0200</pubDate>
-      <guid>http://localhost:1313/archie/posts/les_yeux_fermes/</guid>
+      <guid>http://localhost:1313/blog/posts/les_yeux_fermes/</guid>
       <description>&lt;p&gt;Le cinéma, la musique et même le théâtre sont les arts vivant les plus accessibles dans notre société, moi-même j’en suis très familier étant cinéphile et musicien. À contrario, la danse et encore un art difficile à appréhender, avec des codes et des clés de lecture, des références et une Histoire moins répandu, et que je ne connais pas.&lt;/p&gt;&#xA;&lt;p&gt;Alors quand le service culture de ma fac offre l’occasion d’aller voir l’œuvre d’une référence dans le domaine de la danse contemporaine, malgré mon appréhension, je m’y suis inscrit. Dans le cadre de &lt;em&gt;et si on sortait&lt;/em&gt;, j’ai pu apprécier pour la première fois le travail de &lt;strong&gt;MICKAËL LE MER&lt;/strong&gt;, chorégraphe de renom qui pour deux séances remplit la salle des quinconces.&lt;/p&gt;</description>
     </item>
   </channel>

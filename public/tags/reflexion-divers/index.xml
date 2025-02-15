@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reflexion Divers on Geoffrey</title>
-    <link>http://localhost:1313/archie/tags/reflexion-divers/</link>
+    <link>http://localhost:1313/blog/tags/reflexion-divers/</link>
     <description>Recent content in Reflexion Divers on Geoffrey</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>fr</language>
     <copyright>© Athul</copyright>
     <lastBuildDate>Fri, 29 Dec 2023 14:18:33 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/archie/tags/reflexion-divers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/reflexion-divers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Être non-marginal parmi les marginaux</title>
-      <link>http://localhost:1313/archie/posts/marginaux/</link>
+      <link>http://localhost:1313/blog/posts/marginaux/</link>
       <pubDate>Fri, 29 Dec 2023 14:18:33 +0100</pubDate>
-      <guid>http://localhost:1313/archie/posts/marginaux/</guid>
+      <guid>http://localhost:1313/blog/posts/marginaux/</guid>
       <description>&lt;h1 id=&#34;être-non-marginal-parmi-les-marginaux&#34;&gt;Être non-marginal parmi les marginaux&lt;/h1&gt;&#xA;&lt;p&gt;Si les gens me voient comme quelqu&amp;rsquo;un de sociable et de confiant, j&amp;rsquo;ai mis beaucoup de temps à trouver ma place, longtemps j’ai cru être unique, espérer aussi, faire partie de c&amp;rsquo;est rare personne hors des cases de façons sincères et radicales. Car mes parents m’ont toujours répété de ne pas me confondre dans la norme, j’ai été marginalisé toute mon enfance. Ce qui m&amp;rsquo;a amené à fréquenter de vrais originaux, et me laisser croire que j’en étais un. Or j’ai compris que ce n’est pas le cas.&lt;/p&gt;</description>
     </item>
   </channel>
