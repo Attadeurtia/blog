@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head lang="en"><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
+<html><head lang="en"><script src="/archie/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=archie/livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Design Patterns - Geoffrey</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="C’est quoi ?
@@ -17,13 +17,13 @@ Pour comprendre les frameworks
 
 Un livre écrit par le GoF (Gang of Four : Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides) décrit 23 Design Patterns appliqués à la conception orientée objet, classés en trois catégories :" />
 	<meta property="og:image" content=""/>
-	<meta property="og:url" content="http://localhost:1313/blog/posts/design_patterns/">
+	<meta property="og:url" content="http://localhost:1313/archie/posts/design_patterns/">
   <meta property="og:site_name" content="Geoffrey">
   <meta property="og:title" content="Design Patterns">
   <meta property="og:description" content="C’est quoi ? Les patterns offrent des solutions à des problèmes récurrents rencontrés par les développeurs, Ils permettent de :
 Limiter le couplage Faciliter la maintenance Être moins rigide face au changement Ils sont indispensables à connaître pour le développeur :
 Pour s’assurer d’une meilleure conception Pour dialoguer avec les développeurs (à travers le “langage pattern”) Pour comprendre les frameworks Un livre écrit par le GoF (Gang of Four : Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides) décrit 23 Design Patterns appliqués à la conception orientée objet, classés en trois catégories :">
-  <meta property="og:locale" content="fr_fr">
+  <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2023-04-24T17:49:47+02:00">
@@ -37,13 +37,13 @@ Pour s’assurer d’une meilleure conception Pour dialoguer avec les développe
 Limiter le couplage Faciliter la maintenance Être moins rigide face au changement Ils sont indispensables à connaître pour le développeur :
 Pour s’assurer d’une meilleure conception Pour dialoguer avec les développeurs (à travers le “langage pattern”) Pour comprendre les frameworks Un livre écrit par le GoF (Gang of Four : Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides) décrit 23 Design Patterns appliqués à la conception orientée objet, classés en trois catégories :">
 
-        <link href="http://localhost:1313/blog/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+        <link href="http://localhost:1313/archie/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
 
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/blog/css/main.6a0f23ea50fd34b46fee262a5a68e17d458c51a2bc99ba1ba018065de6b180c3.css" />
-		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/blog/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css" media="(prefers-color-scheme: dark)"  /><script type="text/javascript"
-		src="http://localhost:1313/blog/js/MathJax.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/archie/css/main.6a0f23ea50fd34b46fee262a5a68e17d458c51a2bc99ba1ba018065de6b180c3.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/archie/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css" media="(prefers-color-scheme: dark)"  /><script type="text/javascript"
+		src="http://localhost:1313/archie/js/MathJax.js"></script>
 		
 		<script type="text/x-mathjax-config">
 		MathJax.Hub.Config({
@@ -57,9 +57,9 @@ Pour s’assurer d’une meilleure conception Pour dialoguer avec les développe
 						 extensions: ["AMSmath.js", "AMSsymbols.js"] }
 			}
 		});
-		</script><link rel="stylesheet" href="http://localhost:1313/blog/katex/katex.min.css ">
-		<script defer src="http://localhost:1313/blog/katex/katex.min.js"></script>
-		<script defer src="http://localhost:1313/blog/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+		</script><link rel="stylesheet" href="http://localhost:1313/archie/katex/katex.min.css ">
+		<script defer src="http://localhost:1313/archie/katex/katex.min.js"></script>
+		<script defer src="http://localhost:1313/archie/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
 		
 		<script>
 			document.addEventListener("DOMContentLoaded", function() {
@@ -73,18 +73,24 @@ Pour s’assurer d’une meilleure conception Pour dialoguer avec les développe
 		</script>
 </head>
 <body>
-        <div class="content"><head>
-    
-  
-  <script
-    defer
-    src="https://cloud.umami.is/script.js"
-    data-website-id="8261e837-91d2-433d-ba96-be0441457e4a">
-  </script>
+        <div class="content"><header>
+	<div class="main">
+		<a href="http://localhost:1313/">Geoffrey</a>
+	</div>
+	<nav>
+		
+		<a href="/archie/">Home</a>
+		
+		<a href="/archie/posts">All posts</a>
+		
+		<a href="/archie/about">About</a>
+		
+		<a href="/archie/tags">Tags</a>
+		
+		
+	</nav>
+</header>
 
-
-  </head>
-  
 <main>
   <article>
     <div class="post-container">
@@ -509,35 +515,22 @@ Le Visiteur doit parcourir chaque élément du Composite : cette fonctionnalité
       
     </div>
 
-    <div id="disqus_thread"></div>
-<script type="text/javascript">
-    (function () {
-        
-        
-        if (window.location.hostname == "localhost")
-            return;
-
-        var dsq = document.createElement('script');
-        dsq.type = 'text/javascript';
-        dsq.async = true;
-        var disqus_shortname = 'yourDisqusShortname';
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
-        Disqus.</a></noscript>
-<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</article>
+    </article>
 </main>
 <footer>
-    <div style="display:flex"><a class="border"></a><a class="border"></a><a class="border"></a></div>
-    <div class="footer-info">
-      2025  © Athul |  <a
-        href="https://github.com/athul/archie">Archie Theme</a> | construit with <a href="https://gohugo.io">Hugo</a>
-    </div>
-  </footer>
-
+  <div style="display:flex"><a class="soc" href="https://github.com/athul/archie" rel="me" title="GitHub"><svg class="feather">
+   <use href="/archie/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
+</svg></a><a class="border"></a><a class="soc" href="https://twitter.com/athulcajay/" rel="me" title="Twitter"><svg class="feather">
+   <use href="/archie/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#twitter" />
+</svg></a><a class="border"></a><a class="soc" href="https://gitlab.com/athul/" rel="me" title="GitLab"><svg class="feather">
+   <use href="/archie/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#gitlab" />
+</svg></a><a class="border"></a></div>
+  <div class="footer-info">
+    2025  © Athul |  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
   </div>
+</footer>
+
+</div>
     </body>
 </html>

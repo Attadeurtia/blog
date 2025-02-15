@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cours on Geoffrey</title>
-    <link>http://localhost:1313/blog/tags/cours/</link>
+    <link>http://localhost:1313/archie/tags/cours/</link>
     <description>Recent content in Cours on Geoffrey</description>
     <generator>Hugo</generator>
-    <language>fr-fr</language>
+    <language>en-us</language>
     <copyright>© Athul</copyright>
     <lastBuildDate>Fri, 28 Apr 2023 14:18:49 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/cours/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archie/tags/cours/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Complexite</title>
-      <link>http://localhost:1313/blog/posts/complexite/</link>
+      <link>http://localhost:1313/archie/posts/complexite/</link>
       <pubDate>Fri, 28 Apr 2023 14:18:49 +0200</pubDate>
-      <guid>http://localhost:1313/blog/posts/complexite/</guid>
+      <guid>http://localhost:1313/archie/posts/complexite/</guid>
       <description>&lt;h2 id=&#34;classes-de-complexité&#34;&gt;Classes de complexité&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;Déterministe&lt;/th&gt;&#xA;          &lt;th&gt;non-Déterministe&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;temps&lt;/td&gt;&#xA;          &lt;td&gt;p,EXPTIME&lt;/td&gt;&#xA;          &lt;td&gt;np, NEXPTIME&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;espace&lt;/td&gt;&#xA;          &lt;td&gt;LOGSPACE, PSPACE, EXPSPACE&lt;/td&gt;&#xA;          &lt;td&gt;NLOGSPACE&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;complexité-logarithmique&#34;&gt;complexité logarithmique&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;O(1) : constant&lt;/li&gt;&#xA;&lt;li&gt;O(n) : linéaire&lt;/li&gt;&#xA;&lt;li&gt;O(log n) : logarithmique&lt;/li&gt;&#xA;&lt;li&gt;O(n log n) : quasi-linéaire&lt;/li&gt;&#xA;&lt;li&gt;O(n²) : quadratique&lt;/li&gt;&#xA;&lt;li&gt;O(n³) : cubique&lt;/li&gt;&#xA;&lt;li&gt;O(n^k) : polynomial&lt;/li&gt;&#xA;&lt;li&gt;O(2ⁿ) : exponentielle&lt;/li&gt;&#xA;&lt;li&gt;O(n!) : factorielle&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;&#34; alt=&#34;Capture d’écran du 2023-04-28 13-41-53.png&#34;&gt; &lt;img src=&#34;&#34; alt=&#34;Capture d’écran du 2023-04-02 18-18-41.png&#34;&gt;&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;algo&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;constant&lt;/td&gt;&#xA;          &lt;td&gt;O(1)&lt;/td&gt;&#xA;          &lt;td&gt;set&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;logarithmique&lt;/td&gt;&#xA;          &lt;td&gt;O(log n)&lt;/td&gt;&#xA;          &lt;td&gt;liste&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;linéaire&lt;/td&gt;&#xA;          &lt;td&gt;O(n)&lt;/td&gt;&#xA;          &lt;td&gt;recherche dichotomique, dans un tableaux trié&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;quasi-linéaire&lt;/td&gt;&#xA;          &lt;td&gt;O(n log n)&lt;/td&gt;&#xA;          &lt;td&gt;tri d&amp;rsquo;un tableaux (fusion)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;quadratique&lt;/td&gt;&#xA;          &lt;td&gt;O(n²)&lt;/td&gt;&#xA;          &lt;td&gt;tri d&amp;rsquo;un tableaux (insertion)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;cubique&lt;/td&gt;&#xA;          &lt;td&gt;O(n³)&lt;/td&gt;&#xA;          &lt;td&gt;multiplication de matrices&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;polynomial&lt;/td&gt;&#xA;          &lt;td&gt;O(n^k)&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;exponentielle&lt;/td&gt;&#xA;          &lt;td&gt;O(2ⁿ)&lt;/td&gt;&#xA;          &lt;td&gt;problème du sac à dos&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;factorielle&lt;/td&gt;&#xA;          &lt;td&gt;O(n!)&lt;/td&gt;&#xA;          &lt;td&gt;problème du voyageur de commerce&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;problème-complexe&#34;&gt;Problème complexe&lt;/h2&gt;&#xA;&lt;h3 id=&#34;problème-du-voyageur-de-commerce&#34;&gt;Problème du voyageur de commerce&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;problème NP-complet&lt;/li&gt;&#xA;&lt;li&gt;O(n!)&lt;/li&gt;&#xA;&lt;li&gt;10 villes : 3 628 800&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;problème-du-sac-à-dos&#34;&gt;Problème du sac à dos&lt;/h3&gt;&#xA;&lt;p&gt;knapack problem&lt;/p&gt;</description>
     </item>
     <item>
       <title>Design Patterns</title>
-      <link>http://localhost:1313/blog/posts/design_patterns/</link>
+      <link>http://localhost:1313/archie/posts/design_patterns/</link>
       <pubDate>Mon, 24 Apr 2023 17:49:47 +0200</pubDate>
-      <guid>http://localhost:1313/blog/posts/design_patterns/</guid>
+      <guid>http://localhost:1313/archie/posts/design_patterns/</guid>
       <description>&lt;h2 id=&#34;cest-quoi-&#34;&gt;C’est quoi ?&lt;/h2&gt;&#xA;&lt;p&gt;Les patterns offrent des solutions à des problèmes récurrents rencontrés par les développeurs, Ils permettent de :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Limiter le couplage&lt;/li&gt;&#xA;&lt;li&gt;Faciliter la maintenance&lt;/li&gt;&#xA;&lt;li&gt;Être moins rigide face au changement&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ils sont indispensables à connaître pour le développeur :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Pour s’assurer d’une meilleure conception&lt;/li&gt;&#xA;&lt;li&gt;Pour dialoguer avec les développeurs (à travers le “langage pattern”)&lt;/li&gt;&#xA;&lt;li&gt;Pour comprendre les frameworks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Un livre écrit par le &lt;a href=&#34;https://fr.wikipedia.org/wiki/Patron_de_conception&#34;&gt;GoF (Gang of Four : Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides)&lt;/a&gt; décrit 23 Design Patterns appliqués à la conception orientée objet, classés en trois catégories :&lt;/p&gt;</description>
     </item>
   </channel>
