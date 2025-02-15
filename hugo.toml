@@ -2,7 +2,7 @@ baseURL = "https://attadeurtia.github.io/blog/"
 languageCode = "fr"
 title = "Geoffrey"
 theme="archie"
-copyright = "© Athul"
+copyright = "© Geoffrey"
 # Code Highlight
 pygmentsstyle = "monokai"
 pygmentscodefences = true
