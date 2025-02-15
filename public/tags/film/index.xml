@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Film on Geoffrey</title>
-    <link>http://localhost:1313/blog/tags/film/</link>
-    <description>Recent content in Film on Geoffrey</description>
+    <title>Film on My New Hugo Site</title>
+    <link>http://localhost:56603/tags/film/</link>
+    <description>Recent content in Film on My New Hugo Site</description>
     <generator>Hugo</generator>
-    <language>FR-fr</language>
+    <language>en-us</language>
     <lastBuildDate>Tue, 09 Jan 2024 23:33:45 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/film/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:56603/tags/film/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Un film au hasard</title>
-      <link>http://localhost:1313/blog/posts/un-film-au-hasard/</link>
+      <link>http://localhost:56603/posts/un-film-au-hasard/</link>
       <pubDate>Tue, 09 Jan 2024 23:33:45 +0100</pubDate>
-      <guid>http://localhost:1313/blog/posts/un-film-au-hasard/</guid>
+      <guid>http://localhost:56603/posts/un-film-au-hasard/</guid>
       <description>&lt;h1 id=&#34;i-hired-a-contract-killer&#34;&gt;I Hired a Contract Killer&lt;/h1&gt;&#xA;&lt;p&gt;Aujourd&amp;rsquo;hui j&amp;rsquo;ai vu un film au hasard au cinéma&amp;hellip; Normalement je devais voir &amp;ldquo;l&amp;rsquo;innocent&amp;rdquo; avec un ami mais il a oublié la séance (il se sent pas bien en ce moment) du coup je suis partie dans une salle au hasard.&lt;/p&gt;&#xA;&lt;p&gt;C&amp;rsquo;était un film assez atypique, une rétrospective un cinéaste inconnu, ça parlait d&amp;rsquo;un homme voulant mettre fin à ses jours mais n&amp;rsquo;y arrivant pas commanda à un tueur à gages de le faire, entre-temps il rencontra une raison de ne plus du tout mourir mais trop tard le contrat était engagé.&lt;/p&gt;</description>
     </item>
   </channel>
