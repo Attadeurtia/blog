@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>fr</language>
     <copyright>© Geoffrey</copyright>
-    <lastBuildDate>Tue, 28 Jan 2025 20:20:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 15 Feb 2025 18:30:17 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comment Installer Hugo Umami Analytics Module</title>
+      <link>http://localhost:1313/blog/posts/umami/</link>
+      <pubDate>Sat, 15 Feb 2025 18:30:17 +0100</pubDate>
+      <guid>http://localhost:1313/blog/posts/umami/</guid>
+      <description>&lt;h2 id=&#34;quest-ce-que-umami-&#34;&gt;Qu&amp;rsquo;est-ce que Umami ?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://umami.is&#34;&gt;Umami&lt;/a&gt; est une alternative open-source à Google Analytics, il faut savoir que Google Analytics &lt;a href=&#34;https://agence-anode.fr/blog/google-analytics-4-rgpd-conformite-enjeux-alternatives/&#34;&gt;ne respecte pas le RGPD&lt;/a&gt; et tous les sites l&amp;rsquo;utilisant en France et en Europe sont dans l&amp;rsquo;illégalité vis-à-vis des données personnelles.&lt;/p&gt;&#xA;&lt;p&gt;Umami à l&amp;rsquo;inverse est conçue pour respecter la vie privée des utilisateurs tout en fournissant des statistiques utiles sur l&amp;rsquo;utilisation de votre site. Il existe d&amp;rsquo;autre alternative, mais celle-ci est facile à mettre en place et possède un hugomod.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Double soirée : Suzy Storck &amp; Désintégration</title>
       <link>http://localhost:1313/blog/posts/double-soiree/</link>
