@@ -23,7 +23,7 @@ Un livre écrit par le GoF (Gang of Four : Erich Gamma, Richard Helm, Ralph John
   <meta property="og:description" content="C’est quoi ? Les patterns offrent des solutions à des problèmes récurrents rencontrés par les développeurs, Ils permettent de :
 Limiter le couplage Faciliter la maintenance Être moins rigide face au changement Ils sont indispensables à connaître pour le développeur :
 Pour s’assurer d’une meilleure conception Pour dialoguer avec les développeurs (à travers le “langage pattern”) Pour comprendre les frameworks Un livre écrit par le GoF (Gang of Four : Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides) décrit 23 Design Patterns appliqués à la conception orientée objet, classés en trois catégories :">
-  <meta property="og:locale" content="fr">
+  <meta property="og:locale" content="fr_fr">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2023-04-24T17:49:47+02:00">
@@ -42,6 +42,35 @@ Pour s’assurer d’une meilleure conception Pour dialoguer avec les développe
 
 	
 	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/blog/css/main.6a0f23ea50fd34b46fee262a5a68e17d458c51a2bc99ba1ba018065de6b180c3.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/blog/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css" media="(prefers-color-scheme: dark)"  /><script type="text/javascript"
+		src="http://localhost:1313/blog/js/MathJax.js"></script>
+		
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [['$$','$$'], ['\[','\]']],
+				processEscapes: true,
+				processEnvironments: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				TeX: { equationNumbers: { autoNumber: "AMS" },
+						 extensions: ["AMSmath.js", "AMSsymbols.js"] }
+			}
+		});
+		</script><link rel="stylesheet" href="http://localhost:1313/blog/katex/katex.min.css ">
+		<script defer src="http://localhost:1313/blog/katex/katex.min.js"></script>
+		<script defer src="http://localhost:1313/blog/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+		
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+					renderMathInElement(document.body, {
+							delimiters: [
+									{left: "$$", right: "$$", display: true},
+									{left: "$", right: "$", display: false}
+							]
+					});
+			});
+		</script>
 </head>
 <body>
         <div class="content"><head>
@@ -110,246 +139,246 @@ Pour s’assurer d’une meilleure conception Pour dialoguer avec les développe
 <li>On souhaite créer une classe réutilisable qui collabore avec des classes sans relations avec elle et encore inconnues, c’est-à-dire avec des classes qui n’auront pas nécessairement des interfaces compatibles.</li>
 <li>On a besoin d’utiliser plusieurs sous-classes existantes, mais l’adaptation de leur interface par dérivation de chacune d’entre elles est impraticable. Un adaptateur peut adapter l’interface de sa classe parente.</li>
 </ul>
-<pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
-
-abstract Cible{
- + requete()
-}
-
-Adaptateur : + requete()
-Adapté : + requeteSpécifique()
-note &#34;requeteSpécifique()&#34; as N1
-
-
-Client -&gt; Cible
-Cible &lt;|-- Adaptateur
-Adapté &lt;-- Adaptateur
-Adaptateur . N1
-
-
-@enduml
-</code></pre><h3 id="composite">Composite</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>@startuml
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>abstract Cible{
+</span></span><span style="display:flex;"><span> + requete()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Adaptateur : + requete()
+</span></span><span style="display:flex;"><span>Adapté : + requeteSpécifique()
+</span></span><span style="display:flex;"><span>note &#34;requeteSpécifique()&#34; as N1
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Client -&gt; Cible
+</span></span><span style="display:flex;"><span>Cible &lt;|-- Adaptateur
+</span></span><span style="display:flex;"><span>Adapté &lt;-- Adaptateur
+</span></span><span style="display:flex;"><span>Adaptateur . N1
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>@enduml
+</span></span></code></pre></div><h3 id="composite">Composite</h3>
 <p>Permet d’agencer les objets dans des arborescences afin de pouvoir traiter de la même et unique façon les objets individuels et les combinaisons de ceux-ci. <em>un objet contient d’autres objets</em> :</p>
 <ul>
 <li>Un système de fichier</li>
 <li>Des objets graphiques (conteneurs et éléments graphiques élémentaire)</li>
 <li>DOM</li>
 </ul>
-<pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
-skinparam groupInheritance 2
-
-class Client {
-    + main()
-}
-
-abstract Composant {
-    + opération()
-    + ajouter(c: Composant)
-    + supprimer(c: Composant)
-    + getEnfant(i: int)
-}
-
-class Feuille{
-    + opération()
-}
-
-class Composite{
-    + opération()
-    + ajoute(c: Composant)
-    + supprimer(c Composant)
-    + getEnfant(i; Int)
-}
-
-note &#34;pour tout g parmi enfant g.opération();&#34; as N
-
-Client -&gt; Composant
-Composant &lt;|-- Feuille
-Composant &lt;|-- Composite
-Composant &#34;1..*&#34;&lt;-- Composite
-Composite .. N
-
-@enduml
-</code></pre><h3 id="decorator">Decorator</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>@startuml
+</span></span><span style="display:flex;"><span>skinparam groupInheritance 2
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>class Client {
+</span></span><span style="display:flex;"><span>    + main()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>abstract Composant {
+</span></span><span style="display:flex;"><span>    + opération()
+</span></span><span style="display:flex;"><span>    + ajouter(c: Composant)
+</span></span><span style="display:flex;"><span>    + supprimer(c: Composant)
+</span></span><span style="display:flex;"><span>    + getEnfant(i: int)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>class Feuille{
+</span></span><span style="display:flex;"><span>    + opération()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>class Composite{
+</span></span><span style="display:flex;"><span>    + opération()
+</span></span><span style="display:flex;"><span>    + ajoute(c: Composant)
+</span></span><span style="display:flex;"><span>    + supprimer(c Composant)
+</span></span><span style="display:flex;"><span>    + getEnfant(i; Int)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>note &#34;pour tout g parmi enfant g.opération();&#34; as N
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Client -&gt; Composant
+</span></span><span style="display:flex;"><span>Composant &lt;|-- Feuille
+</span></span><span style="display:flex;"><span>Composant &lt;|-- Composite
+</span></span><span style="display:flex;"><span>Composant &#34;1..*&#34;&lt;-- Composite
+</span></span><span style="display:flex;"><span>Composite .. N
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>@enduml
+</span></span></code></pre></div><h3 id="decorator">Decorator</h3>
 <p>Un objet contient un autre objet, et ajoute des fonctionnalités <em>surchargeant les méthodes.</em>
 Permet d&rsquo;ajouter des fonctionnalités à un objet de manière dynamique.</p>
-<pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
-
-abstract Composant{
- + opération()
-}
-
-ComposantConcret : + opération()
-
-abstract Décorateur{
- + opération()
-}
-
-class DécorateurConcretA{
- - étatAjouté : int
- + oprétion()
-}
-
-class DécorateurConcretB{
- + opération()
- + comportementAjouté()
-}
-
-note right of Décorateur : composant.opération()
-note right of DécorateurConcretB : Décoration.opération();\ncomportementAjouté();
-
-Composant &lt;|- ComposantConcret
-Composant &lt;|-- Décorateur
-Composant &lt;-- Décorateur
-Décorateur &lt;|-- DécorateurConcretA
-Décorateur &lt;|-- DécorateurConcretB
-@enduml
-</code></pre><h3 id="facade">Facade</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>@startuml
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>abstract Composant{
+</span></span><span style="display:flex;"><span> + opération()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>ComposantConcret : + opération()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>abstract Décorateur{
+</span></span><span style="display:flex;"><span> + opération()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>class DécorateurConcretA{
+</span></span><span style="display:flex;"><span> - étatAjouté : int
+</span></span><span style="display:flex;"><span> + oprétion()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>class DécorateurConcretB{
+</span></span><span style="display:flex;"><span> + opération()
+</span></span><span style="display:flex;"><span> + comportementAjouté()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>note right of Décorateur : composant.opération()
+</span></span><span style="display:flex;"><span>note right of DécorateurConcretB : Décoration.opération();\ncomportementAjouté();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Composant &lt;|- ComposantConcret
+</span></span><span style="display:flex;"><span>Composant &lt;|-- Décorateur
+</span></span><span style="display:flex;"><span>Composant &lt;-- Décorateur
+</span></span><span style="display:flex;"><span>Décorateur &lt;|-- DécorateurConcretA
+</span></span><span style="display:flex;"><span>Décorateur &lt;|-- DécorateurConcretB
+</span></span><span style="display:flex;"><span>@enduml
+</span></span></code></pre></div><h3 id="facade">Facade</h3>
 <p>Permet de fournir une interface unifiée pour un ensemble d&rsquo;interfaces dans un sous-système.</p>
 <h2 id="behavioral-patterns">Behavioral patterns</h2>
 <p>Les patterns <strong>comportementaux</strong>, qui définissent la communication entre objets.</p>
 <h3 id="strategy">Strategy</h3>
 <p>Permet de définir une famille d&rsquo;algorithmes, encapsuler chacun d&rsquo;eux et les rendre interchangeables. En général, les clients créent un objet StrategieConcrete, et le passent au contexte, par la suite les clients interagissent exclusivement avec le contexte.</p>
-<pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
-
-class contexte{
- + interfaceContexte()
-}
-
-Abstract Stratégie{
- + interfaceAlgorithme()
-}
-
-StratégieConcrèteA : + interfaceAlgorithme()
-StratégieConcrèteB : + interfaceAlgorithme()
-StratégieConcrèteC : + interfaceAlgorithme()
-
-
-
-contexte -&gt; Stratégie
- Stratégie &lt;|-- StratégieConcrèteA
- Stratégie &lt;|-- StratégieConcrèteB
- Stratégie &lt;|-- StratégieConcrèteC
-
-@enduml
-</code></pre><h3 id="command">Command</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>@startuml
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>class contexte{
+</span></span><span style="display:flex;"><span> + interfaceContexte()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Abstract Stratégie{
+</span></span><span style="display:flex;"><span> + interfaceAlgorithme()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>StratégieConcrèteA : + interfaceAlgorithme()
+</span></span><span style="display:flex;"><span>StratégieConcrèteB : + interfaceAlgorithme()
+</span></span><span style="display:flex;"><span>StratégieConcrèteC : + interfaceAlgorithme()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>contexte -&gt; Stratégie
+</span></span><span style="display:flex;"><span> Stratégie &lt;|-- StratégieConcrèteA
+</span></span><span style="display:flex;"><span> Stratégie &lt;|-- StratégieConcrèteB
+</span></span><span style="display:flex;"><span> Stratégie &lt;|-- StratégieConcrèteC
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>@enduml
+</span></span></code></pre></div><h3 id="command">Command</h3>
 <p>Un objet encapsule une commande, et peut l’exécuter, encapsuler une demande sous la forme d&rsquo;un objet, ce qui permet de paramétrer les clients avec différentes demandes.</p>
-<pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
-
-
-
-abstract Commande {
-    + execute()
-}
-
-class CommandeConcrete{
-    + execute()
-}
-class Recepteur {
-    + action()
-}
-
-note &#34;Recepteur.action()&#34; as N1
-
-Invocateur -&gt; Commande
-Commande &lt;|-- CommandeConcrete
-
-Client .&gt; CommandeConcrete 
-Client -&gt; Recepteur
-CommandeConcrete --&gt; Recepteur
-CommandeConcrete .. N1
-
-
-
-
-@enduml
-</code></pre><h3 id="iterator">Iterator</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>@startuml
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>abstract Commande {
+</span></span><span style="display:flex;"><span>    + execute()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>class CommandeConcrete{
+</span></span><span style="display:flex;"><span>    + execute()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>class Recepteur {
+</span></span><span style="display:flex;"><span>    + action()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>note &#34;Recepteur.action()&#34; as N1
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Invocateur -&gt; Commande
+</span></span><span style="display:flex;"><span>Commande &lt;|-- CommandeConcrete
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Client .&gt; CommandeConcrete 
+</span></span><span style="display:flex;"><span>Client -&gt; Recepteur
+</span></span><span style="display:flex;"><span>CommandeConcrete --&gt; Recepteur
+</span></span><span style="display:flex;"><span>CommandeConcrete .. N1
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>@enduml
+</span></span></code></pre></div><h3 id="iterator">Iterator</h3>
 <p>Permets de parcourir les éléments d’une collection sans révéler sa représentation interne (liste, pile, arbre, etc.).
 Même appel pour n&rsquo;importe quel type de collection, en java on utilise l&rsquo;interface Iterable et l&rsquo;interface Iterator
 <code>java.util.Iterator</code> et <code>java.lang.Iterable</code></p>
-<pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
-
-
-
-class Client {
-    + main()
-}
-
-interface Iterateur{
- + suivant()
- + existeSuivant()
- + supprimer()
-}
-
-abstract Agregat{
- {abstract} + créeItérateur()
-}
-
-class AgregatContret{
- + créeItérateur()
-}
-
-
-
-Agregat &lt;-Client
-Client -&gt; Iterateur
-Agregat &lt;|-- AgregatContret
-Iterateur &lt;|-- ItérateurConcret
-AgregatContret -&gt; ItérateurConcret
-
-note &#34;return new ItérateurConcret(this)&#34; as N1
-AgregatContret .. N1
-
-
-
-@enduml
-</code></pre><h3 id="observer">Observer</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>@startuml
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>class Client {
+</span></span><span style="display:flex;"><span>    + main()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>interface Iterateur{
+</span></span><span style="display:flex;"><span> + suivant()
+</span></span><span style="display:flex;"><span> + existeSuivant()
+</span></span><span style="display:flex;"><span> + supprimer()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>abstract Agregat{
+</span></span><span style="display:flex;"><span> {abstract} + créeItérateur()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>class AgregatContret{
+</span></span><span style="display:flex;"><span> + créeItérateur()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Agregat &lt;-Client
+</span></span><span style="display:flex;"><span>Client -&gt; Iterateur
+</span></span><span style="display:flex;"><span>Agregat &lt;|-- AgregatContret
+</span></span><span style="display:flex;"><span>Iterateur &lt;|-- ItérateurConcret
+</span></span><span style="display:flex;"><span>AgregatContret -&gt; ItérateurConcret
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>note &#34;return new ItérateurConcret(this)&#34; as N1
+</span></span><span style="display:flex;"><span>AgregatContret .. N1
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>@enduml
+</span></span></code></pre></div><h3 id="observer">Observer</h3>
 <p>Permet à un objet de surveiller l&rsquo;état d&rsquo;un autre objet et d&rsquo;être informé lorsque cet état change, Le design pattern Observer est utilisé pour établir une relation de type &ldquo;un-à-plusieurs&rdquo; entre des objets, où un objet principal, appelé &ldquo;sujet&rdquo; (ou &ldquo;observable&rdquo;), informe plusieurs autres objets, appelés &ldquo;observateurs&rdquo;, lorsqu&rsquo;il subit un changement d&rsquo;état. L&rsquo;idée est de définir une relation de dépendance entre ces objets sans les coupler de manière rigide. Cela permet de mettre à jour automatiquement les observateurs lorsque le sujet change d&rsquo;état, sans avoir à les relier explicitement.</p>
-<pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
-
-abstract Sujet{
- + attache(o : Observateur)
- + détache(o : Observateur)
- + notifie()
-}
-
-abstract Observateur{
- + miseAJour()
-}
-
-ObservateurConcret : + miseAJour()
-note &#34;Pour tout o dans Observateurs\n o.miseAJour()&#34; as N
-
-
-Sujet -&gt; Observateur
-Sujet &lt;|-- SujetConcret 
-Observateur &lt;|-- ObservateurConcret 
-Sujet .. N
-
-@enduml
-</code></pre><h3 id="mediator">Mediator</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>@startuml
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>abstract Sujet{
+</span></span><span style="display:flex;"><span> + attache(o : Observateur)
+</span></span><span style="display:flex;"><span> + détache(o : Observateur)
+</span></span><span style="display:flex;"><span> + notifie()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>abstract Observateur{
+</span></span><span style="display:flex;"><span> + miseAJour()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>ObservateurConcret : + miseAJour()
+</span></span><span style="display:flex;"><span>note &#34;Pour tout o dans Observateurs\n o.miseAJour()&#34; as N
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Sujet -&gt; Observateur
+</span></span><span style="display:flex;"><span>Sujet &lt;|-- SujetConcret 
+</span></span><span style="display:flex;"><span>Observateur &lt;|-- ObservateurConcret 
+</span></span><span style="display:flex;"><span>Sujet .. N
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>@enduml
+</span></span></code></pre></div><h3 id="mediator">Mediator</h3>
 <p>Un objet centralise la communication entre plusieurs, objets, associe un objet à un autre (centrale d&rsquo;avion).</p>
 <h3 id="state">State</h3>
 <p>Un objet change de comportement en fonction de son état (ex: un bouton qui change de couleur en fonction de son état).
 Modélise des objets dont le comportement varie en fonction de leur état interne. L&rsquo;idée est de définir une classe abstraite représentant l&rsquo;état général d&rsquo;un objet, et des sous-classes concrètes représentant les différents états spécifiques. Chaque état peut définir ses propres comportements pour les différentes méthodes de l&rsquo;objet. L&rsquo;objet principal, appelé &ldquo;contexte&rdquo;, maintient une référence à un objet d&rsquo;état particulier, qui détermine le comportement actuel de l&rsquo;objet. En modifiant l&rsquo;état du contexte, on peut modifier le comportement de l&rsquo;objet.</p>
-<pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
-
-Contexte : + requette()
-
-abstract État{
- + gerer(): void
-}
-
-ÉtatAConcret : + gerer()
-ÉtatBConcret : + gerer()
-
-note bottom of Contexte : etat.gerer()
-
-Contexte -&gt; État
-État &lt;|-- ÉtatAConcret
-État &lt;|-- ÉtatBConcret
-
-@enduml
-</code></pre><h3 id="visitor">Visitor</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>@startuml
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Contexte : + requette()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>abstract État{
+</span></span><span style="display:flex;"><span> + gerer(): void
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>ÉtatAConcret : + gerer()
+</span></span><span style="display:flex;"><span>ÉtatBConcret : + gerer()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>note bottom of Contexte : etat.gerer()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Contexte -&gt; État
+</span></span><span style="display:flex;"><span>État &lt;|-- ÉtatAConcret
+</span></span><span style="display:flex;"><span>État &lt;|-- ÉtatBConcret
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>@enduml
+</span></span></code></pre></div><h3 id="visitor">Visitor</h3>
 <p>Utilisez le pattern Visiteur quand vous voulez ajouter des capacités à un ensemble composite d’objets et que l’encapsulation n’est pas importante.
 Le Visiteur doit parcourir chaque élément du Composite : cette fonctionnalité se trouve dans un objet Navigateur. Le Visiteur est guidé par le Navigateur et recueille l’état de tous les objets du Composite. Une fois l’état recueilli, le Client peut demander au Visiteur d’exécuter différentes opérations sur celui-ci. Quand une nouvelle fonctionnalité est requise, seul le Visiteur doit être modifié.</p>
 <ul>
@@ -357,54 +386,54 @@ Le Visiteur doit parcourir chaque élément du Composite : cette fonctionnalité
 <li>L’encapsulation des classes du Composite est brisée.</li>
 <li>Comme une fonction de navigation est impliquée, les modifications de la structure du Composite sont plus difficiles.</li>
 </ul>
-<pre tabindex="0"><code class="language-plantuml" data-lang="plantuml">@startuml
-
-abstract Visiteur{
- + visiteurElementconcretA(elemConcretA)
- + visiteurElementconcretB(elemConcretB)
-}
-
-class VisiteurConcrèt1{
- + visiteurElementconcretA(elemConcretA)
- + visiteurElementconcretB(elemConcretB)
-}
-
-class VisiteurConcrèt2{
- + visiteurElementconcretA(elemConcretA)
- + visiteurElementconcretB(elemConcretB)
-}
-
-abstract Élement{
- + accept(v: Visiteur)
-}
-
-class ÉlementConcrètA{
- + accept(v: Visiteur)
- + opérationA()
-}
-
-class ÉlementConcrètB{
- + accept(v: Visiteur)
- + opérationB()
-}
-
-
-note &#34;v.visiteElelementConcretA()&#34; as N
-note &#34;v.visiteElelementConcretB()&#34; as N2
-
-Client -&gt; Visiteur
-Visiteur &lt;|-- VisiteurConcrèt1
-Visiteur &lt;|-- VisiteurConcrèt2
-Client ---&gt; StuctureDObjet
-StuctureDObjet -&gt; Élement
-Élement &lt;|-- ÉlementConcrètA
-Élement &lt;|-- ÉlementConcrètB
-
-ÉlementConcrètA . N
-ÉlementConcrètB . N2
-
-@enduml
-</code></pre><h2 id="les-inconvénients-des-patterns">Les inconvénients des patterns</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>@startuml
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>abstract Visiteur{
+</span></span><span style="display:flex;"><span> + visiteurElementconcretA(elemConcretA)
+</span></span><span style="display:flex;"><span> + visiteurElementconcretB(elemConcretB)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>class VisiteurConcrèt1{
+</span></span><span style="display:flex;"><span> + visiteurElementconcretA(elemConcretA)
+</span></span><span style="display:flex;"><span> + visiteurElementconcretB(elemConcretB)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>class VisiteurConcrèt2{
+</span></span><span style="display:flex;"><span> + visiteurElementconcretA(elemConcretA)
+</span></span><span style="display:flex;"><span> + visiteurElementconcretB(elemConcretB)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>abstract Élement{
+</span></span><span style="display:flex;"><span> + accept(v: Visiteur)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>class ÉlementConcrètA{
+</span></span><span style="display:flex;"><span> + accept(v: Visiteur)
+</span></span><span style="display:flex;"><span> + opérationA()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>class ÉlementConcrètB{
+</span></span><span style="display:flex;"><span> + accept(v: Visiteur)
+</span></span><span style="display:flex;"><span> + opérationB()
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>note &#34;v.visiteElelementConcretA()&#34; as N
+</span></span><span style="display:flex;"><span>note &#34;v.visiteElelementConcretB()&#34; as N2
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Client -&gt; Visiteur
+</span></span><span style="display:flex;"><span>Visiteur &lt;|-- VisiteurConcrèt1
+</span></span><span style="display:flex;"><span>Visiteur &lt;|-- VisiteurConcrèt2
+</span></span><span style="display:flex;"><span>Client ---&gt; StuctureDObjet
+</span></span><span style="display:flex;"><span>StuctureDObjet -&gt; Élement
+</span></span><span style="display:flex;"><span>Élement &lt;|-- ÉlementConcrètA
+</span></span><span style="display:flex;"><span>Élement &lt;|-- ÉlementConcrètB
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>ÉlementConcrètA . N
+</span></span><span style="display:flex;"><span>ÉlementConcrètB . N2
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>@enduml
+</span></span></code></pre></div><h2 id="les-inconvénients-des-patterns">Les inconvénients des patterns</h2>
 <ul>
 <li>Ils occasionnent plus de classes</li>
 <li>Ils peuvent être peu adaptés dans des environnements dit “limités” (comme Android)</li>
@@ -480,12 +509,31 @@ StuctureDObjet -&gt; Élement
       
     </div>
 
-    </article>
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        var disqus_shortname = 'yourDisqusShortname';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
 </main>
 <footer>
-    <div style="display:flex"></div>
+    <div style="display:flex"><a class="border"></a><a class="border"></a><a class="border"></a></div>
     <div class="footer-info">
-      2025  <a
+      2025  © Athul |  <a
         href="https://github.com/athul/archie">Archie Theme</a> | construit with <a href="https://gohugo.io">Hugo</a>
     </div>
   </footer>

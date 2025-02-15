@@ -12,7 +12,7 @@ Nous étions près de 200 salariés répartis en plusieurs stades sur tout le ci
   <meta property="og:title" content="J&#39;ai bossé pour le 1000 moto GP">
   <meta property="og:description" content="J’ai bossé pour le 1000 moto GP Un job pourri Pour gagner un peu d’argent pour les vacances, j’ai travaillé 3 jours sur le circuit des 24h pour une entreprise de restauration, ne sachant pas trop à quoi m’attendre.
 Nous étions près de 200 salariés répartis en plusieurs stades sur tout le circuit. Je me retrouvais à m’occuper de la caisse derrière un stand importants, avec une grosse équipe d’une vingtaine de d’employé, nous étions 4/5 caissiers.">
-  <meta property="og:locale" content="fr">
+  <meta property="og:locale" content="fr_fr">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2023-05-20T17:41:13+02:00">
@@ -28,6 +28,35 @@ Nous étions près de 200 salariés répartis en plusieurs stades sur tout le ci
 
 	
 	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/blog/css/main.6a0f23ea50fd34b46fee262a5a68e17d458c51a2bc99ba1ba018065de6b180c3.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/blog/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css" media="(prefers-color-scheme: dark)"  /><script type="text/javascript"
+		src="http://localhost:1313/blog/js/MathJax.js"></script>
+		
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [['$$','$$'], ['\[','\]']],
+				processEscapes: true,
+				processEnvironments: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				TeX: { equationNumbers: { autoNumber: "AMS" },
+						 extensions: ["AMSmath.js", "AMSsymbols.js"] }
+			}
+		});
+		</script><link rel="stylesheet" href="http://localhost:1313/blog/katex/katex.min.css ">
+		<script defer src="http://localhost:1313/blog/katex/katex.min.js"></script>
+		<script defer src="http://localhost:1313/blog/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+		
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+					renderMathInElement(document.body, {
+							delimiters: [
+									{left: "$$", right: "$$", display: true},
+									{left: "$", right: "$", display: false}
+							]
+					});
+			});
+		</script>
 </head>
 <body>
         <div class="content"><head>
@@ -81,12 +110,31 @@ Nous étions près de 200 salariés répartis en plusieurs stades sur tout le ci
       
     </div>
 
-    </article>
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        var disqus_shortname = 'yourDisqusShortname';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
 </main>
 <footer>
-    <div style="display:flex"></div>
+    <div style="display:flex"><a class="border"></a><a class="border"></a><a class="border"></a></div>
     <div class="footer-info">
-      2025  <a
+      2025  © Athul |  <a
         href="https://github.com/athul/archie">Archie Theme</a> | construit with <a href="https://gohugo.io">Hugo</a>
     </div>
   </footer>

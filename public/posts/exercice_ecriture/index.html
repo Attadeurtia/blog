@@ -22,7 +22,7 @@ Il avait un métier étonnant, il était mannequin de pieds. Cela lui correspond
   <meta property="og:description" content="Exercice d’écriture Contexte J’ai créé ce petit texte dans un atelier d’écriture organisé à la bibliothèque universitaire du Mans lors de la nuit de la lecture, bien que le texte soit anodin, il représente une date importante pour moi.
 Les contraintes Je devais placer les mots suivants dans mon texte, ici d’un cadavre exquis sur le thème d’une partie du corps issu de tous les participants.
 Des ongles longs et brillants Des pieds ronds Un torse poilu Des yeux globuleux Le texte Il avait un métier étonnant, il était mannequin de pieds. Cela lui correspondait bien car ce n’était pas avec ses yeux globuleux qu’il aurait pu tirer quelque chose de sa tête. D’ailleurs, personne n’aurait pu croire à ce qu’un type aussi austère aurait pu être doté d’aussi beaux pieds. Il ne les exhibait rarement en public, pourtant beaucoup de gens les avaient déjà vus. Pour pas que vous tombiez sur une publicité pour des médicaments ou des savates, vous pouviez être sûre que c’étaient les siens. Évidemment, ils n’étaient pas nombreux dans la discipline. Lui-même n’avait aucun collègue, partageant la même partie du corps. Il faut dire que ses pieds ronds et ses ongles longs et brillants faisaient miroiter un idéal difficile à atteindre. Pour autant, ce n’était pas que génétique. Cela demandait une routine minutieuse. Tout le temps dédié à ses membres inférieurs ne lui permettait pas de s’occuper de son torse qui restait indéfiniment poilu.">
-  <meta property="og:locale" content="fr">
+  <meta property="og:locale" content="fr_fr">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2024-01-18T21:31:58+01:00">
@@ -39,6 +39,35 @@ Des ongles longs et brillants Des pieds ronds Un torse poilu Des yeux globuleux 
 
 	
 	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/blog/css/main.6a0f23ea50fd34b46fee262a5a68e17d458c51a2bc99ba1ba018065de6b180c3.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/blog/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css" media="(prefers-color-scheme: dark)"  /><script type="text/javascript"
+		src="http://localhost:1313/blog/js/MathJax.js"></script>
+		
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [['$$','$$'], ['\[','\]']],
+				processEscapes: true,
+				processEnvironments: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				TeX: { equationNumbers: { autoNumber: "AMS" },
+						 extensions: ["AMSmath.js", "AMSsymbols.js"] }
+			}
+		});
+		</script><link rel="stylesheet" href="http://localhost:1313/blog/katex/katex.min.css ">
+		<script defer src="http://localhost:1313/blog/katex/katex.min.js"></script>
+		<script defer src="http://localhost:1313/blog/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+		
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+					renderMathInElement(document.body, {
+							delimiters: [
+									{left: "$$", right: "$$", display: true},
+									{left: "$", right: "$", display: false}
+							]
+					});
+			});
+		</script>
 </head>
 <body>
         <div class="content"><head>
@@ -90,12 +119,31 @@ Des ongles longs et brillants Des pieds ronds Un torse poilu Des yeux globuleux 
       
     </div>
 
-    </article>
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        var disqus_shortname = 'yourDisqusShortname';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
 </main>
 <footer>
-    <div style="display:flex"></div>
+    <div style="display:flex"><a class="border"></a><a class="border"></a><a class="border"></a></div>
     <div class="footer-info">
-      2025  <a
+      2025  © Athul |  <a
         href="https://github.com/athul/archie">Archie Theme</a> | construit with <a href="https://gohugo.io">Hugo</a>
     </div>
   </footer>

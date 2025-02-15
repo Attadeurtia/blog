@@ -9,7 +9,7 @@
 	<meta property="og:url" content="http://localhost:1313/blog/">
   <meta property="og:site_name" content="Geoffrey">
   <meta property="og:title" content="Geoffrey">
-  <meta property="og:locale" content="fr">
+  <meta property="og:locale" content="fr_fr">
   <meta property="og:type" content="website">
 
   <meta name="twitter:card" content="summary">
@@ -20,6 +20,35 @@
 
 	
 	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/blog/css/main.6a0f23ea50fd34b46fee262a5a68e17d458c51a2bc99ba1ba018065de6b180c3.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/blog/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css" media="(prefers-color-scheme: dark)"  /><script type="text/javascript"
+		src="http://localhost:1313/blog/js/MathJax.js"></script>
+		
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [['$$','$$'], ['\[','\]']],
+				processEscapes: true,
+				processEnvironments: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				TeX: { equationNumbers: { autoNumber: "AMS" },
+						 extensions: ["AMSmath.js", "AMSsymbols.js"] }
+			}
+		});
+		</script><link rel="stylesheet" href="http://localhost:1313/blog/katex/katex.min.css ">
+		<script defer src="http://localhost:1313/blog/katex/katex.min.js"></script>
+		<script defer src="http://localhost:1313/blog/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+		
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+					renderMathInElement(document.body, {
+							delimiters: [
+									{left: "$$", right: "$$", display: true},
+									{left: "$", right: "$", display: false}
+							]
+					});
+			});
+		</script>
 </head>
 
 	<body>
@@ -39,84 +68,56 @@
   
 			
 			<main class="list">
-				<div class="site-description"></div>
+				<div class="site-description"><p>Minimal and Clean <a href="https://github.com/athul/archie">blog theme for Hugo</a></p></div>
 				
 				
 				
 				<section class="list-item">
-					<h1 class="title"><a href="/blog/posts/docker/">Docker</a></h1>
-					<time>Apr 21, 2023</time>
+					<h1 class="title"><a href="/blog/posts/avis_les_deux_d%C3%A9esses/">Les Deux Déesses</a></h1>
+					<time>Nov 6, 2024</time>
 					<br><div class="description">
 	
-	<h2 id="docker">Docker</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker pull : Récupérer une image depuis un registre
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run :
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>- p 8080:8080
-</span></span><span style="display:flex;"><span>- rm : Supprimer le conteneur à la fin de son exécution
-</span></span><span style="display:flex;"><span>- it : Interactif
-</span></span><span style="display:flex;"><span>- v <span style="color:#66d9ef">$(</span>pwd<span style="color:#66d9ef">)</span>:/src
-</span></span><span style="display:flex;"><span>- d : Détaché
-</span></span><span style="display:flex;"><span>- e : Variables d’environnement
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run -p 8080:8080 -rm -it -v <span style="color:#66d9ef">$(</span>pwd<span style="color:#66d9ef">)</span>:/src -d -e NODE_ENV<span style="color:#f92672">=</span>production nom_de_l_image
-</span></span></code></pre></div><p>docker run =&gt; docker create + docker start</p>
-<p>docker create id_de_l_image</p>
-<p>docker start id_du_conteneur</p>&hellip;
+	<p><em>Les Deux Déesses</em> est une pièce de théâtre mise en scène par Pauline Sales, une artiste associée au ministère de la Culture, connue notamment pour son livre <em>Les femmes de la maison</em>.</p>
+<p>Cette pièce propose une réécriture contemporaine du mythe de Déméter et Perséphone. La structure est linéaire, avec une scénographie assez simple mais efficace, composée de 6 ou 7 plans pour raconter l&rsquo;histoire. Des musiciens sont positionnés à droite et à gauche de la scène, participant également au texte.</p>&hellip;
 	
 </div>
-					<a class="readmore" href="/blog/posts/docker/">Lire plus more ⟶</a>
+					<a class="readmore" href="/blog/posts/avis_les_deux_d%C3%A9esses/">Lire plus more ⟶</a>
 				</section>
 				
 				<section class="list-item">
-					<h1 class="title"><a href="/blog/posts/diff/">Commande en vrac</a></h1>
-					<time>Feb 13, 2023</time>
+					<h1 class="title"><a href="/blog/posts/jellyfin/">Bonne utilisation de Jellyfin</a></h1>
+					<time>Mar 22, 2024</time>
 					<br><div class="description">
 	
-	<p>Quelques commandes en vrac bien utiles :</p>
-<h2 id="diff"><code>diff</code></h2>
-<p><code>diff -q</code> : Compare deux fichiers et indique s&rsquo;ils sont différents.</p>
-<p><code>-q</code> Indiquer seulement si les fichiers différent, pas les différences elles-mêmes.</p>
-<p><code>-r</code> Lorsque l&rsquo;on compare des répertoires, comparer également tous les sous-répertoires récursivement.</p>
-<p><code>-q 'ou</code> –brief&rsquo;: Indique uniquement si les fichiers diffèrent, pas les détails des différences.</p>
-<p><code>-r 'ou</code> –recursive&rsquo;: lors de la comparaison de répertoires, comparez de manière récursive tous les sous-répertoires trouvés.</p>&hellip;
+	<h1 id="pourquoi-vaut-il-mieux-installer-lapplication-que-dutiliser-le-navigateur-">Pourquoi vaut-il mieux installer l&rsquo;application que d&rsquo;utiliser le navigateur ?</h1>
+<p>Il est recommandé d&rsquo;utiliser l&rsquo;application officielle de Jellyfin plutôt que le navigateur, car les films utilisent <a href="https://fr.wikipedia.org/wiki/Codec">les codecs</a> H.264 (AVC) ou H.265 (HEVC). <a href="https://jellyfin.org/docs/general/clients/codec-support/">Les navigateurs</a> ne prennent en charge que le H.264, ce qui oblige le serveur à convertir le format (transcodage) des films HEVC, ce qui consomme plus de 90% des ressources du serveur.</p>
+<p>La moitié des films de la bibliothèque sont en H.265 car, d&rsquo;une part, c&rsquo;est un <a href="https://www.tomshardware.com/reference/h264-h265-hevc-codec-definition">format mieux adapté</a> et plus moderne, mais également plus léger et esthétique que le H.264. La solution la plus optimisée est donc d&rsquo;installer l&rsquo;application officielle</p>&hellip;
 	
 </div>
-					<a class="readmore" href="/blog/posts/diff/">Lire plus more ⟶</a>
+					<a class="readmore" href="/blog/posts/jellyfin/">Lire plus more ⟶</a>
 				</section>
 				
 				<section class="list-item">
-					<h1 class="title"><a href="/blog/posts/comment-devenir-invisible-sur-internet/">Comment Devenir Invisible Sur Internet</a></h1>
-					<time>Jun 30, 2022</time>
+					<h1 class="title"><a href="/blog/posts/exercice_ecriture/">Exercice d&#39;écriture</a></h1>
+					<time>Jan 18, 2024</time>
 					<br><div class="description">
 	
-	<p>Cet article va essayer de condenser tout ce qu’il faut savoir ou mettre en place pour améliorer sa vie privée sur internet, j’ai essayé de le faire tout public mais si vous avez une question ou une remarque n’hésitez pas à me contacter.</p>&hellip;
+	<h1 id="exercice-décriture">Exercice d&rsquo;écriture</h1>
+<h2 id="contexte">Contexte</h2>
+<p>J’ai créé ce petit texte dans un atelier d’écriture organisé à la bibliothèque universitaire du Mans lors de la nuit de la lecture, bien que le texte soit anodin, il représente une date importante pour moi.</p>
+<h2 id="les-contraintes">Les contraintes</h2>
+<p>Je devais placer les mots suivants dans mon texte, ici d’un cadavre exquis sur le thème d’une partie du corps issu de tous les participants.</p>
+<ul>
+<li>Des ongles longs et brillants</li>
+<li>Des pieds ronds</li>
+<li>Un torse poilu</li>
+<li>Des yeux globuleux</li>
+</ul>
+<h2 id="le-texte">Le texte</h2>
+<p>Il avait un métier étonnant, il était mannequin de pieds. Cela lui correspondait bien car ce n’était pas avec ses yeux globuleux qu’il aurait pu tirer quelque chose de sa tête. D’ailleurs, personne n’aurait pu croire à ce qu’un type aussi austère aurait pu être doté d’aussi beaux pieds. Il ne les exhibait rarement en public, pourtant beaucoup de gens les avaient déjà vus. Pour pas que vous tombiez sur une publicité pour des médicaments ou des savates, vous pouviez être sûre que c&rsquo;étaient les siens. Évidemment, ils n’étaient pas nombreux dans la discipline. Lui-même n’avait aucun collègue, partageant la même partie du corps. Il faut dire que ses pieds ronds et ses ongles longs et brillants faisaient miroiter un idéal difficile à atteindre. Pour autant, ce n’était pas que génétique. Cela demandait une routine minutieuse. Tout le temps dédié à ses membres inférieurs ne lui permettait pas de s’occuper de son torse qui restait indéfiniment poilu.</p>&hellip;
 	
 </div>
-					<a class="readmore" href="/blog/posts/comment-devenir-invisible-sur-internet/">Lire plus more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="/blog/posts/retour_sur_mon_exp%C3%A9rience_de_sommeil_polyphasique/">Retour sur mon expérience de sommeil polyphasique</a></h1>
-					<time>May 16, 2021</time>
-					<br><div class="description">
-	
-	<p>Il y a un mois se terminait mon année scolaire, j’ai donc pu faire une expérience qui me trottais en tête depuis un moment, est-ce que le sommeil polyphasique est efficace et est-il facilement applicable ? mais avant de répondre à ses questions, un petit point sur ce qu’est <a href="https://fr.wikipedia.org/wiki/Sommeil_polyphasique">le sommeil polyphasique</a>.</p>&hellip;
-	
-</div>
-					<a class="readmore" href="/blog/posts/retour_sur_mon_exp%C3%A9rience_de_sommeil_polyphasique/">Lire plus more ⟶</a>
-				</section>
-				
-				<section class="list-item">
-					<h1 class="title"><a href="/blog/posts/webradio/">Webradio</a></h1>
-					<time>Apr 18, 2021</time>
-					<br><div class="description">
-	
-	<h2 id="pourquoi-écouter-la-radio-">Pourquoi écouter la radio ?</h2>
-<p>Le terme radio ne fait pas rêver en 2021, de nos jours les platformes de streaming comme Deezer ou Spotify sont la norme pour écouter de la musique, pour les podcasts il existe des services comme podcast addict ou google podcast. Et devoir être limité par un flux constant dans lequel on ne peut pas choisir la musique, on ne peut pas mettre sur pause, et où l’on doit écouter à certaine heure pour écouter les émissions que l’on veut peut sembler absurde.
-pourtant la radio possède encore de vrai argument.</p>&hellip;
-	
-</div>
-					<a class="readmore" href="/blog/posts/webradio/">Lire plus more ⟶</a>
+					<a class="readmore" href="/blog/posts/exercice_ecriture/">Lire plus more ⟶</a>
 				</section>
 				
 				
@@ -129,15 +130,17 @@ pourtant la radio possède encore de vrai argument.</p>&hellip;
 	</span>
 	<span class="page-item page-next">
 	
+    <a href="/blog/page/4/" class="page-link" aria-label="Next"><span aria-hidden="true">Next →</span></a>
+	
 	</span>
 </ul>
 
 
 			</main>
 			<footer>
-    <div style="display:flex"></div>
+    <div style="display:flex"><a class="border"></a><a class="border"></a><a class="border"></a></div>
     <div class="footer-info">
-      2025  <a
+      2025  © Athul |  <a
         href="https://github.com/athul/archie">Archie Theme</a> | construit with <a href="https://gohugo.io">Hugo</a>
     </div>
   </footer>
