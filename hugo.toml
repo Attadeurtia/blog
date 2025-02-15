@@ -14,26 +14,29 @@ pagination.pagerSize=3 # articles per page
 [params]
 	mode="auto" # color-mode → light,dark,toggle or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
-	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
+	subtitle = "Bienvenue sur mon blog ! Étudiant touche à tout, ce site est un lieu libre de partage d’experiences, de tuto et de découvertes sur tout et rien."
 	mathjax = true # enable MathJax support
 	katex = true # enable KaTeX support
+
+  [params.services]
+    [params.services.umami_analytics]
+      id = '8261e837-91d2-433d-ba96-be0441457e4a'
+      script_url = 'https://cloud.umami.is/script.js'
+
 
 # Social Tags
 
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://github.com/athul/archie"
+url = "https://github.com/Attadeurtia"
 
 [[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/athulcajay/"
+name = "Mastodon"
+icon = "Mastodon"
+url = "https://social.vivaldi.net/@Attadeurtia"
 
-[[params.social]]
-name = "GitLab"
-icon = "gitlab"
-url = "https://gitlab.com/athul/"
+
 
 # Main menu Items
 
