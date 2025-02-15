@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cinéma on My New Hugo Site</title>
-    <link>http://localhost:56603/tags/cin%C3%A9ma/</link>
+    <link>http://localhost:59045/tags/cin%C3%A9ma/</link>
     <description>Recent content in Cinéma on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 12 Nov 2024 18:36:51 +0100</lastBuildDate>
-    <atom:link href="http://localhost:56603/tags/cin%C3%A9ma/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:59045/tags/cin%C3%A9ma/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grizzly Man</title>
-      <link>http://localhost:56603/posts/grizzly-man/</link>
+      <link>http://localhost:59045/posts/grizzly-man/</link>
       <pubDate>Tue, 12 Nov 2024 18:36:51 +0100</pubDate>
-      <guid>http://localhost:56603/posts/grizzly-man/</guid>
+      <guid>http://localhost:59045/posts/grizzly-man/</guid>
       <description>&lt;h1 id=&#34;werner-herzog-de-la-mythologie-au-documentaire&#34;&gt;Werner Herzog, de la mythologie au documentaire&lt;/h1&gt;&#xA;&lt;h2 id=&#34;nouveau-cinéma-allemand&#34;&gt;Nouveau cinéma allemand&lt;/h2&gt;&#xA;&lt;p&gt;Réalisateur pionnier du nouveau cinéma allemand, Werner Herzog a signé&#xA;des chefs-d&amp;rsquo;œuvre qui ont marqué le septième art. Passant de grands&#xA;films de mythologie durant sa période d&amp;rsquo;or, tels que &amp;quot;Aguirre, la&#xA;colère de Dieu&amp;quot;, &amp;quot;Fitzcarraldo&amp;quot; ou &amp;quot;Nosferatu&amp;quot;, Werner Herzog&#xA;entreprend un virage dans les années 2000 vers un cinéma moins grandiose&#xA;et plus naturaliste, comme en témoigne son œuvre &amp;quot;Mon grand ennemi&amp;quot; et&#xA;ses explorations des volcans.&lt;/p&gt;</description>
     </item>
   </channel>
