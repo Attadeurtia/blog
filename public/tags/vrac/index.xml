@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vrac on My New Hugo Site</title>
-    <link>http://localhost:59045/tags/vrac/</link>
+    <link>http://localhost:1313/tags/vrac/</link>
     <description>Recent content in Vrac on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 30 Jun 2022 20:54:24 +0200</lastBuildDate>
-    <atom:link href="http://localhost:59045/tags/vrac/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/vrac/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Comment Devenir Invisible Sur Internet</title>
-      <link>http://localhost:59045/posts/comment-devenir-invisible-sur-internet/</link>
+      <link>http://localhost:1313/posts/comment-devenir-invisible-sur-internet/</link>
       <pubDate>Thu, 30 Jun 2022 20:54:24 +0200</pubDate>
-      <guid>http://localhost:59045/posts/comment-devenir-invisible-sur-internet/</guid>
+      <guid>http://localhost:1313/posts/comment-devenir-invisible-sur-internet/</guid>
       <description>&lt;p&gt;Cet article va essayer de condenser tout ce qu’il faut savoir ou mettre en place pour améliorer sa vie privée sur internet, j’ai essayé de le faire tout public mais si vous avez une question ou une remarque n’hésitez pas à me contacter.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Retour sur mon expérience de sommeil polyphasique</title>
-      <link>http://localhost:59045/posts/retour_sur_mon_exp%C3%A9rience_de_sommeil_polyphasique/</link>
+      <link>http://localhost:1313/posts/retour_sur_mon_exp%C3%A9rience_de_sommeil_polyphasique/</link>
       <pubDate>Sun, 16 May 2021 20:22:55 +0200</pubDate>
-      <guid>http://localhost:59045/posts/retour_sur_mon_exp%C3%A9rience_de_sommeil_polyphasique/</guid>
+      <guid>http://localhost:1313/posts/retour_sur_mon_exp%C3%A9rience_de_sommeil_polyphasique/</guid>
       <description>&lt;p&gt;Il y a un mois se terminait mon année scolaire, j’ai donc pu faire une expérience qui me trottais en tête depuis un moment, est-ce que le sommeil polyphasique est efficace et est-il facilement applicable ? mais avant de répondre à ses questions, un petit point sur ce qu’est &lt;a href=&#34;https://fr.wikipedia.org/wiki/Sommeil_polyphasique&#34;&gt;le sommeil polyphasique&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Webradio</title>
-      <link>http://localhost:59045/posts/webradio/</link>
+      <link>http://localhost:1313/posts/webradio/</link>
       <pubDate>Sun, 18 Apr 2021 13:19:05 +0200</pubDate>
-      <guid>http://localhost:59045/posts/webradio/</guid>
+      <guid>http://localhost:1313/posts/webradio/</guid>
       <description>&lt;h2 id=&#34;pourquoi-écouter-la-radio-&#34;&gt;Pourquoi écouter la radio ?&lt;/h2&gt;&#xA;&lt;p&gt;Le terme radio ne fait pas rêver en 2021, de nos jours les platformes de streaming comme Deezer ou Spotify sont la norme pour écouter de la musique, pour les podcasts il existe des services comme podcast addict ou google podcast. Et devoir être limité par un flux constant dans lequel on ne peut pas choisir la musique, on ne peut pas mettre sur pause, et où l’on doit écouter à certaine heure pour écouter les émissions que l’on veut peut sembler absurde.&#xA;pourtant la radio possède encore de vrai argument.&lt;/p&gt;</description>
     </item>
   </channel>
