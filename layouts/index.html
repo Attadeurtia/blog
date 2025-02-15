@@ -5,8 +5,11 @@
 		{{ partialCached "hugomods/umami-analytics/index" . .Params.analyze }}  
 	  </head>
 	<body>
+		{{ partial "background.html" . }}
+
 		<div class="content">
 			{{ partial "head.html" . }}
+
 			
 			<main class="list">
 				<div class="site-description">
