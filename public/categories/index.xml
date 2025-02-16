@@ -5,7 +5,7 @@
     <link>http://localhost:1313/blog/categories/</link>
     <description>Recent content in Categories on Geoffrey</description>
     <generator>Hugo</generator>
-    <language>fr</language>
+    <language>fr-fr</language>
     <copyright>© Geoffrey</copyright>
     <atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>

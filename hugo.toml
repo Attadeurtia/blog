@@ -1,5 +1,5 @@
 baseURL = "https://attadeurtia.github.io/blog/"
-languageCode = "fr"
+languageCode = "fr-fr"
 title = "Geoffrey"
 theme="archie"
 copyright = "© Geoffrey"
