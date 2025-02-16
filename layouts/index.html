@@ -3,7 +3,7 @@
 	{{ partial "header.html" . }}
 	<head>  
 		{{ partialCached "hugomods/umami-analytics/index" . .Params.analyze }}  
-
+		<link rel="icon" href="{{ "images/icone.svg" | relURL }}" type="image/svg+xml">
 	  </head>
 	<body>
 		<!-- {{ partial "background.html" . }} -->
