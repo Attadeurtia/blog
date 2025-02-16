@@ -3,9 +3,11 @@
 	{{ partial "header.html" . }}
 	<head>  
 		{{ partialCached "hugomods/umami-analytics/index" . .Params.analyze }}  
+
 	  </head>
 	<body>
-		{{ partial "background.html" . }}
+		<!-- {{ partial "background.html" . }} -->
+		{{ partial "background2.html" . }}
 
 		<div class="content">
 			{{ partial "head.html" . }}
