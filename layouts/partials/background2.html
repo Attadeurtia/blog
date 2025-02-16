@@ -1,25 +1,29 @@
 <div class="background">
-    <img class="flower" src="{{ "images/background.svg" | relURL }}" alt="Mon SVG">
+    <img class="flower" src="{{ "images/background.svg" | relURL }}" alt="background à fleur">
 </div>
 
 <style>
     body {
         background-color: #cebc4a;
-
     }
 
     .content {
         background-color: #cebc4a;
         padding: 3rem;
         margin-top: 4rem;
-        border: 3px dashed black;
+        border: 3px dashed #232333;
     }
 
     .background {
         position: fixed;
         z-index: -1;
-        width: 120%;
         top: -10px;
+        /* positionner l'élément en haut à gauche de la fenêtre de navigation */
         left: -10px;
+    }
+
+    .flower {
+        width: 110vw;
+        /* largeur égale à la largeur de la fenêtre de navigation */
     }
 </style>
