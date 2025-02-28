@@ -7,15 +7,8 @@
     <generator>Hugo</generator>
     <language>fr-fr</language>
     <copyright>© Geoffrey</copyright>
-    <lastBuildDate>Fri, 28 Feb 2025 19:32:39 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 15 Feb 2025 18:30:17 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Tempo</title>
-      <link>http://localhost:1313/blog/posts/tempo/</link>
-      <pubDate>Fri, 28 Feb 2025 19:32:39 +0100</pubDate>
-      <guid>http://localhost:1313/blog/posts/tempo/</guid>
-      <description>&lt;p&gt;je veux développer une extension Jellyfin qui déclanche une scène sur Philips hue à la lecture d&amp;rsquo;un film&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Comment Installer Hugo Umami Analytics Module</title>
       <link>http://localhost:1313/blog/posts/umami/</link>
