@@ -1,7 +1,7 @@
 baseURL = "https://attadeurtia.github.io/blog/"
 languageCode = "fr-fr"
 title = "Geoffrey"
-theme = 'ananke'
+theme = 'ananke-theme'
 copyright = "© Geoffrey"
 # Code Highlight
 pygmentsstyle = "monokai"
