@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on Geoffrey</title>
-    <link>http://localhost:1313/blog/tags/git/</link>
+    <link>http://localhost:50178/blog/tags/git/</link>
     <description>Recent content in Git on Geoffrey</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
     <copyright>© Geoffrey</copyright>
     <lastBuildDate>Thu, 27 Apr 2023 17:49:47 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:50178/blog/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Comment configurer github</title>
-      <link>http://localhost:1313/blog/posts/configuregit/</link>
+      <link>http://localhost:50178/blog/posts/configuregit/</link>
       <pubDate>Thu, 27 Apr 2023 17:49:47 +0200</pubDate>
-      <guid>http://localhost:1313/blog/posts/configuregit/</guid>
+      <guid>http://localhost:50178/blog/posts/configuregit/</guid>
       <description>&lt;p&gt;Pour utiliser github sur son ordinateur il faut installer git, ajouter une clé ssh dans son compte github et configurer git, puis télécharger le projet, ces étapes sont indispensables sur chaque machine.&lt;/p&gt;&#xA;&lt;h2 id=&#34;installer-git&#34;&gt;Installer git&lt;/h2&gt;&#xA;&lt;p&gt;Vérifier si git est déjà installé : &lt;code&gt;git --version&lt;/code&gt; sinon &lt;a href=&#34;https://git-scm.com/downloads&#34;&gt;télécharger git&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;configurer-git-en-local&#34;&gt;Configurer git en local&lt;/h2&gt;&#xA;&lt;p&gt;C&amp;rsquo;est les informations qui seront affichées dans les commits, il faut les configurer une fois par machine.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Configurer le nom d&amp;rsquo;utilisateur : &lt;code&gt;git config --global user.name &amp;quot;John Doe&amp;quot;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Configurer l&amp;rsquo;adresse mail :&lt;code&gt;git config --global user.email&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Les informations sont stockées dans le fichier &lt;code&gt;~/.gitconf&lt;/code&gt;, si vous voulez les modifier vous pouvez le faire directement dans le fichier.&lt;/p&gt;</description>
     </item>
   </channel>
