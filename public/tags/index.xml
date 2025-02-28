@@ -2,165 +2,165 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Geoffrey</title>
-    <link>http://localhost:51792/blog/tags/</link>
+    <link>http://localhost:1313/blog/tags/</link>
     <description>Recent content in Tags on Geoffrey</description>
     <generator>Hugo</generator>
     <language>fr-fr</language>
     <copyright>© Geoffrey</copyright>
     <lastBuildDate>Tue, 28 Jan 2025 20:20:00 +0100</lastBuildDate>
-    <atom:link href="http://localhost:51792/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Avis</title>
-      <link>http://localhost:51792/blog/tags/avis/</link>
+      <link>http://localhost:1313/blog/tags/avis/</link>
       <pubDate>Tue, 28 Jan 2025 20:20:00 +0100</pubDate>
-      <guid>http://localhost:51792/blog/tags/avis/</guid>
+      <guid>http://localhost:1313/blog/tags/avis/</guid>
       <description></description>
     </item>
     <item>
       <title>Théâtre</title>
-      <link>http://localhost:51792/blog/tags/th%C3%A9%C3%A2tre/</link>
+      <link>http://localhost:1313/blog/tags/th%C3%A9%C3%A2tre/</link>
       <pubDate>Tue, 28 Jan 2025 20:20:00 +0100</pubDate>
-      <guid>http://localhost:51792/blog/tags/th%C3%A9%C3%A2tre/</guid>
+      <guid>http://localhost:1313/blog/tags/th%C3%A9%C3%A2tre/</guid>
       <description></description>
     </item>
     <item>
       <title>Cinéma</title>
-      <link>http://localhost:51792/blog/tags/cin%C3%A9ma/</link>
+      <link>http://localhost:1313/blog/tags/cin%C3%A9ma/</link>
       <pubDate>Tue, 12 Nov 2024 18:36:51 +0100</pubDate>
-      <guid>http://localhost:51792/blog/tags/cin%C3%A9ma/</guid>
+      <guid>http://localhost:1313/blog/tags/cin%C3%A9ma/</guid>
       <description></description>
     </item>
     <item>
       <title>Documentaire</title>
-      <link>http://localhost:51792/blog/tags/documentaire/</link>
+      <link>http://localhost:1313/blog/tags/documentaire/</link>
       <pubDate>Tue, 12 Nov 2024 18:36:51 +0100</pubDate>
-      <guid>http://localhost:51792/blog/tags/documentaire/</guid>
+      <guid>http://localhost:1313/blog/tags/documentaire/</guid>
       <description></description>
     </item>
     <item>
       <title>Nature</title>
-      <link>http://localhost:51792/blog/tags/nature/</link>
+      <link>http://localhost:1313/blog/tags/nature/</link>
       <pubDate>Tue, 12 Nov 2024 18:36:51 +0100</pubDate>
-      <guid>http://localhost:51792/blog/tags/nature/</guid>
+      <guid>http://localhost:1313/blog/tags/nature/</guid>
       <description></description>
     </item>
     <item>
       <title>Werner</title>
-      <link>http://localhost:51792/blog/tags/werner/</link>
+      <link>http://localhost:1313/blog/tags/werner/</link>
       <pubDate>Tue, 12 Nov 2024 18:36:51 +0100</pubDate>
-      <guid>http://localhost:51792/blog/tags/werner/</guid>
+      <guid>http://localhost:1313/blog/tags/werner/</guid>
       <description></description>
     </item>
     <item>
       <title>Film</title>
-      <link>http://localhost:51792/blog/tags/film/</link>
+      <link>http://localhost:1313/blog/tags/film/</link>
       <pubDate>Tue, 09 Jan 2024 23:33:45 +0100</pubDate>
-      <guid>http://localhost:51792/blog/tags/film/</guid>
+      <guid>http://localhost:1313/blog/tags/film/</guid>
       <description></description>
     </item>
     <item>
       <title>Philosophie</title>
-      <link>http://localhost:51792/blog/tags/philosophie/</link>
+      <link>http://localhost:1313/blog/tags/philosophie/</link>
       <pubDate>Fri, 29 Dec 2023 14:18:33 +0100</pubDate>
-      <guid>http://localhost:51792/blog/tags/philosophie/</guid>
+      <guid>http://localhost:1313/blog/tags/philosophie/</guid>
       <description></description>
     </item>
     <item>
       <title>Reflexion Divers</title>
-      <link>http://localhost:51792/blog/tags/reflexion-divers/</link>
+      <link>http://localhost:1313/blog/tags/reflexion-divers/</link>
       <pubDate>Fri, 29 Dec 2023 14:18:33 +0100</pubDate>
-      <guid>http://localhost:51792/blog/tags/reflexion-divers/</guid>
+      <guid>http://localhost:1313/blog/tags/reflexion-divers/</guid>
       <description></description>
     </item>
     <item>
       <title>Danse</title>
-      <link>http://localhost:51792/blog/tags/danse/</link>
+      <link>http://localhost:1313/blog/tags/danse/</link>
       <pubDate>Thu, 12 Oct 2023 19:19:13 +0200</pubDate>
-      <guid>http://localhost:51792/blog/tags/danse/</guid>
+      <guid>http://localhost:1313/blog/tags/danse/</guid>
       <description></description>
     </item>
     <item>
       <title>Et Si on Sortait</title>
-      <link>http://localhost:51792/blog/tags/et-si-on-sortait/</link>
+      <link>http://localhost:1313/blog/tags/et-si-on-sortait/</link>
       <pubDate>Thu, 12 Oct 2023 19:19:13 +0200</pubDate>
-      <guid>http://localhost:51792/blog/tags/et-si-on-sortait/</guid>
+      <guid>http://localhost:1313/blog/tags/et-si-on-sortait/</guid>
       <description></description>
     </item>
     <item>
       <title>Android</title>
-      <link>http://localhost:51792/blog/tags/android/</link>
+      <link>http://localhost:1313/blog/tags/android/</link>
       <pubDate>Sun, 18 Jun 2023 19:19:13 +0200</pubDate>
-      <guid>http://localhost:51792/blog/tags/android/</guid>
+      <guid>http://localhost:1313/blog/tags/android/</guid>
       <description></description>
     </item>
     <item>
       <title>Open-Source</title>
-      <link>http://localhost:51792/blog/tags/open-source/</link>
+      <link>http://localhost:1313/blog/tags/open-source/</link>
       <pubDate>Sun, 18 Jun 2023 19:19:13 +0200</pubDate>
-      <guid>http://localhost:51792/blog/tags/open-source/</guid>
+      <guid>http://localhost:1313/blog/tags/open-source/</guid>
       <description></description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>http://localhost:51792/blog/tags/privacy/</link>
+      <link>http://localhost:1313/blog/tags/privacy/</link>
       <pubDate>Sun, 18 Jun 2023 19:19:13 +0200</pubDate>
-      <guid>http://localhost:51792/blog/tags/privacy/</guid>
+      <guid>http://localhost:1313/blog/tags/privacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Webradio</title>
-      <link>http://localhost:51792/blog/tags/webradio/</link>
+      <link>http://localhost:1313/blog/tags/webradio/</link>
       <pubDate>Wed, 17 May 2023 00:16:19 +0200</pubDate>
-      <guid>http://localhost:51792/blog/tags/webradio/</guid>
+      <guid>http://localhost:1313/blog/tags/webradio/</guid>
       <description></description>
     </item>
     <item>
       <title>Complexite</title>
-      <link>http://localhost:51792/blog/tags/complexite/</link>
+      <link>http://localhost:1313/blog/tags/complexite/</link>
       <pubDate>Fri, 28 Apr 2023 14:18:49 +0200</pubDate>
-      <guid>http://localhost:51792/blog/tags/complexite/</guid>
+      <guid>http://localhost:1313/blog/tags/complexite/</guid>
       <description></description>
     </item>
     <item>
       <title>Cours</title>
-      <link>http://localhost:51792/blog/tags/cours/</link>
+      <link>http://localhost:1313/blog/tags/cours/</link>
       <pubDate>Fri, 28 Apr 2023 14:18:49 +0200</pubDate>
-      <guid>http://localhost:51792/blog/tags/cours/</guid>
+      <guid>http://localhost:1313/blog/tags/cours/</guid>
       <description></description>
     </item>
     <item>
       <title>Cheat-Sheet</title>
-      <link>http://localhost:51792/blog/tags/cheat-sheet/</link>
+      <link>http://localhost:1313/blog/tags/cheat-sheet/</link>
       <pubDate>Thu, 27 Apr 2023 17:49:47 +0200</pubDate>
-      <guid>http://localhost:51792/blog/tags/cheat-sheet/</guid>
+      <guid>http://localhost:1313/blog/tags/cheat-sheet/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>http://localhost:51792/blog/tags/git/</link>
+      <link>http://localhost:1313/blog/tags/git/</link>
       <pubDate>Thu, 27 Apr 2023 17:49:47 +0200</pubDate>
-      <guid>http://localhost:51792/blog/tags/git/</guid>
+      <guid>http://localhost:1313/blog/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>http://localhost:51792/blog/tags/linux/</link>
+      <link>http://localhost:1313/blog/tags/linux/</link>
       <pubDate>Thu, 27 Apr 2023 17:49:47 +0200</pubDate>
-      <guid>http://localhost:51792/blog/tags/linux/</guid>
+      <guid>http://localhost:1313/blog/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Design Patterns</title>
-      <link>http://localhost:51792/blog/tags/design-patterns/</link>
+      <link>http://localhost:1313/blog/tags/design-patterns/</link>
       <pubDate>Mon, 24 Apr 2023 17:49:47 +0200</pubDate>
-      <guid>http://localhost:51792/blog/tags/design-patterns/</guid>
+      <guid>http://localhost:1313/blog/tags/design-patterns/</guid>
       <description></description>
     </item>
     <item>
       <title>Vrac</title>
-      <link>http://localhost:51792/blog/tags/vrac/</link>
+      <link>http://localhost:1313/blog/tags/vrac/</link>
       <pubDate>Thu, 30 Jun 2022 20:54:24 +0200</pubDate>
-      <guid>http://localhost:51792/blog/tags/vrac/</guid>
+      <guid>http://localhost:1313/blog/tags/vrac/</guid>
       <description></description>
     </item>
   </channel>
