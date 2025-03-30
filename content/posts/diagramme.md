@@ -1,6 +1,6 @@
 +++
 date = '2025-03-30T19:42:46-04:00'
-draft = true
+draft = false
 title = 'Diagramme'
 +++
 
