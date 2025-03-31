@@ -7,21 +7,28 @@
     <generator>Hugo</generator>
     <language>fr-fr</language>
     <copyright>© Geoffrey</copyright>
-    <lastBuildDate>Sun, 30 Mar 2025 19:42:46 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 30 Mar 2025 19:53:03 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diagramme2</title>
+      <link>http://localhost:1313/blog/posts/diagramme2/</link>
+      <pubDate>Sun, 30 Mar 2025 19:53:03 -0400</pubDate>
+      <guid>http://localhost:1313/blog/posts/diagramme2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Double soirée : Suzy Storck &amp; Désintégration</title>
+      <link>http://localhost:1313/blog/posts/blablabla/</link>
+      <pubDate>Sun, 30 Mar 2025 19:53:03 -0400</pubDate>
+      <guid>http://localhost:1313/blog/posts/blablabla/</guid>
+      <description>&lt;p&gt;Pour raconter une histoire, on peut utiliser deux procédés, l&amp;rsquo;invention ou la description. Pour ces deux spectacles, Magali Mougel et Ahmed Djouder ont pris le parti d’utiliser le second ressort narratif&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&amp;ldquo;&lt;em&gt;Suzy Storck&lt;/em&gt;&amp;rdquo;, adaptée du texte de Magali Mougel, déjà rompu à l&amp;rsquo;exercice d&amp;rsquo;écriture de pièces de théâtre et recevant des commandes des quatre coins du monde, est une autrice associée au projet &amp;ldquo;&lt;em&gt;Vive résonances&lt;/em&gt;&amp;rdquo;. Sa pièce parle de la violence conjugale d&amp;rsquo;un couple prolétaire d&amp;rsquo;une petite ville. Elle est mise en scène par Simon Delétang. La pièce a été montée pendant le covid et rejouée pour la première fois depuis quatre ans au Quinconce.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Diagramme</title>
       <link>http://localhost:1313/blog/posts/diagramme/</link>
       <pubDate>Sun, 30 Mar 2025 19:42:46 -0400</pubDate>
       <guid>http://localhost:1313/blog/posts/diagramme/</guid>
-      <description>&lt;p&gt;gnkdfsognoksdfn&#xA;izgnfping&#xA;ngkodgnksf&#xA;gndsko&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Comment Installer Hugo Umami Analytics Module 2</title>
-      <link>http://localhost:1313/blog/posts/umami-copy/</link>
-      <pubDate>Tue, 18 Feb 2025 18:30:17 +0100</pubDate>
-      <guid>http://localhost:1313/blog/posts/umami-copy/</guid>
-      <description>&lt;h2 id=&#34;quest-ce-que-umami-&#34;&gt;Qu&amp;rsquo;est-ce que Umami ?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://umami.is&#34;&gt;Umami&lt;/a&gt; est une alternative open-source à Google Analytics, il faut savoir que Google Analytics &lt;a href=&#34;https://agence-anode.fr/blog/google-analytics-4-rgpd-conformite-enjeux-alternatives/&#34;&gt;ne respecte pas le RGPD&lt;/a&gt; et tous les sites l&amp;rsquo;utilisant en France et en Europe sont dans l&amp;rsquo;illégalité vis-à-vis des données personnelles.&lt;/p&gt;&#xA;&lt;p&gt;Umami à l&amp;rsquo;inverse est conçue pour respecter la vie privée des utilisateurs tout en fournissant des statistiques utiles sur l&amp;rsquo;utilisation de votre site. Il existe d&amp;rsquo;autre alternative, mais celle-ci est facile à mettre en place et possède un hugomod.&lt;/p&gt;</description>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sequenceDiagram&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    participant Alice&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    participant Bob&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Alice-&amp;gt;&amp;gt;John: Hello John, how are you?&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    loop Healthcheck&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        John-&amp;gt;&amp;gt;John: Fight against hypochondria&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    end&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail!&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    John--&amp;gt;&amp;gt;Alice: Great!&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    John-&amp;gt;&amp;gt;Bob: How about you?&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    Bob--&amp;gt;&amp;gt;John: Jolly good!&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Comment Installer Hugo Umami Analytics Module</title>
