@@ -23,6 +23,9 @@
     <loc>http://localhost:1313/blog/tags/th%C3%A9%C3%A2tre/</loc>
     <lastmod>2025-01-28T20:20:00+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/posts/biopic/</loc>
+    <lastmod>2025-01-26T11:05:25+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/posts/avis----music-hall-colette/</loc>
     <lastmod>2025-01-09T19:00:00+01:00</lastmod>
   </url><url>
@@ -95,11 +98,29 @@
     <loc>http://localhost:1313/blog/tags/privacy/</loc>
     <lastmod>2023-06-18T19:19:13+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/posts/desespoir/</loc>
+    <lastmod>2023-06-14T23:51:07+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/jaipeur/</loc>
+    <lastmod>2023-06-05T21:40:22+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/posts/aller-au-bout-des-choses/</loc>
     <lastmod>2023-06-04T18:29:21+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/blog/posts/mon_voyage_en_velo/</loc>
+    <lastmod>2023-06-01T01:05:09+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/etre_productif/</loc>
+    <lastmod>2023-05-26T23:36:53+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/analyse_madgod/</loc>
+    <lastmod>2023-05-24T17:57:41+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blog/posts/moto_gp/</loc>
     <lastmod>2023-05-20T17:41:13+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/boudisme/</loc>
+    <lastmod>2023-05-18T00:56:07+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/about/</loc>
     <lastmod>2023-05-17T10:00:00+01:00</lastmod>
@@ -139,6 +160,12 @@
   </url><url>
     <loc>http://localhost:1313/blog/posts/apt/</loc>
     <lastmod>2023-04-23T22:03:54+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/aventage_linux/</loc>
+    <lastmod>2023-04-22T00:55:02+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/workflow_macos/</loc>
+    <lastmod>2023-04-22T00:46:55+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/posts/docker/</loc>
     <lastmod>2023-04-21T21:15:02+02:00</lastmod>
