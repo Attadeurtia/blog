@@ -1,7 +1,7 @@
 +++
 date = '2025-10-19T12:03:00+02:00'
 draft = false
-title = 'Bien choisir sa théière'
+title = 'Comment bien choisir sa théière'
 tags = ["thé"]
 +++
 
@@ -12,4 +12,4 @@ Sur la base de mon expérience personnelle en tant qu'autoproclamé grand spéci
 Petit rappel : toujours **préparer le thé pendant la durée et à la température indiquées**. Pour la quantité, c'est généralement une pincée de trois doigts par tasse. Et virez-moi ces sachets insipides que je ne saurais voir !
 
 ![Arbre de choix pour bien choisir sa théière](/images/Bien_choisir_sa_Théières/Bien_choisir_sa_Théières.png)
----
+
