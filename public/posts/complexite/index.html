@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head lang="en"><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Complexite - Geoffrey</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Classes de complexité
@@ -103,7 +103,7 @@ O(n!)
 Problème du sac à dos
 knapack problem" />
 	<meta property="og:image" content=""/>
-	<meta property="og:url" content="http://localhost:1313/blog/posts/complexite/">
+	<meta property="og:url" content="http://localhost:1313/posts/complexite/">
   <meta property="og:site_name" content="Geoffrey">
   <meta property="og:title" content="Complexite">
   <meta property="og:description" content="Classes de complexité Déterministe non-Déterministe temps p,EXPTIME np, NEXPTIME espace LOGSPACE, PSPACE, EXPSPACE NLOGSPACE complexité logarithmique O(1) : constant O(n) : linéaire O(log n) : logarithmique O(n log n) : quasi-linéaire O(n²) : quadratique O(n³) : cubique O(n^k) : polynomial O(2ⁿ) : exponentielle O(n!) : factorielle algo constant O(1) set logarithmique O(log n) liste linéaire O(n) recherche dichotomique, dans un tableaux trié quasi-linéaire O(n log n) tri d’un tableaux (fusion) quadratique O(n²) tri d’un tableaux (insertion) cubique O(n³) multiplication de matrices polynomial O(n^k) exponentielle O(2ⁿ) problème du sac à dos factorielle O(n!) problème du voyageur de commerce Problème complexe Problème du voyageur de commerce problème NP-complet O(n!) 10 villes : 3 628 800 Problème du sac à dos knapack problem">
@@ -119,13 +119,28 @@ knapack problem" />
   <meta name="twitter:title" content="Complexite">
   <meta name="twitter:description" content="Classes de complexité Déterministe non-Déterministe temps p,EXPTIME np, NEXPTIME espace LOGSPACE, PSPACE, EXPSPACE NLOGSPACE complexité logarithmique O(1) : constant O(n) : linéaire O(log n) : logarithmique O(n log n) : quasi-linéaire O(n²) : quadratique O(n³) : cubique O(n^k) : polynomial O(2ⁿ) : exponentielle O(n!) : factorielle algo constant O(1) set logarithmique O(log n) liste linéaire O(n) recherche dichotomique, dans un tableaux trié quasi-linéaire O(n log n) tri d’un tableaux (fusion) quadratique O(n²) tri d’un tableaux (insertion) cubique O(n³) multiplication de matrices polynomial O(n^k) exponentielle O(2ⁿ) problème du sac à dos factorielle O(n!) problème du voyageur de commerce Problème complexe Problème du voyageur de commerce problème NP-complet O(n!) 10 villes : 3 628 800 Problème du sac à dos knapack problem">
 
-        <link href="http://localhost:1313/blog/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
 
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/blog/css/main.0f4980afb7f0b49c4ab6c91de3ef7a0054410235524ea925659f0717bbf2e751.css" /><link rel="stylesheet" href="http://localhost:1313/blog/katex/katex.min.css ">
-		<script defer src="http://localhost:1313/blog/katex/katex.min.js"></script>
-		<script defer src="http://localhost:1313/blog/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.7d75e4ce7484615a892cd28047ddb2bdee1eb321618b683568b0e077f68d95f9.css" /><script type="text/javascript"
+		src="http://localhost:1313/js/MathJax.js"></script>
+		
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [['$$','$$'], ['\[','\]']],
+				processEscapes: true,
+				processEnvironments: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				TeX: { equationNumbers: { autoNumber: "AMS" },
+						 extensions: ["AMSmath.js", "AMSsymbols.js"] }
+			}
+		});
+		</script><link rel="stylesheet" href="http://localhost:1313/katex/katex.min.css ">
+		<script defer src="http://localhost:1313/katex/katex.min.js"></script>
+		<script defer src="http://localhost:1313/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
 		
 		<script>
 			document.addEventListener("DOMContentLoaded", function() {
@@ -145,13 +160,13 @@ knapack problem" />
 	</div>
 	<nav>
 		
-		<a href="/blog/">Home</a>
+		<a href="/">Accueil</a>
 		
-		<a href="/blog/posts">All posts</a>
+		<a href="/posts">Tout les posts</a>
 		
-		<a href="/blog/about">About</a>
+		<a href="/about">À propos</a>
 		
-		<a href="/blog/tags">Tags</a>
+		<a href="/tags">Tags</a>
 		
 		
 	</nav>
@@ -355,13 +370,13 @@ Algo 2 : approximation O(n)</p>
 </main>
 <footer>
   <div style="display:flex"><a class="soc" href="https://github.com/Attadeurtia" rel="me" title="GitHub"><svg class="feather">
-   <use href="/blog/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
-</svg></a><a class="border"></a><a class="soc" href="https://social.vivaldi.net/@Attadeurtia" rel="me" title="Mastodon"><svg class="feather">
-   <use href="/blog/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#Mastodon" />
-</svg></a><a class="border"></a></div>
+       <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
+    </svg></a><a class="border"></a><a class="soc" href="https://social.vivaldi.net/@Attadeurtia" rel="me" title="Mastodon"><svg class="feather">
+       <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#Mastodon" />
+    </svg></a><a class="border"></a></div>
   <div class="footer-info">
     2025  © Geoffrey |  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+      href="https://github.com/athul/archie">Archie thème modifié</a> | Built avec <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head lang="en"><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Applications - Geoffrey</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Étant donné que j&rsquo;utilise un OS open source, je préfère aussi utiliser des applications open source soucieuses de ma vie privée, même si ce n&rsquo;est pas du tout indispensable. D&rsquo;ailleurs toutes ces applications fonctionnent aussi sur android normal donc vous pouvez les utiliser.
@@ -36,7 +36,7 @@ Cafeyn  : application non open source de journaux en ligne, c&rsquo;est souvent
 Communication
 FairEmail et Mastodon sont  open source, mais pas les autres." />
 	<meta property="og:image" content=""/>
-	<meta property="og:url" content="http://localhost:1313/blog/posts/applications/">
+	<meta property="og:url" content="http://localhost:1313/posts/applications/">
   <meta property="og:site_name" content="Geoffrey">
   <meta property="og:title" content="Applications">
   <meta property="og:description" content="Étant donné que j’utilise un OS open source, je préfère aussi utiliser des applications open source soucieuses de ma vie privée, même si ce n’est pas du tout indispensable. D’ailleurs toutes ces applications fonctionnent aussi sur android normal donc vous pouvez les utiliser.
@@ -57,13 +57,28 @@ Note -&gt; Joplin : qui est une application de note complète en markdown qui re
 Application Basique Pour les applications de base sur tous les téléphones SMS/téléphone, agenda, calculatrice, contact, magnétophone, j’utilise les applications par défaut qui sont très bien.
 Note -&gt; Joplin : qui est une application de note complète en markdown qui remplace Keeps et OneNote. Galerie -&gt; Simple galerie Pro : car celle de base de eos est pas terrible, bonus on peut verrouiller l’application avec son empreinte digitale. Google Photos -&gt; Immich : Application auto-hébergé de photo très semblable à Google photo, avec une super interface. Photo -&gt; Gcam : pour mes photos l’application de base est vraiment nulle et moche, à la place j’utilise un fork de celle des pixels mais adaptée pour mon modèle de téléphone et le rendu est génial ! Navigateur -&gt; Vivaldi : juste meilleur navigateur Média Lecteur audio -&gt; Pulse audio : juste je préfère l’interface Transistor : lecteur de radio en ligne YouTube -&gt; NewPipe et maintenant Tubular: YouTube avec une autre interface, et plein de fonctionnalité, sans pub, Background Player, Popup Player, avec en plus PeerTube, SoundCloud, Bandcamp et media.ccc.de Gelli : interface android pour mon serveur perso de streaming de musique à la place de Spotify. Twitch -&gt; Twire : alternative open à Twitch. Transport Google Maps -&gt; Magic Earth (application par défaut) transport en commun -&gt; Transport simple et efficace, permet d’avoir tous les transports en commun possible de toutes les villes, de planifier des trajets et même de les partager. Geovélo : pour créer des itinéraires à vélo News FreshRSS : pour tous mes abonnements RSS, c’est syntonisé sur un serveur, ce qui permet d’avoir accès aux mêmes abonnements de n’importe quel appareil Cafeyn : application non open source de journaux en ligne, c’est souvent intégré aux offres internet en France. Communication FairEmail et Mastodon sont open source, mais pas les autres.">
 
-        <link href="http://localhost:1313/blog/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
 
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/blog/css/main.0f4980afb7f0b49c4ab6c91de3ef7a0054410235524ea925659f0717bbf2e751.css" /><link rel="stylesheet" href="http://localhost:1313/blog/katex/katex.min.css ">
-		<script defer src="http://localhost:1313/blog/katex/katex.min.js"></script>
-		<script defer src="http://localhost:1313/blog/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.7d75e4ce7484615a892cd28047ddb2bdee1eb321618b683568b0e077f68d95f9.css" /><script type="text/javascript"
+		src="http://localhost:1313/js/MathJax.js"></script>
+		
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			tex2jax: {
+				inlineMath: [['$','$'], ['\\(','\\)']],
+				displayMath: [['$$','$$'], ['\[','\]']],
+				processEscapes: true,
+				processEnvironments: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+				TeX: { equationNumbers: { autoNumber: "AMS" },
+						 extensions: ["AMSmath.js", "AMSsymbols.js"] }
+			}
+		});
+		</script><link rel="stylesheet" href="http://localhost:1313/katex/katex.min.css ">
+		<script defer src="http://localhost:1313/katex/katex.min.js"></script>
+		<script defer src="http://localhost:1313/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
 		
 		<script>
 			document.addEventListener("DOMContentLoaded", function() {
@@ -83,13 +98,13 @@ Note -&gt; Joplin : qui est une application de note complète en markdown qui re
 	</div>
 	<nav>
 		
-		<a href="/blog/">Home</a>
+		<a href="/">Accueil</a>
 		
-		<a href="/blog/posts">All posts</a>
+		<a href="/posts">Tout les posts</a>
 		
-		<a href="/blog/about">About</a>
+		<a href="/about">À propos</a>
 		
-		<a href="/blog/tags">Tags</a>
+		<a href="/tags">Tags</a>
 		
 		
 	</nav>
@@ -212,13 +227,13 @@ simple et efficace, permet d&rsquo;avoir tous les transports en commun possible 
 </main>
 <footer>
   <div style="display:flex"><a class="soc" href="https://github.com/Attadeurtia" rel="me" title="GitHub"><svg class="feather">
-   <use href="/blog/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
-</svg></a><a class="border"></a><a class="soc" href="https://social.vivaldi.net/@Attadeurtia" rel="me" title="Mastodon"><svg class="feather">
-   <use href="/blog/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#Mastodon" />
-</svg></a><a class="border"></a></div>
+       <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
+    </svg></a><a class="border"></a><a class="soc" href="https://social.vivaldi.net/@Attadeurtia" rel="me" title="Mastodon"><svg class="feather">
+       <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#Mastodon" />
+    </svg></a><a class="border"></a></div>
   <div class="footer-info">
     2025  © Geoffrey |  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+      href="https://github.com/athul/archie">Archie thème modifié</a> | Built avec <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>
 

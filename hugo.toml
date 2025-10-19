@@ -1,12 +1,10 @@
-baseURL = "https://attadeurtia.github.io/blog/"
-languageCode = "fr-fr"
-title = "Geoffrey"
-theme="archie"
+baseURL = "https://blog.cactuserveur.fr/"  # ou ton domaine personnalisé
+publishDir = "public"
+
+languageCode = 'fr-fr'
+title = 'Geoffrey'
+theme = "archie"
 copyright = "© Geoffrey"
-# Code Highlight
-pygmentsstyle = "monokai"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
 
 
 pagination.pagerSize=3 # articles per page
@@ -15,7 +13,9 @@ pagination.pagerSize=3 # articles per page
 	mode="light" # color-mode → light,dark,toggle or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
 	subtitle = "Bienvenue sur mon blog ! Étudiant touche à tout, ce site est un lieu libre de partage d’experiences, de tuto et de découvertes sur tout et rien."
-#	mathjax = true # enable MathJax support
+
+	mathjax = true # enable MathJax support
+  math = true # enable MathJax support
 	katex = true # enable KaTeX support
 
   [params.services]
@@ -36,22 +36,18 @@ name = "Mastodon"
 icon = "Mastodon"
 url = "https://social.vivaldi.net/@Attadeurtia"
 
-
-
-# Main menu Items
-
 [[menu.main]]
-name = "Home"
+name = "Accueil"
 url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All posts"
+name = "Tout les posts"
 url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "Aboutu"
+name = "À propos"
 url = "/about"
 weight = 3
 
@@ -60,6 +56,8 @@ name = "Tags"
 url = "/tags"
 weight = 4
 
-[module]  
-  [[module.imports]]  
+
+[module]
+  [[module.imports]]
     path = 'github.com/hugomods/umami-analytics'
+

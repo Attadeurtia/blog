@@ -15,6 +15,7 @@ html {
 body{
   display: block;
   margin: 8px;
+  background-color: var(--callouctcolor);
 }
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -130,6 +131,11 @@ pre code {
   max-width: 800px;
   padding: 0 1ch;
   word-wrap: break-word;
+
+  background-color: #fcfaea;
+  border: 2.5px dashed black;
+  padding: 3rem;
+  margin-top: 4rem;
 }
 
 /* Header */
