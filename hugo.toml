@@ -2,7 +2,7 @@ baseURL = "https://blog.cactuserveur.fr/"  # ou ton domaine personnalisé
 publishDir = "public"
 
 languageCode = 'fr-fr'
-title = 'Geoffrey'
+title = 'Geoffrey - blog'
 theme = "archie"
 copyright = "© Geoffrey"
 
