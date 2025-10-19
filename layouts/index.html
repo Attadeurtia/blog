@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	{{ partial "header.html" . }}
+	{{ partialCached "header.html" . }}
 	<head>
   {{ partialCached "hugomods/umami-analytics/index" . .Params.analyze }}
   <link rel="icon" href="/mon-icone.svg" type="image/svg+xml">
