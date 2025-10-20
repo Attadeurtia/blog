@@ -21,6 +21,17 @@ Mon thé préféré, et le plus classique, bu nature en Asie, avec de la menthe 
 
 Le plus populaire est sûrement le *Sencha* du Japon , le  *Long Jing* (traduction : thé du Puits du Dragon) de Chine.
 
+### Liste de type de thé vert
+
+- [ ] Bancha
+- [ ] Darjeeling
+- [ ] Long Jing
+- [ ] Genmaicha
+- [ ] Gunpowder
+- [ ] Jejudo
+- [ ] Huang Shan Mao Feng
+- [ ] gyokuro
+
 ## Matcha
 
 ## Caféine
@@ -39,19 +50,18 @@ Limite de l'étude : l'échantillon n'est pas terrible. Sur d'autres études, en
 ![Graphe du taux de cafeine en fonction de la durée d'infusion](/images/Tea/duree.png)
 Lien de l'étude : [https://link.springer.com/article/10.1007/s00706-018-2204-0](https://link.springer.com/article/10.1007/s00706-018-2204-0)
 
-
 Également, on peut voir que le thé libère la majorité de sa caféine lors des 5 premières minutes. Ça ne sert à rien de laisser tremper le thé 30 minutes dans l'eau, vous n'aurez qu'un thé amer imbuvable, et pas beaucoup plus de caféine.
 La majorité de la caféine part à la première infusion. Donc si vous voulez vous faire un thé en soirée, pas de souci, faites juste une deuxième passe.
 
 ### Points à retenir :
 
-- Le taux de caféine dans le thé peut varier du simple au triple selon le type de thé choisi.
-- Théine = caféine
-- La température compte : plus l’eau est chaude, plus la diffusion de la caféine est importante.
-- Ne laissez pas infuser trop longtemps : au-delà de 5 minutes, le thé devient amer sans libérer significativement plus de caféine.
-- Première infusion = pic de caféine : pour un thé du soir, privilégiez une deuxième infusion pour limiter les effets stimulants.
+- Le **taux de caféine dans le thé peut varier** du simple au triple selon le type de thé choisi.
+- **Théine = caféine**
+- **La température compte** : plus l’eau est chaude, plus la diffusion de la caféine est importante.
+- **Ne laissez pas infuser trop longtemps** : au-delà de 5 minutes, le thé devient amer sans libérer significativement plus de caféine.
+- **Première infusion = pic de caféine** : pour un thé du soir, privilégiez une deuxième infusion pour limiter les effets stimulants.
 
-### quels que tableau de concontration de thé :
+### Quels que tableau de concontration de thé :
 
 #### Concentration en cafeine
 
@@ -106,7 +116,7 @@ Les thés ont été infusés à raison de 7.5g de thé dans 750ml d'eau
 
 ---
 
-#### Pour les Matcha : 
+#### Pour les Matcha :
 
 Après 30 sec d'infusion, concentration (mg/ 100 ml)
 
@@ -118,7 +128,6 @@ Après 30 sec d'infusion, concentration (mg/ 100 ml)
 | Matcha Genmaicha bio (Vert) | Japon           | 47           |
 | Matcha Sencha bio (Vert)    | Japon           | 42           |
 | Matcha Gyokuro bio (Vert)   | Japon           | 41           |
-
 
 ---
 
