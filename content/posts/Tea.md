@@ -1,69 +1,125 @@
 +++
 date = '2025-10-20T11:03:58+02:00'
-draft = true
-title = 'Tea'
+draft = false
+title = 'Le thé'
+tags = ["thé"]
 +++
 
-
 Le thé
+Boisson millénaire, le thé est la boisson la plus consommée au monde, feuille cueillie sur un théier, *Camellia sinensis*, tout simplement une espèce de *Camellia*, un arbuste à feuilles persistantes originaire de l'Himalaya (Assam, Yunnan, nord du Myanmar et de la Thaïlande).
+Originalement consommé en Asie, la boisson est maintenant présente partout dans le monde avec une variation culturelle.
 
-boisson milénaire, le thé est la boisson la plus consomé au monde, feuille ceuilli sur un théier, Camellia sinensis tout simplement une espèce de Camellia, un arbuste à feuilles persistantes originaire dde l'Himalaya (Assam, Yunnan, nord du Myanmar et de la Thaïlande).
+## Mon histoire
 
-Originellement consomé en Asie, la boisson est maintenant partout dans le monde avec une variation culturelle.
+Plus accoutumé aux tisanes de plantes fraîches du jardin, j'ai commencé à consommer du thé tardivement, n'aimant pas l'alcool et le café mais intéressé par le folklore autour, que ce soit les différents parfums, méthodes de fabrication, ou la compréhension devant une différence de prix pouvant aller d'un facteur 100, je me suis penché un peu artificiellement sur le thé. Il s'est avéré finalement que ce n'était pas un mauvais choix, car la diversité du thé et son histoire ne permettent pas à une vie humaine d'en connaître tous les aspects. De plus, contrairement au café, cette denrée ne peut être spéculée en raison de sa "mauvaise" conservation.
 
-# mon histoire
+J'ai commencé par boire, comme tout le monde, du thé amer, en sachet, infusé trop longtemps à 100°, puis je suis passé au thé en vrac mais toujours sans respecter sa préparation, faisant fi de son goût amer, pensant que c'était inhérent à la boisson et que cela signifiait que c'était bon pour la santé. Puis j'ai voyagé et rencontré par hasard des passionnés qui m'ont fait découvrir toute une philosophie autour du thé. À Lyon, j'ai goûté une boisson comme jamais je n'en avais goûté lors d'une cérémonie du thé organisée par le voisin de mon hôte WarmShowers. Le gars a ramené quelques feuilles, dont il nous a raconté la provenance, l'histoire, le cépage, une petite poignée dans une sorte de récipient dédié (que je découvrirais plus tard sous le nom de *Kyusu*). Puis il nous a fait déguster un fond de tasse, quelques millilitres mais plusieurs fois. Il faisait "plusieurs passes". Bien que je n'aie pas, à ce moment-là, le palais assez développé pour apprécier vraiment les arômes, le folklore, la préparation, l'intensité et l'amour m'ont convaincu et motivé à vraiment m'y intéresser.
 
-Plus acoutumé des tisanes de plantes fraiches du jardin, j'ai commencé à consommé de thé tardivement, n'aimant pas l'alcool et le café mais interessé pas le folcore autour, que ce soit des différents parfum, méthode de fabrication, comprehension devant une différence de prix pouvant allé d'un facteur 100, je me suis penché un peu artificiellement sur le thé. Il c'est avéré finalement ne pas être un mauvais chois, car la diversité du thé et son histoire ne permet à une vie d'humain d'en connaitre tout les aspets, de plus contrairement au café, cette denré ne peux être spéculé en raison de sa "mauvaise" conservation.
+## Thé vert
 
-J'ai commencé par boir comme tout le monde du thé amère, en sachet, infusé trop longtemps à 100°, puis passer au thé en feuille mais toujours sans respecter sa préparation, faisant fit de son gout amère, pensant que c'était instaset à la boisson et que cela signifiat que c'était bon pour la santé. Puis j'ai voyagé et rencontré par hasare des passionnées qui mon fait découvrire toute une philosophie autour du thé, à Lyon, j'ai gouté une boisson comme jamais j'en avais gouté lors d'une cérémonie du thé organisé par le voisin de mon hote WarmShower, le gras à ramené quelques feuille, d'ont il nous à raconté la provenance, l'histoire, le sepage,  une petite poignée dans une sorte de récipiant dédié (que je découvrirai plus tard sous le nom de Kyusu). puis nous fais dégusté un fond de tasse, quels que mililtré mais plusieurs fois, il fait "plusieur passe" bien que je n'ai pas à ce moment le palais assez développe pour apprécier reelement les aromes, le folklore, la préparation, l'intensité et l'amour mon quoncis et motivé à vraiment m'y interessé.
+Mon thé préféré, et le plus classique, bu nature en Asie, avec de la menthe et du sucre au Maghreb, ou encore avec des fleurs maintenant en Europe, c'est à mes yeux la quintessence du thé !
 
-# thé vert
+Le plus populaire est sûrement le *Sencha* du Japon , le  *Long Jing* (traduction : thé du Puits du Dragon) de Chine.
 
-Mon thé préféré, et le plus classique, bu nature en Asie, avec de la methe et du sucre au maghreb, ou encore avec des fleurs maintetant en europe, c'est à mes yeux la quintessnece du thé !
+## Matcha
 
-&nbsp;
+## Caféine
 
-le plus populaire est surement le Sencha
+Avant tout, le taux recommandé par l'OMS est de `6 mg/kg de poids corporel/jour`. Si vous faites 70 kg, cela fait 420 mg de caféine par jour (70*6 = 420). La caféine et la théine sont exactement la même molécule.
 
-&nbsp;
+Tous les thés ont des taux de caféine différents, en fonction de leurs moments de récolte, de leur cultivar, de leur préparation. La couleur du thé, bien que pouvant jouer un rôle, n'est pas l'indicateur unique à prendre en compte. La seule façon de savoir est de faire des mesures en laboratoire.
 
-# matcha
+Voici quand même la tendance en fonction de la couleur (sachant que pour le goût, il est important de faire le thé à la température indiquée) :
 
-&nbsp;
+![Graphe du taux de cafeine en fonction de la température](/images/Tea/Temperature.png)
 
-## Cafein
+On voit que plus la température augmente, plus le thé est concentré. Également, le plus riche en théine est le thé pu-erh, et les autres le sont en fonction de la température. On peut voir qu'à 70˚ (température du thé vert), on a 40 mg de caféine par litre, pour plus du double en thé noir à 90˚ (~85 mg de caféine par litre).
+Limite de l'étude : l'échantillon n'est pas terrible. Sur d'autres études, en moyenne, le thé noir est plus caféiné.
 
-&nbsp;
+![Graphe du taux de cafeine en fonction de la durée d'infusion](/images/Tea/duree.png)
+Lien de l'étude : [https://link.springer.com/article/10.1007/s00706-018-2204-0](https://link.springer.com/article/10.1007/s00706-018-2204-0)
 
-avant tout, le taux recommandé par l'OMS est de 6 mg/kg de poids corporel/jour  
-<br/>si vous faite 70 kg, ça fait 420 mg de cafein par jour 
 
-la cafein et la théine sont exactement la même molécule
+Également, on peut voir que le thé libère la majorité de sa caféine lors des 5 premières minutes. Ça ne sert à rien de laisser tremper le thé 30 minutes dans l'eau, vous n'aurez qu'un thé amer imbuvable, et pas beaucoup plus de caféine.
+La majorité de la caféine part à la première infusion. Donc si vous voulez vous faire un thé en soirée, pas de souci, faites juste une deuxième passe.
 
-Tout les thés on des taux de caféine différents, en fonction de leurs moments de récolte, le cultiva, leurs préparation, la couleur du thé, bien que pouvant jouer un role, n'est pas l'indicateur unique à prendre en compte , la seul façon de savoir est de faire des mesures dans un labo.        
+### Points à retenir :
 
-voici quand même la tendance en fonction de la couleur (sachant que pour le gout il est important de faire le thé à la température indiqué) :
+- Le taux de caféine dans le thé peut varier du simple au triple selon le type de thé choisi.
+- Théine = caféine
+- La température compte : plus l’eau est chaude, plus la diffusion de la caféine est importante.
+- Ne laissez pas infuser trop longtemps : au-delà de 5 minutes, le thé devient amer sans libérer significativement plus de caféine.
+- Première infusion = pic de caféine : pour un thé du soir, privilégiez une deuxième infusion pour limiter les effets stimulants.
 
-&nbsp;<img src=":/cde31368e90a42d99e0b915c1af61395" alt="8bf2e3acf773d8f562dbd08b9b435b47.png" width="722" height="549">
+### quels que tableau de concontration de thé :
 
-on voit que plus la température augmente,plus le thé est concentré , également, le plus riche en théien est  le thé pu-erh, et que les autre sont en fontcion de la température, on peux voir qu'a 70˚ (tempréature du thé vert) on à 40 mg de cafein par litre, pour plus du double en thé noir à 90˚ (~85 mg de cafein par litre)
+#### Concentration en cafeine
 
-limite de l'étude l'echantillon est pas terrible, sur d'autre études en moyen le thé noir est plus caféiné
+Concentration en cafein (mg / 250 m)
 
-<img src=":/ff6c2361620b422a813f696bb6350e21" alt="c1d7e4de4441458a0e66c5a65ef6bec0.png" width="715" height="559">
+les thés en feuilles ont été infusés raison de 5 g dans 500ml d'eau 
 
-&nbsp;
+|Nom du thé (Famille)             |Pays producteur|Caféine (mg / 250ml)|
+|---------------------------------|---------------|------------|
+|Yunnan Da Ye bio (Noir)          |Chine          |50          |
+|Wuyuan Da Ye bio (Noir)          |Chine          |48          |
+|Ceylan New Vithanakande (Noir)   |Sri Lanka      |88          |
+|Sencha Asamushi bio (Vert)       |Japon          |18          |
+|Bancha Hojicha bio (Vert)        |Japon          |17          |
+|Long Jing Shi Feng (Vert)        |Chine          |25          |
+|Bai Hao Yin Zhen (Blanc)         |Chine          |16          |
+|Souchong Tongmu (Noir)           |Chine          |49          |
+|Sejak Hyodang (Vert)             |Corée          |24          |
+|Earl Grey Marie-Antoinette (Noir)|-              |43          |
+|Darjeeling 1er flush bio (Noir)  |Inde           |41          |
+|Thé des Songes bio (Noir)        |Chine          |40          |
+|Du Yun Mao Jian bio (Vert)       |Chine          |37          |
+|Hojicha bio (Vert)               |Japon          |14          |
+|Sencha Kagoshima bio (Vert)      |Japon          |29          |
+|Genmaicha matcha bio (Vert)      |Japon          |20          |
+|Gyokuro Uji Hikari (Vert)        |Japon          |56          |
+|Keemun Kongfu (Noir)             |Chine          |45          |
+|Nilgiri Frost (Noir)             |Inde           |55          |
+|Oolong Tie Guan Yin (Oolong)     |Chine          |35          |
+|Pu Er Shou 2018 bio (Pu Er)      |Chine          |43          |
+|Tamaryokucha bio (Vert)          |Japon          |30          |
+|Thé des Alizés bio (Noir)        |Inde           |50          |
+|Assam Tippy Golden (Noir)        |Inde           |55          |
+|Ceylan Kenilworth (Noir)         |Sri Lanka      |58          |
+|Lung Ching (Vert)                |Chine          |30          |
+|Gunpowder Temple of Heaven (Vert)|Chine          |35          |
+|Oolong Mi Lan Xiang Feng (Oolong)|Chine          |38          |
+|Sencha Ariake bio (Vert)         |Japon          |28          |
+|Shincha (Vert)                   |Japon          |35          |
+|Thé des Songes (Noir)            |Chine          |40          |
 
-également on peux voir que le thé donne la majorité de sa cafein lors des 5 permière minute, ça ne sert à rien de laisse tremper le thé 30min dans l'eau, vois aurrez juste un thé amère inbuvable, et pas beaucoup plus de cafeine.
+---
 
-la majorité de la caféine par à la première infusion, donc si vous voulez vous faire un thé en soirée, pas de souci, faite juste une deuxième passe. 
+#### Pour les thés glacés : 
 
-&nbsp;
+Les thés ont été infusés à raison de 7.5g de thé dans 750ml d'eau
 
-point à retenir : 
+| Long Jing (thé vert de chine)                                 |  Caféine (mg / 250ml)|
+|-------------------------------------------------------|-----------------|
+| Infusion chaude                        |  37           |
+| Infusion froide                              |  26           |
 
-- le taux de cafien change du simple au triple en fonction du thé
-- theine = cafeine
-- plus il sera chaud plus il difusera sa théine
-- ça sert à rien de laisser le thé infuré trop longtemps,
-- la majorité de la théine part après la première infusion
+---
+
+#### Pour les Matcha : 
+
+Après 30 sec d'infusion, concentration (mg/ 100 ml)
+
+*Les thés matcha ont été fouettés dans un bol à raion de 1.5g de thé dans 100ml d'eau*
+
+| Nom du thé (Famille)        | Pays producteur | Caféine (mg) |
+|-----------------------------|-----------------|--------------|
+| Matcha Uji bio (Vert)       | Japon           | 50           |
+| Matcha Genmaicha bio (Vert) | Japon           | 47           |
+| Matcha Sencha bio (Vert)    | Japon           | 42           |
+| Matcha Gyokuro bio (Vert)   | Japon           | 41           |
+
+
+---
+
+Source : Magasin Camellia Sinesis à Montréal
