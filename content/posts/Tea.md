@@ -148,6 +148,8 @@ Après 30 s d'infusion, concentration (mg / 100 ml)
 
 Source : Magasin Camellia Sinensis à Montréal
 
+#### Autres boissons
+
 En comparaison, une bouteille de Monster contient 150 mg de caféine par canette standard de 500 ml, soit 75 mg pour 250 ml.  
 
 Le café comporte environ 90 mg dans une tasse filtrée de 200 ml, 80 mg pour un expresso de 60 ml. Le café décaféiné contient environ 4 mg pour 200 ml, soit ~112,5 mg pour 250 ml pour une tasse filtrée.
