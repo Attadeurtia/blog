@@ -24,8 +24,7 @@ Le réseau, comme beaucoup d’autres, sombre de plus en plus dans l’[enshitti
 
 ## Le silence dans ma tête
 
-Concernant la musique et les podcasts, c’est différent : j’ai perdu mes écouteurs.  
-Donc, je n’écoute plus de musique.
+Concernant la musique et les podcasts, c’est différent : j’ai perdu mes écouteurs. Donc, je n’écoute plus de musique.
 
 Certes, cela me permet de lire un peu plus et de faire d’autres choses, mais finalement, cela ne m’a pas libéré plus de temps qu’avant.
 
