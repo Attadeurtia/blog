@@ -25,7 +25,7 @@ tags: ["complexite", "cours"]
 - O(2ⁿ) : exponentielle
 - O(n!) : factorielle
 
-![Capture d’écran du 2023-04-28 13-41-53.png](file://../) ![Capture d’écran du 2023-04-02 18-18-41.png](file:///Users/attadeurtia/.config/joplin-desktop/profile-2znq7d41/resources/50ddfc88bc5d49eaa791be3b071903c4.png)
+![complexité logarithmique](/images/Complexite/complexité%20logarithmique.png)
 
 |     |     | algo |
 | --- | --- | --- |
