@@ -65,7 +65,7 @@ La majorité de la caféine part à la première infusion. Donc si vous voulez v
 
 #### Concentration en cafeine
 
-Concentration en cafein (mg / 250 m)
+Concentration en cafein (mg / 250 ml)
 
 les thés en feuilles ont été infusés raison de 5 g dans 500ml d'eau 
 
@@ -132,3 +132,34 @@ Après 30 sec d'infusion, concentration (mg/ 100 ml)
 ---
 
 Source : Magasin Camellia Sinesis à Montréal
+
+
+En comparaison, une bouteil de monster contient 150 mg de caféine par canette standard de 500 ml
+
+soit 75 mg pour 250 ml 
+
+le Café comporte environ 90 mg dans une tasse filtrée de 200 ml, 80 mg pour un expresso de 60 ml. Le café décaféiné contient environ 4 mg pour 200 ml.
+
+soit ~112,5 mg pour 250 ml pour une tasse filtrée
+
+
+| Type de Préparation                    | Portion Typique | Teneur en Caféine (mg/tasse) | Concentration  |
+|----------------------------------------|-----------------|------------------------------|----------------|
+| **Café filtre**                        | 200-250 mL      | 90-160                       | 659-755 mg/L   |
+| **Espresso**                           | 30-60 mL        | 80-120                       | 1300-2000 mg/L |
+| **Café instantané**                    | 200-250 mL      | 47-68                        | 235-340 mg/L   |
+| **Café en dosettes**                   | 200-250 mL      | 74-189                       | 370-755 mg/L   |
+| **Café américain**                     | 250-350 mL      | 100-150                      | 400-600 mg/L   |
+| **Thé Yunnan Da Ye  (Noir)**           | 250 mL          | 50                           | 200 mg/L       |
+| **Matcha Genmaicha**                   | 250 mL          | 47                           | 192 mg/L       |
+| **Thé Ceylan New Vithanakande (Noir)** | 250 mL          | 88                           | 352 mg/L       |
+| **Thé Sencha Asamushi  (Vert)**        | 250 mL          | 18                           | 300 mg/L       |
+| **Monster**                            | 500 mL          | 150                          | 400 mg/L       |
+
+
+
+
+---
+
+
+
