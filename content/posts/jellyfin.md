@@ -11,8 +11,10 @@ La moitié des films de la bibliothèque sont en H.265 : d’une part, c’est 
 
 # Comment installer l’application Jellyfin
 - Application Android officielle : [Google Play](https://play.google.com/store/apps/details?id=org.jellyfin.mobile)
-- Application Android que j’utilise : [Jellyfin pour Android (JDTech)](https://play.google.com/store/apps/details?id=dev.jdtech.jellyfin)
+- Application Android que j’utilise : [Jellyfin pour Android (Findroid)](https://play.google.com/store/apps/details?id=dev.jdtech.jellyfin)
 - Application Windows officielle : [Jellyfin Media Player (GitHub)](https://github.com/jellyfin/jellyfin-media-player/releases)
+
+
 ![Version de Windows à télécharger sur GitHub](/images/jellyfin.md/Version_de_Windows.png)
 *Attention à bien prendre la version x64 et non la x86.*
 
