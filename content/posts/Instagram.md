@@ -3,6 +3,7 @@ date = '2025-10-21T14:45:01+02:00'
 description = "Quelques mois sans Instagram : réflexions sur le détachement numérique, la créativité et la sérénité."
 draft = false
 title = 'J’ai désinstallé Instagram'
+tags = ["reflexion divers"]
 +++
 
 Cela fait plusieurs mois que j’ai désinstallé Instagram. Cela faisait partie d’une liste de mauvaises habitudes qui me prenaient beaucoup de temps et d’énergie mentale, et j’avais envie d’arrêter de l’utiliser depuis longtemps.
