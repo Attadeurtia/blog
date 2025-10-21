@@ -1,114 +1,95 @@
 ---
-title: "Complexite"
+title: "Complexité"
 date: 2023-04-28T14:18:49+02:00
-draft: flase
-tags: ["complexite", "cours"]
+draft: false
+tags: ["complexité", "cours"]
 ---
-
 
 ## Classes de complexité
 
-|     | Déterministe | non-Déterministe |
-| --- | --- | --- |
-| temps | p,EXPTIME | np, NEXPTIME |
-| espace | LOGSPACE, PSPACE, EXPSPACE | NLOGSPACE |
+|          | Déterministe       | Non-déterministe  |
+|----------|--------------------|-------------------|
+| temps    | P, EXPTIME         | NP, NEXPTIME      |
+| espace   | LOGSPACE, PSPACE, EXPSPACE | NLOGSPACE |
 
-## complexité logarithmique
+## Complexité algorithmique
 
-- O(1) : constant
-- O(n) : linéaire
-- O(log n) : logarithmique
-- O(n log n) : quasi-linéaire
-- O(n²) : quadratique
-- O(n³) : cubique
-- O(n^k) : polynomial
-- O(2ⁿ) : exponentielle
-- O(n!) : factorielle
+- O(1) : constant
+- O(n) : linéaire
+- O(log n) : logarithmique
+- O(n log n) : quasi-linéaire
+- O(n²) : quadratique
+- O(n³) : cubique
+- O(nᵏ) : polynomial
+- O(2ⁿ) : exponentielle
+- O(n!) : factorielle
 
 ![complexité logarithmique](/images/Complexite/complexité%20logarithmique.png)
 
-|     |     | algo |
-| --- | --- | --- |
-| constant | O(1) | set |
-| logarithmique | O(log n) | liste |
-| linéaire | O(n) | recherche dichotomique, dans un tableaux trié |
-| quasi-linéaire | O(n log n) | tri d'un tableaux (fusion) |
-| quadratique | O(n²) | tri d'un tableaux (insertion) |
-| cubique | O(n³) | multiplication de matrices |
-| polynomial | O(n^k) |     |
-| exponentielle | O(2ⁿ) | problème du sac à dos |
-| factorielle | O(n!) | problème du voyageur de commerce |
+|          |          | Algorithme                                      |
+|----------|----------|-------------------------------------------------|
+| constant | O(1)     | set                                             |
+| logarithmique | O(log n) | liste                                           |
+| linéaire | O(n)     | recherche dichotomique, dans un tableau trié   |
+| quasi-linéaire | O(n log n) | tri d’un tableau (fusion)                    |
+| quadratique | O(n²)   | tri d’un tableau (insertion)                    |
+| cubique   | O(n³)    | multiplication de matrices                      |
+| polynomial | O(nᵏ)   |                                                 |
+| exponentielle | O(2ⁿ)  | problème du sac à dos                          |
+| factorielle | O(n!)   | problème du voyageur de commerce               |
 
-## Problème complexe
+## Problèmes complexes
 
 ### Problème du voyageur de commerce
-
-- problème NP-complet
+- Problème NP-complet
 - O(n!)
-- 10 villes : 3 628 800
+- 10 villes : 3 628 800
 
 ### Problème du sac à dos
-
-knapack problem
-
-- problème NP-complet
+- *Knapsack problem*
+- Problème NP-complet
 - O(2ⁿ)
-- 20 objets : 1 048 576
+- 20 objets : 1 048 576
 
 ### Problème du plus court chemin
-
-aussi appelé longest common subsequence
-
-- problème NP-complet
+- Aussi appelé *longest common subsequence*
+- Problème NP-complet
 - O(n²)
-- 100 villes : 10 000
+- 100 villes : 10 000
 
-### Stable marriage problem
-
-aussi appelé problème des mariages stables (stable matching problem) ou problème des épouses de Gale et Shapley (Gale–Shapley algorithm)
-
-- problème NP-complet
+### *Stable marriage problem*
+- Aussi appelé problème des mariages stables (*stable matching problem*) ou problème des épouses de Gale et Shapley (*Gale–Shapley algorithm*)
+- Problème NP-complet
 - O(n²)
-- 100 personnes : 10 000
+- 100 personnes : 10 000
+- **Algo 1** : Gale–Shapley (O(n²))
 
-Alago 1 : Gape-Shapley O(n²)
+### *Vertex cover*
+- Aussi appelé couverture par sommets
+- **Algo 1** : brute force (O(2ⁿ))
+- **Algo 2** : approximation (O(n))
+- **Algo 3** : heuristique du degré (O(n²))
 
-### vertex cover
+### *Clique*
+- **Algo 1** : brute force (O(2ⁿ))
+- **Algo 2** : approximation (O(n))
 
-aussi appelé couverture par sommets
+### *Independent set*
+- **Algo 1** : brute force (O(2ⁿ))
+- **Algo 2** : approximation (O(n))
 
-Algo 1 : brute force O(2ⁿ)
+### Modularité
+- **Algo 1** : brute force (O(2ⁿ))
+- **Algo 2** : approximation (O(n))
 
-#### glouton
+### Distance de Manhattan
+- **Algo 1** : brute force (O(n²))
 
-Algo 2 : approximation O(n)
-Algo 3 : heuristique du degré O(n²)
-
-### clique
-
-Algo 1 : brute force O(2ⁿ)
-Algo 2 : approximation O(n)
-
-### independent set
-
-Algo 1 : brute force O(2ⁿ)
-Algo 2 : approximation O(n)
-
-### modularité
-
-Algo 1 : brute force O(2ⁿ)
-Algo 2 : approximation O(n)
-
-### manathan distance
-
-Algo 1 : brute force O(n²)
-
-## heuriqtique
-
+## Heuristique
 - 2-approximation
-- degree
+- *Degree*
 
-| Problème d'optimisation | Problème de décision |
-| --- | --- |
-| meilleur solution | oui/non |
-| np-complet | np-difficile |
+| Problème d’optimisation | Problème de décision |
+|-------------------------|----------------------|
+| meilleure solution      | oui/non              |
+| NP-complet              | NP-difficile         |
